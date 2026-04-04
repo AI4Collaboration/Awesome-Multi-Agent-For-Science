@@ -14,7 +14,7 @@ A curated list of papers, systems, and resources on multi-agent AI for scientifi
   - [Data Analysis And Interpretation](#data-analysis-and-interpretation)
   - [Paper Review And Validation](#paper-review-and-validation)
   - [Scientific Writing And Communication](#scientific-writing-and-communication)
-  - [Programming And Scientific Software Development](#programming-and-scientific-software-development)
+  - [Execution: Coding](#execution-coding)
 - [Frameworks And Infrastructure](#frameworks-and-infrastructure)
   - [General MAS Frameworks](#general-mas-frameworks)
   - [Domain-Specific Platforms](#domain-specific-platforms)
@@ -67,7 +67,7 @@ Verified recent papers, mainly from `2024` to `2026 YTD`.
   - Why it matters: VirSci organizes multiple agents to generate, evaluate, and refine research ideas for autonomous scientific discovery.
 
 - **[EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery](https://arxiv.org/abs/2603.08127)**
-  - Tags: ![task:hypothesis_generation](https://img.shields.io/badge/task-hypothesis_generation-5C4B8A?style=flat-square) ![task:scientific_coding](https://img.shields.io/badge/task-scientific_coding-5C4B8A?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2D6F86?style=flat-square)
+  - Tags: ![task:hypothesis_generation](https://img.shields.io/badge/task-hypothesis_generation-5C4B8A?style=flat-square) ![task:execution_coding](https://img.shields.io/badge/task-execution%3A%20coding-5C4B8A?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2D6F86?style=flat-square)
   - Agent pattern: researcher-engineer-manager
   - Why it matters: EvoScientist combines idea generation, experiment execution, and evolutionary memory in one multi-agent AI scientist workflow.
 
@@ -136,10 +136,10 @@ Verified recent papers, mainly from `2024` to `2026 YTD`.
   - Agent pattern: human-in-the-loop multi-agent pipeline
   - Why it matters: HLER coordinates agents for data auditing, hypothesis generation, econometric analysis, manuscript drafting, and review in one empirical research pipeline.
 
-### Programming And Scientific Software Development
+### Execution: Coding
 
 - **[Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research](https://arxiv.org/abs/2603.28986)**
-  - Tags: ![task:scientific_coding](https://img.shields.io/badge/task-scientific_coding-5C4B8A?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2D6F86?style=flat-square)
+  - Tags: ![task:execution_coding](https://img.shields.io/badge/task-execution%3A%20coding-5C4B8A?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2D6F86?style=flat-square)
   - Agent pattern: meta-orchestrator plus code-generating agents
   - Why it matters: Mimosa automatically synthesizes and refines task-specific scientific multi-agent workflows with code-generating agents and tool use.
 
@@ -148,31 +148,31 @@ Verified recent papers, mainly from `2024` to `2026 YTD`.
 ### General MAS Frameworks
 
 - **[PiFlow: Principle-aware Scientific Discovery with Multi-Agent Collaboration](https://arxiv.org/abs/2505.15047)**
-  - Tags: ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2D6F86?style=flat-square)
+  - Tags: ![task:scientific_discovery](https://img.shields.io/badge/task-scientific_discovery-5C4B8A?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2D6F86?style=flat-square)
   - Agent pattern: principle-aware multi-agent discovery
   - Why it matters: PiFlow frames automated scientific discovery as structured uncertainty reduction guided by principles across multiple scientific domains.
 
 - **[Open Source Planning & Control System with Language Agents for Autonomous Scientific Discovery](https://arxiv.org/abs/2507.07257)**
-  - Tags: ![task:scientific_coding](https://img.shields.io/badge/task-scientific_coding-5C4B8A?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2D6F86?style=flat-square)
+  - Tags: ![task:execution_coding](https://img.shields.io/badge/task-execution%3A%20coding-5C4B8A?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2D6F86?style=flat-square)
   - Agent pattern: planning-and-control orchestration
   - Why it matters: cmbagent presents a large multi-agent research stack with specialized roles for literature, code, interpretation, and critique.
 
 - **[OrchMAS: Orchestrated Reasoning with Multi Collaborative Heterogeneous Scientific Expert Structured Agents](https://arxiv.org/abs/2603.03005)**
-  - Tags: ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2D6F86?style=flat-square)
+  - Tags: ![task:scientific_reasoning](https://img.shields.io/badge/task-scientific_reasoning-5C4B8A?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2D6F86?style=flat-square)
   - Agent pattern: orchestrator with heterogeneous expert agents
   - Why it matters: OrchMAS dynamically assembles domain-aware expert agents for long-horizon scientific reasoning tasks.
 
 ### Domain-Specific Platforms
 
 - **[AGAPI-Agents: An Open-Access Agentic AI Platform for Accelerated Materials Design on AtomGPT.org](https://arxiv.org/abs/2512.11935)**
-  - Tags: ![domain:materials_science](https://img.shields.io/badge/domain-materials_science-2D6F86?style=flat-square)
+  - Tags: ![task:experiment_design](https://img.shields.io/badge/task-experiment_design-5C4B8A?style=flat-square) ![domain:materials_science](https://img.shields.io/badge/domain-materials_science-2D6F86?style=flat-square)
   - Agent pattern: planner-executor-summarizer
   - Why it matters: AGAPI unifies open materials APIs, simulations, and open-source LLMs through a multi-agent orchestration layer.
 
 ### Communication And Coordination
 
 - **[MACC: Multi-Agent Collaborative Competition for Scientific Exploration](https://arxiv.org/abs/2603.03780)**
-  - Tags: ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2D6F86?style=flat-square)
+  - Tags: ![task:scientific_exploration](https://img.shields.io/badge/task-scientific_exploration-5C4B8A?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2D6F86?style=flat-square)
   - Agent pattern: collaborative competition
   - Why it matters: MACC studies how cooperation and competition can be combined to improve scientific exploration across multiple agents.
 
