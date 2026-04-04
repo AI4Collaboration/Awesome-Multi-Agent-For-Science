@@ -64,6 +64,7 @@ Every paper entry should clear these checks before it is added:
 
 - verify the entry against a primary source such as the official arXiv page, publisher page, conference page, or official project page
 - confirm the exact title, author list, year, and paper link
+- confirm that every URL in the entry is real, publicly accessible, and points to the intended destination
 - confirm that the paper is actually about `multi-agent for science`, not just `agents` in some unrelated sense
 - confirm that the chosen `Task`, `Tags`, and `Agent pattern` are justified by the title, abstract, or paper body
 - if the paper looks ambiguous between `multi-agent`, `other-agentic`, and non-agentic, do not add it until the ambiguity is resolved
@@ -71,6 +72,12 @@ Every paper entry should clear these checks before it is added:
 - do not add from secondary lists alone without checking the paper itself
 
 If a paper is interesting but not yet verified, keep it out of the main list until it passes the checks above.
+
+URL rules:
+
+- use stable paper URLs such as an official arXiv abstract page, DOI landing page, publisher page, or official project page
+- do not use search-result URLs, temporary session URLs, or redirect chains that hide the real destination
+- if a code link is included, it should resolve to the actual repository or project page, not to a profile or search page
 
 ## By Research Task
 
@@ -196,6 +203,7 @@ If you add papers, try to tag:
 - whether code or benchmark artifacts are available
 
 Try to keep discipline as a tag inside each entry rather than creating new discipline sections.
+All paper and code links should be live, direct, and publicly accessible when added.
 
 For a stricter intake workflow, use:
 

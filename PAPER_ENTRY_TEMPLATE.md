@@ -8,6 +8,8 @@ Use this template before adding any paper to the awesome list.
 - [ ] I verified the exact title.
 - [ ] I verified the authors.
 - [ ] I verified the year and venue or preprint status.
+- [ ] I verified that the paper URL is live and points to the actual paper landing page.
+- [ ] I verified that any code URL is live and points to the actual repository or project page.
 - [ ] I verified that the paper is actually relevant to multi-agent for science.
 - [ ] I verified that the `Task`, `Tags`, and `Agent pattern` below are supported by the paper.
 - [ ] I checked that this is not a duplicate of an existing entry.
