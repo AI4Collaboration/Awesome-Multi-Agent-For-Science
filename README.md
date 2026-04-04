@@ -57,11 +57,12 @@ Every paper entry should:
 
 - be checked against a primary source
 - use a real, public, direct URL
-- include at least one `phase` tag and one `domain` tag
+- include at least one `phase` tag and exactly one `domain` tag
 - match the stated `Agent pattern`
 - clearly be about `multi-agent for science`
 - avoid duplicate entries across preprint and venue versions
 - include both experimentation tags if a paper genuinely covers both dry-lab and wet-lab execution
+- prefer the most specific domain tag over `Interdisciplinary`
 
 ## By Research Phase
 
@@ -87,12 +88,12 @@ Verified recent papers, mainly from `2024` to `2026 YTD`.
   - Why it matters: EvoScientist combines idea generation, experiment execution, and evolutionary memory in one multi-agent AI scientist workflow.
 
 - **[Reasoning-Driven Design of Single Atom Catalysts via a Multi-Agent Large Language Model Framework](https://arxiv.org/abs/2602.21533)**
-  ![phase: Hypothesis Formulation](https://img.shields.io/badge/phase-Hypothesis%20Formulation-5C4B8A?style=flat-square) ![domain: Chemistry](https://img.shields.io/badge/domain-Chemistry-2D6F86?style=flat-square) ![domain: Materials Science](https://img.shields.io/badge/domain-Materials%20Science-2D6F86?style=flat-square)
+  ![phase: Hypothesis Formulation](https://img.shields.io/badge/phase-Hypothesis%20Formulation-5C4B8A?style=flat-square) ![domain: Chemistry](https://img.shields.io/badge/domain-Chemistry-2D6F86?style=flat-square)
   - Agent pattern: specialized catalyst-design agents
   - Why it matters: MAESTRO uses specialized LLM roles to iteratively reason about and optimize single-atom catalyst candidates.
 
 - **[MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration](https://arxiv.org/abs/2411.08063)**
-  ![phase: Hypothesis Formulation](https://img.shields.io/badge/phase-Hypothesis%20Formulation-5C4B8A?style=flat-square) ![domain: Materials Science](https://img.shields.io/badge/domain-Materials%20Science-2D6F86?style=flat-square) ![domain: Interdisciplinary](https://img.shields.io/badge/domain-Interdisciplinary-2D6F86?style=flat-square)
+  ![phase: Hypothesis Formulation](https://img.shields.io/badge/phase-Hypothesis%20Formulation-5C4B8A?style=flat-square) ![domain: Materials Science](https://img.shields.io/badge/domain-Materials%20Science-2D6F86?style=flat-square)
   - Agent pattern: human-machine multi-agent collaboration
   - Why it matters: MatPilot uses a multi-agent materials scientist setup to generate hypotheses and experimental schemes.
 
