@@ -1,252 +1,161 @@
-# 🤖🔬 Awesome Multi-Agent LLM For Science
+# Awesome Multi-Agent For Science
 
-A curated collection of multi-agent systems research papers and resources for scientific discovery and research automation.
+A curated collection of papers, systems, and resources on multi-agent AI for scientific discovery and research automation.
 
-## 📋 Table of Contents
+This repo now has two complementary parts:
 
-- [📖 Introduction](#-introduction)
-- [🎯 I. By Research Task](#-i-by-research-task)
-- [🔬 II. By Scientific Discipline](#-ii-by-scientific-discipline)
-- [🛠️ III. Frameworks & Infrastructure](#️-iii-frameworks--infrastructure)
-- [⚠️ IV. Failure Modes & Open Challenges](#️-iv-failure-modes--open-challenges)
-- [📚 V. Tutorials, Workshops & Resources](#-v-tutorials-workshops--resources)
-- [🤝 Contributing](#-contributing)
+- an `awesome list` structure for organizing papers and resources
+- a companion `trend analysis` on how large the multi-agent share is inside `LLM4Science` and `AI4Science`
 
----
+## Trend Snapshot
 
-## 📖 Introduction
+The companion analysis lives in [analysis/trend_of_mas4sci](./analysis/trend_of_mas4sci).
 
-Multi-agent systems enable collaborative AI to tackle complex scientific problems through distributed problem-solving, role specialization, and iterative refinement.
+Main result from the OpenAlex-backed analysis:
 
----
+| Period | LLM4Science `multi-agent / all` | AI4Science `multi-agent / all` |
+| --- | --- | --- |
+| `2024` | `140 / 1864 = 7.51%` | `273 / 4804 = 5.68%` |
+| `2025` | `415 / 2726 = 15.22%` | `630 / 6442 = 9.78%` |
+| `2026 YTD` (`2026-01-01` to `2026-04-02`) | `245 / 1145 = 21.40%` | `322 / 2158 = 14.92%` |
 
-## 🎯 I. By Research Task
+Shortest reading:
 
-### A. Hypothesis Generation & Literature Review
+- `multi-agent` is gaining share over time in both slices
+- the rise is steeper inside `LLM4Science` than inside broader `AI4Science`
+- the analysis is query-defined and cost-constrained, so these are conservative trend estimates rather than full-universe counts
 
-### B. Experimental Design & Planning
+The full methodology, exact keyword families, scripts, and lightweight result artifacts are in:
 
-### C. Autonomous Experimentation & Execution
+- [analysis/trend_of_mas4sci/README.md](./analysis/trend_of_mas4sci/README.md)
 
-### D. Data Analysis & Interpretation
+## Repository Structure
 
-### E. Peer Review & Validation
+```text
+analysis/
+  trend_of_mas4sci/
+    README.md
+    requirements.txt
+    scripts/
+    results/
 
-### F. Scientific Writing & Communication
+README.md
+LICENSE
+```
 
-### G. Programming & Software Development
+## Curation Scope
 
----
+This awesome list is for work related to:
 
-## 🔬 II. By Scientific Discipline
+- multi-agent LLM systems for scientific discovery
+- role-specialized scientific agents
+- autonomous or semi-autonomous research workflows
+- multi-agent scientific planning, review, debate, verification, and experimentation
+- infrastructure, evaluation, and failure modes for scientific MAS
 
-### A. Physics
+## By Research Task
 
-#### Theoretical Physics
+### Hypothesis Generation And Literature Review
 
-#### Experimental Physics
+Papers on idea generation, literature synthesis, and question formulation by multiple agents.
 
-#### Computational Physics
+### Experimental Design And Planning
 
-#### Quantum Physics
+Papers on planning experiments, choosing protocols, and coordinating scientific workflows with multiple agents.
 
-#### Particle Physics
+### Autonomous Experimentation And Execution
 
-#### Astrophysics & Cosmology
+Papers on agents that interface with simulators, tools, robotics, or wet-lab pipelines.
 
-#### Condensed Matter Physics
+### Data Analysis And Interpretation
 
----
+Papers on multi-agent analysis, critique, and interpretation of scientific data or simulation results.
 
-### B. Mathematics
+### Peer Review And Validation
 
-#### Pure Mathematics
+Papers on reviewer-critic-verifier loops, debate setups, and scientific validation agents.
 
-#### Applied Mathematics
+### Scientific Writing And Communication
 
-#### Computational Mathematics
+Papers on multi-agent drafting, revision, and structured scientific reporting.
 
-#### Theorem Proving & Formal Methods
+### Programming And Scientific Software Development
 
-#### Numerical Analysis
+Papers on multi-agent coding systems for scientific software, analysis pipelines, and reproducible workflows.
 
-#### Discrete Mathematics & Combinatorics
+## By Scientific Discipline
 
----
+### Physics
 
-### C. Chemistry & Materials Science
+Includes theoretical, computational, experimental, quantum, particle, and astrophysics settings.
 
-#### Organic Chemistry
+### Mathematics
 
-#### Inorganic Chemistry
+Includes theorem proving, formal reasoning, numerical analysis, and scientific mathematical modeling.
 
-#### Physical Chemistry
+### Chemistry And Materials Science
 
-#### Materials Science
+Includes molecular design, reaction planning, catalysts, solvents, materials discovery, and computational chemistry.
 
-#### Computational Chemistry
+### Biology And Life Sciences
 
-#### Chemical Engineering
+Includes drug discovery, protein engineering, genomics, systems biology, synthetic biology, and neuroscience.
 
-#### Analytical Chemistry
+### Earth And Environmental Sciences
 
----
+Includes climate, atmospheric science, geoscience, oceanography, ecology, and environmental modeling.
 
-### D. Biology & Life Sciences
+### Cross-Domain And Interdisciplinary Systems
 
-#### Molecular Biology
+Includes general AI scientists, cross-domain discovery systems, and multi-domain scientific platforms.
 
-#### Systems Biology
+## Frameworks And Infrastructure
 
-#### Drug Discovery & Development
+### General MAS Frameworks
 
-#### Protein Engineering
+Frameworks for role specialization, message passing, planning, debate, orchestration, and shared memory.
 
-#### Genomics & Genetics
+### Domain-Specific Platforms
 
-#### Synthetic Biology
+Scientific platforms, toolchains, and environments built for a specific discipline.
 
-#### Neuroscience
+### Communication And Coordination
 
-#### Ecology & Evolution
+Work on agent protocols, structured interaction, blackboards, memory, and delegation mechanisms.
 
----
+## Failure Modes And Open Challenges
 
-### E. Earth & Environmental Sciences
+### Technical Failure Modes
 
-#### Climate Science
+Examples: communication breakdown, coordination overhead, agent disagreement, and cascade failures.
 
-#### Atmospheric Science
+### Scientific Reliability Issues
 
-#### Oceanography
+Examples: hallucination, unverifiable claims, invalid methodology, poor calibration, and reproducibility failures.
 
-#### Geology & Geophysics
+### Open Problems
 
-#### Environmental Science
+Examples: long-horizon planning, cross-domain integration, uncertainty handling, efficient coordination, and safety.
 
-#### Ecology & Biodiversity
+## Contribution Guide
 
----
+Suggested paper entry format:
 
-### F. Programming & Coding
+```markdown
+- **Paper title**. Authors. Venue or year. [paper](link) [code](link)
+  - Task:
+  - Domain:
+  - Agent pattern:
+  - Why it matters:
+```
 
-#### Software Engineering
+If you add papers, try to tag:
 
-#### Algorithm Development
+- research task
+- scientific domain
+- whether the system is `multi-agent`, `other-agentic`, or mixed
+- whether code or benchmark artifacts are available
 
-#### Scientific Computing
+## License
 
-#### Data Science & Analytics
-
-#### System Design & Architecture
-
-#### DevOps & Automation
-
----
-
-### G. Cross-Domain & Interdisciplinary
-
-#### Multi-Domain Discovery
-
-#### Knowledge Integration
-
-#### Interdisciplinary Methods
-
-#### Technology Transfer
-
----
-
-## 🛠️ III. Frameworks & Infrastructure
-
-### A. General MAS Frameworks
-
-#### LLM-Based Multi-Agent Frameworks
-
-#### Classical MAS Frameworks
-
----
-
-### B. Domain-Specific Platforms
-
-#### Physics Platforms
-
-#### Mathematics Platforms
-
-#### Chemistry & Materials Platforms
-
-#### Biology & Life Sciences Platforms
-
-#### Programming & Coding Platforms
-
----
-
-### C. Communication Protocols & Coordination
-
-#### Agent Communication Languages
-
-#### Coordination Mechanisms
-
-#### Shared Memory & State Management
-
----
-
-## ⚠️ IV. Failure Modes & Open Challenges
-
-### A. Technical Failure Modes
-
-#### 1. Communication Breakdown
-
-#### 2. Coordination Overhead
-
-#### 3. Conflicting Agent Goals
-
-#### 4. Cascade Failures
-
-#### 5. Scalability Limitations
-
----
-
-### B. Scientific Reliability Issues
-
-#### 1. Hallucinations & Fabrications
-
-#### 2. Reproducibility Failures
-
-#### 3. Bias Amplification
-
-#### 4. Validity & Verification Challenges
-
-#### 5. Scientific Methodology Violations
-
----
-
-### C. Open Research Challenges
-
-#### 1. Cross-Domain Knowledge Integration
-
-#### 2. Long-Horizon Planning & Execution
-
-#### 3. Human-AI Collaboration Dynamics
-
-#### 4. Autonomous Learning & Improvement
-
-#### 5. Safety & Ethical Alignment
-
-#### 6. Resource Efficiency & Sustainability
-
-#### 7. Novelty & Creativity
-
-#### 8. Multi-Modal Scientific Understanding
-
-#### 9. Uncertainty Quantification & Risk Management
-
-#### 10. Standardization & Interoperability
-
----
-## 📄 License
-
-This repository is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
-
----
-
-*Maintained with ❤️ for the scientific community*
+This repository is licensed under Apache 2.0. See [LICENSE](./LICENSE).

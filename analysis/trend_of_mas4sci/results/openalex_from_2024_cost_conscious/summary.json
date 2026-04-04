@@ -1,0 +1,90 @@
+{
+  "source": "openalex",
+  "time_window": {
+    "start_date": "2024-01-01",
+    "end_date": "2026-04-02"
+  },
+  "query_count": 17,
+  "raw_retrieved": 47050,
+  "after_dedup": 29910,
+  "queries_with_errors": [
+    "M1",
+    "M3",
+    "M4",
+    "M5"
+  ],
+  "period_summaries": {
+    "2024": {
+      "llm4science": {
+        "multi_agent": 140,
+        "other_agentic": 229,
+        "non_agentic": 1495,
+        "denominator": 1864,
+        "ma_share_all": 0.07510729613733906,
+        "after_dedup_in_scope": 1864,
+        "survey_perspective": 490,
+        "benchmark_dataset": 401,
+        "method_system": 973
+      },
+      "ai4science": {
+        "multi_agent": 273,
+        "other_agentic": 436,
+        "non_agentic": 4095,
+        "denominator": 4804,
+        "ma_share_all": 0.056827643630308074,
+        "after_dedup_in_scope": 4804,
+        "survey_perspective": 1490,
+        "benchmark_dataset": 775,
+        "method_system": 2539
+      }
+    },
+    "2025": {
+      "llm4science": {
+        "multi_agent": 415,
+        "other_agentic": 498,
+        "non_agentic": 1813,
+        "denominator": 2726,
+        "ma_share_all": 0.15223771093176816,
+        "after_dedup_in_scope": 2726,
+        "survey_perspective": 758,
+        "benchmark_dataset": 656,
+        "method_system": 1312
+      },
+      "ai4science": {
+        "multi_agent": 630,
+        "other_agentic": 872,
+        "non_agentic": 4940,
+        "denominator": 6442,
+        "ma_share_all": 0.09779571561626824,
+        "after_dedup_in_scope": 6442,
+        "survey_perspective": 2101,
+        "benchmark_dataset": 1151,
+        "method_system": 3190
+      }
+    },
+    "2026_ytd": {
+      "llm4science": {
+        "multi_agent": 245,
+        "other_agentic": 327,
+        "non_agentic": 573,
+        "denominator": 1145,
+        "ma_share_all": 0.21397379912663755,
+        "after_dedup_in_scope": 1145,
+        "survey_perspective": 272,
+        "benchmark_dataset": 318,
+        "method_system": 555
+      },
+      "ai4science": {
+        "multi_agent": 322,
+        "other_agentic": 460,
+        "non_agentic": 1376,
+        "denominator": 2158,
+        "ma_share_all": 0.14921223354958293,
+        "after_dedup_in_scope": 2158,
+        "survey_perspective": 607,
+        "benchmark_dataset": 485,
+        "method_system": 1066
+      }
+    }
+  }
+}

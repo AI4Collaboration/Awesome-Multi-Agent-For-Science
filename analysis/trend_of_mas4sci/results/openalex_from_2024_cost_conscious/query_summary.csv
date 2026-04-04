@@ -1,0 +1,22 @@
+query_id,bucket,total_reported,pages_fetched,raw_hits,errors
+B1,broad,5929,61,5929,
+B2,broad,462,6,462,
+B5,broad,7811,80,7811,
+B7,broad,4897,50,4897,
+B9,broad,2255,24,2255,
+B10,broad,1021,12,1021,
+B11,broad,674,8,674,
+B12,broad,1608,18,1608,
+B13,broad,4075,42,4075,
+B14,broad,10415,106,10415,
+A1,agentic,1387,15,1387,
+A2,agentic,200,3,200,
+A3,agentic,616,8,616,
+M1,multi-agent,19541,57,5700,"cursor=IlswLjcyNTEzNTg2LCAxNzExNDExMjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTMyMDEwMzcnXSI=: HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openalex.org/works?search=%22multi-agent%22+scientific&filter=from_publication_date%3A2024-01-01%2Cto_publication_date%3A2026-04-02%2Chas_abstract%3Atrue%2Ctype%3A%21paratext&select=id%2Cdisplay_name%2Cpublication_date%2Cpublication_year%2Ctype%2Cabstract_inverted_index%2Cdoi&per_page=100&cursor=IlswLjcyNTEzNTg2LCAxNzExNDExMjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQzOTMyMDEwMzcnXSI%3D&api_key=sUZZFU0WgYxNgIeDQsq8aZ'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+M3,multi-agent,0,0,0,"cursor=*: HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openalex.org/works?search=%22agent+team%22+scientific&filter=from_publication_date%3A2024-01-01%2Cto_publication_date%3A2026-04-02%2Chas_abstract%3Atrue%2Ctype%3A%21paratext&select=id%2Cdisplay_name%2Cpublication_date%2Cpublication_year%2Ctype%2Cabstract_inverted_index%2Cdoi&per_page=100&cursor=%2A&api_key=sUZZFU0WgYxNgIeDQsq8aZ'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+M4,multi-agent,0,0,0,"cursor=*: HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openalex.org/works?search=%22planner+executor%22+scientific&filter=from_publication_date%3A2024-01-01%2Cto_publication_date%3A2026-04-02%2Chas_abstract%3Atrue%2Ctype%3A%21paratext&select=id%2Cdisplay_name%2Cpublication_date%2Cpublication_year%2Ctype%2Cabstract_inverted_index%2Cdoi&per_page=100&cursor=%2A&api_key=sUZZFU0WgYxNgIeDQsq8aZ'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+M5,multi-agent,0,0,0,"cursor=*: HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openalex.org/works?search=critic+reviewer+scientific&filter=from_publication_date%3A2024-01-01%2Cto_publication_date%3A2026-04-02%2Chas_abstract%3Atrue%2Ctype%3A%21paratext&select=id%2Cdisplay_name%2Cpublication_date%2Cpublication_year%2Ctype%2Cabstract_inverted_index%2Cdoi&per_page=100&cursor=%2A&api_key=sUZZFU0WgYxNgIeDQsq8aZ'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"

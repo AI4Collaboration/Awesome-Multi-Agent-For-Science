@@ -1,0 +1,32 @@
+{
+  "source": "arxiv",
+  "time_window": {
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31"
+  },
+  "query_count": 23,
+  "raw_retrieved": 1468,
+  "after_noise_filter": 1461,
+  "after_dedup": 609,
+  "multi_agent": 142,
+  "other_agentic": 241,
+  "non_agentic_llm4science": 220,
+  "survey_perspective": 137,
+  "benchmark_dataset": 211,
+  "method_system": 255,
+  "unclear_deleted": 0,
+  "out_of_scope_deleted": 6,
+  "ma_share_all": 0.23548922056384744,
+  "architecture_counts": {
+    "multi-agent": 142,
+    "non-agentic-llm4science": 220,
+    "other-agentic": 241,
+    "out-of-scope-delete": 6
+  },
+  "document_type_counts": {
+    "benchmark-dataset": 211,
+    "method-system": 255,
+    "survey-perspective": 137
+  },
+  "queries_with_errors": []
+}

@@ -1,0 +1,32 @@
+{
+  "source": "arxiv",
+  "scope": "llm4science",
+  "time_window": {
+    "start_date": "2026-01-01",
+    "end_date": "2026-04-02"
+  },
+  "query_count": 23,
+  "raw_retrieved": 534,
+  "after_noise_filter": 534,
+  "after_dedup": 247,
+  "multi_agent": 48,
+  "other_agentic": 131,
+  "non_agentic_llm4science": 68,
+  "survey_perspective": 35,
+  "benchmark_dataset": 88,
+  "method_system": 124,
+  "unclear_deleted": 0,
+  "out_of_scope_deleted": 0,
+  "ma_share_all": 0.19433198380566802,
+  "architecture_counts": {
+    "multi-agent": 48,
+    "non-agentic-llm4science": 68,
+    "other-agentic": 131
+  },
+  "document_type_counts": {
+    "benchmark-dataset": 88,
+    "method-system": 124,
+    "survey-perspective": 35
+  },
+  "queries_with_errors": []
+}

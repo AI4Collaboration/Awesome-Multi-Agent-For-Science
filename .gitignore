@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+*.log
+analysis/trend_of_mas4sci/results/**/raw_results.csv
+analysis/trend_of_mas4sci/results/**/deduped_results.csv
