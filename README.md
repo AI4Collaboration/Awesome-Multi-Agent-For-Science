@@ -58,6 +58,20 @@ Organization principle:
 - the main sectioning is by `research task`
 - scientific discipline should be recorded as a `tag`, not as a top-level sectioning rule
 
+## Quality Bar
+
+Every paper entry should clear these checks before it is added:
+
+- verify the entry against a primary source such as the official arXiv page, publisher page, conference page, or official project page
+- confirm the exact title, author list, year, and paper link
+- confirm that the paper is actually about `multi-agent for science`, not just `agents` in some unrelated sense
+- confirm that the chosen `Task`, `Tags`, and `Agent pattern` are justified by the title, abstract, or paper body
+- if the paper looks ambiguous between `multi-agent`, `other-agentic`, and non-agentic, do not add it until the ambiguity is resolved
+- avoid duplicate entries for the same work across preprint and venue versions; keep one canonical entry and prefer the most stable paper link
+- do not add from secondary lists alone without checking the paper itself
+
+If a paper is interesting but not yet verified, keep it out of the main list until it passes the checks above.
+
 ## By Research Task
 
 ### Hypothesis Generation And Literature Review
@@ -182,6 +196,10 @@ If you add papers, try to tag:
 - whether code or benchmark artifacts are available
 
 Try to keep discipline as a tag inside each entry rather than creating new discipline sections.
+
+For a stricter intake workflow, use:
+
+- [PAPER_ENTRY_TEMPLATE.md](./PAPER_ENTRY_TEMPLATE.md)
 
 ## License
 
