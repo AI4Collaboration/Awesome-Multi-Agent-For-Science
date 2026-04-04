@@ -118,6 +118,12 @@ Papers on planning experiments, choosing protocols, and coordinating scientific 
   - Agent pattern: human-machine multi-agent collaboration
   - Why it matters: MatPilot explicitly uses a multi-agent materials scientist setup to generate hypotheses and experimental schemes.
 
+- **MAC-AMP: A Closed-Loop Multi-Agent Collaboration System for Multi-Objective Antimicrobial Peptide Design**. Qi Liu et al. 2026. [paper](https://arxiv.org/abs/2602.14926)
+  - Task: Experimental design and planning
+  - Tags: `experiment-design`, `biology`, `drug-discovery`
+  - Agent pattern: closed-loop simulated peer review
+  - Why it matters: MAC-AMP uses a multi-agent design-and-review loop to balance activity, toxicity, and novelty in peptide design.
+
 ### Autonomous Experimentation And Execution
 
 Papers on agents that interface with simulators, tools, robotics, or wet-lab pipelines.
@@ -133,6 +139,12 @@ Papers on agents that interface with simulators, tools, robotics, or wet-lab pip
   - Tags: `autonomous-execution`, `interdisciplinary`
   - Agent pattern: job-management, geometry, and inverse-design agents
   - Why it matters: MADA coordinates specialized agents around simulation-driven design exploration on HPC systems.
+
+- **Swarms of Large Language Model Agents for Protein Sequence Design with Experimental Validation**. William Parker et al. 2025. [paper](https://arxiv.org/abs/2511.22311)
+  - Task: Autonomous experimentation and execution
+  - Tags: `autonomous-execution`, `biology`, `drug-discovery`
+  - Agent pattern: decentralized swarm of residue-level agents
+  - Why it matters: This work frames protein design as a distributed multi-agent search process and backs it with experimental validation.
 
 ### Data Analysis And Interpretation
 
@@ -150,6 +162,12 @@ Papers on multi-agent analysis, critique, and interpretation of scientific data 
   - Agent pattern: multi-agent extraction and inverse design workflow
   - Why it matters: DIVE organizes agents to read figures and tables from the literature, build a structured database, and support rapid materials discovery.
 
+- **Sci-Mind: Cognitively-Inspired Adversarial Debate for Autonomous Mathematical Modeling**. Jiazhen Cao et al. 2026. [paper](https://arxiv.org/abs/2603.27584)
+  - Task: Data analysis and interpretation
+  - Tags: `data-analysis`, `mathematics`, `debate`
+  - Agent pattern: theorist-critic debate with experiential memory
+  - Why it matters: Sci-Mind treats mathematical modeling as a debate-and-verification process grounded by retrieval from prior scientific cases.
+
 ### Peer Review And Validation
 
 Papers on reviewer-critic-verifier loops, debate setups, and scientific validation agents.
@@ -164,9 +182,21 @@ Papers on reviewer-critic-verifier loops, debate setups, and scientific validati
 
 Papers on multi-agent drafting, revision, and structured scientific reporting.
 
+- **HLER: Human-in-the-Loop Economic Research via Multi-Agent Pipelines for Empirical Discovery**. Haolin Wang et al. 2026. [paper](https://arxiv.org/abs/2603.07444)
+  - Task: Scientific writing and communication
+  - Tags: `scientific-writing`, `data-analysis`, `interdisciplinary`
+  - Agent pattern: human-in-the-loop multi-agent pipeline
+  - Why it matters: HLER coordinates agents for data auditing, hypothesis generation, econometric analysis, manuscript drafting, and review in one empirical research pipeline.
+
 ### Programming And Scientific Software Development
 
 Papers on multi-agent coding systems for scientific software, analysis pipelines, and reproducible workflows.
+
+- **Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research**. Xiaohang Jia et al. 2026. [paper](https://arxiv.org/abs/2603.28986)
+  - Task: Programming and scientific software development
+  - Tags: `scientific-coding`, `framework`, `interdisciplinary`
+  - Agent pattern: meta-orchestrator plus code-generating agents
+  - Why it matters: Mimosa automatically synthesizes and refines task-specific scientific multi-agent workflows with code-generating agents and tool use.
 
 ## Tagging Convention
 
@@ -230,13 +260,28 @@ Frameworks for role specialization, message passing, planning, debate, orchestra
   - Agent pattern: planning-and-control orchestration
   - Why it matters: cmbagent presents a large multi-agent research stack with specialized roles for literature, code, interpretation, and critique.
 
+- **OrchMAS: Orchestrated Reasoning with Multi Collaborative Heterogeneous Scientific Expert Structured Agents**. Rui Zhang et al. 2026. [paper](https://arxiv.org/abs/2603.03005)
+  - Tags: `framework`, `multi-agent`, `interdisciplinary`
+  - Agent pattern: orchestrator with heterogeneous expert agents
+  - Why it matters: OrchMAS dynamically assembles domain-aware expert agents for long-horizon scientific reasoning tasks.
+
 ### Domain-Specific Platforms
 
 Scientific platforms, toolchains, and environments built for a specific discipline.
 
+- **AGAPI-Agents: An Open-Access Agentic AI Platform for Accelerated Materials Design on AtomGPT.org**. Kamal Choudhary et al. 2025. [paper](https://arxiv.org/abs/2512.11935)
+  - Tags: `framework`, `materials-science`, `platform`
+  - Agent pattern: planner-executor-summarizer
+  - Why it matters: AGAPI unifies open materials APIs, simulations, and open-source LLMs through a multi-agent orchestration layer.
+
 ### Communication And Coordination
 
 Work on agent protocols, structured interaction, blackboards, memory, and delegation mechanisms.
+
+- **MACC: Multi-Agent Collaborative Competition for Scientific Exploration**. Zijie Wang et al. 2026. [paper](https://arxiv.org/abs/2603.03780)
+  - Tags: `framework`, `interdisciplinary`, `coordination`
+  - Agent pattern: collaborative competition
+  - Why it matters: MACC studies how cooperation and competition can be combined to improve scientific exploration across multiple agents.
 
 ## Failure Modes And Open Challenges
 
