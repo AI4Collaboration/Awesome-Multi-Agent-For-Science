@@ -12,7 +12,7 @@ A curated list of papers, systems, and resources on multi-agent AI for scientifi
   - [Experimental Design And Planning](#experimental-design-and-planning)
   - [Autonomous Experimentation And Execution](#autonomous-experimentation-and-execution)
   - [Data Analysis And Interpretation](#data-analysis-and-interpretation)
-  - [Peer Review Simulation And Validation](#peer-review-simulation-and-validation)
+  - [Paper Review And Validation](#paper-review-and-validation)
   - [Scientific Writing And Communication](#scientific-writing-and-communication)
   - [Programming And Scientific Software Development](#programming-and-scientific-software-development)
 - [Frameworks And Infrastructure](#frameworks-and-infrastructure)
@@ -84,8 +84,8 @@ Verified recent papers, mainly from `2024` to `2026 YTD`.
   - Why it matters: MatPilot explicitly uses a multi-agent materials scientist setup to generate hypotheses and experimental schemes.
 
 - **[MAC-AMP: A Closed-Loop Multi-Agent Collaboration System for Multi-Objective Antimicrobial Peptide Design](https://arxiv.org/abs/2602.14926)**
-  - Tags: ![task:experiment_design](https://img.shields.io/badge/task-experiment_design-5C4B8A?style=flat-square) ![domain:biology](https://img.shields.io/badge/domain-biology-2D6F86?style=flat-square) ![domain:peptide_design](https://img.shields.io/badge/domain-peptide_design-2D6F86?style=flat-square)
-  - Agent pattern: closed-loop simulated peer review
+  - Tags: ![task:experiment_design](https://img.shields.io/badge/task-experiment_design-5C4B8A?style=flat-square) ![domain:biology](https://img.shields.io/badge/domain-biology-2D6F86?style=flat-square) ![domain:biomed](https://img.shields.io/badge/domain-biomed-2D6F86?style=flat-square)
+  - Agent pattern: closed-loop simulated paper review
   - Why it matters: MAC-AMP uses a multi-agent design-and-review loop to balance activity, toxicity, and novelty in peptide design.
 
 ### Autonomous Experimentation And Execution
@@ -101,7 +101,7 @@ Verified recent papers, mainly from `2024` to `2026 YTD`.
   - Why it matters: MADA coordinates specialized agents around simulation-driven design exploration on HPC systems.
 
 - **[Swarms of Large Language Model Agents for Protein Sequence Design with Experimental Validation](https://arxiv.org/abs/2511.22311)**
-  - Tags: ![task:autonomous_execution](https://img.shields.io/badge/task-autonomous_execution-5C4B8A?style=flat-square) ![domain:biology](https://img.shields.io/badge/domain-biology-2D6F86?style=flat-square) ![domain:protein_design](https://img.shields.io/badge/domain-protein_design-2D6F86?style=flat-square)
+  - Tags: ![task:autonomous_execution](https://img.shields.io/badge/task-autonomous_execution-5C4B8A?style=flat-square) ![domain:biology](https://img.shields.io/badge/domain-biology-2D6F86?style=flat-square) ![domain:biomed](https://img.shields.io/badge/domain-biomed-2D6F86?style=flat-square)
   - Agent pattern: decentralized swarm of residue-level agents
   - Why it matters: This work frames protein design as a distributed multi-agent search process and backs it with experimental validation.
 
@@ -122,10 +122,10 @@ Verified recent papers, mainly from `2024` to `2026 YTD`.
   - Agent pattern: theorist-critic debate with experiential memory
   - Why it matters: Sci-Mind treats mathematical modeling as a debate-and-verification process grounded by retrieval from prior scientific cases.
 
-### Peer Review Simulation And Validation
+### Paper Review And Validation
 
 - **[Towards Verifiable and Self-Correcting AI Physicists for Quantum Many-Body Simulations](https://arxiv.org/abs/2604.00149)**
-  - Tags: ![task:peer_review_simulation](https://img.shields.io/badge/task-peer_review_simulation-5C4B8A?style=flat-square) ![domain:physics](https://img.shields.io/badge/domain-physics-2D6F86?style=flat-square)
+  - Tags: ![task:paper_review](https://img.shields.io/badge/task-paper_review-5C4B8A?style=flat-square) ![domain:physics](https://img.shields.io/badge/domain-physics-2D6F86?style=flat-square)
   - Agent pattern: programming-verifier plus scientific-verifier
   - Why it matters: PhysVEC builds verification and error-correction directly into a multi-agent physics research workflow.
 
