@@ -10,8 +10,8 @@ A curated list of papers, systems, and resources on multi-agent AI for scientifi
 - [By Research Phase](#by-research-phase)
   - [Literature Review](#literature-review)
   - [Hypothesis Formulation](#hypothesis-formulation)
-  - [Execution: Dry Lab](#execution-dry-lab)
-  - [Execution: Wet Lab](#execution-wet-lab)
+  - [Experimentation (Dry Lab)](#experimentation-dry-lab)
+  - [Experimentation (Wet-Lab)](#experimentation-wet-lab)
   - [Review](#review)
 - [Frameworks And Infrastructure](#frameworks-and-infrastructure)
   - [General MAS Frameworks](#general-mas-frameworks)
@@ -41,17 +41,13 @@ This list focuses on:
 - planning, execution, and review in science
 - infrastructure, evaluation, and failure modes for scientific MAS
 
-Task tags are limited to four research phases:
+Task tags in the list are:
 
 - `phase: Literature Review`
 - `phase: Hypothesis Formulation`
-- `phase: Execution`
+- `phase: Experimentation (Dry Lab)`
+- `phase: Experimentation (Wet-Lab)`
 - `phase: Review`
-
-Execution papers can additionally carry:
-
-- `mode: Dry Lab`
-- `mode: Wet Lab`
 
 Scientific discipline is recorded as a `domain` tag, not a top-level section.
 
@@ -65,7 +61,7 @@ Every paper entry should:
 - match the stated `Agent pattern`
 - clearly be about `multi-agent for science`
 - avoid duplicate entries across preprint and venue versions
-- include both execution-mode tags if a paper genuinely covers both dry-lab and wet-lab execution
+- include both experimentation tags if a paper genuinely covers both dry-lab and wet-lab execution
 
 ## By Research Phase
 
@@ -86,7 +82,7 @@ Verified recent papers, mainly from `2024` to `2026 YTD`.
 ### Hypothesis Formulation
 
 - **[EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery](https://arxiv.org/abs/2603.08127)**
-  ![phase: Hypothesis Formulation](https://img.shields.io/badge/phase-Hypothesis%20Formulation-5C4B8A?style=flat-square) ![phase: Execution](https://img.shields.io/badge/phase-Execution-5C4B8A?style=flat-square) ![mode: Dry Lab](https://img.shields.io/badge/mode-Dry%20Lab-3F6B5B?style=flat-square) ![domain: Interdisciplinary](https://img.shields.io/badge/domain-Interdisciplinary-2D6F86?style=flat-square)
+  ![phase: Hypothesis Formulation](https://img.shields.io/badge/phase-Hypothesis%20Formulation-5C4B8A?style=flat-square) ![phase: Experimentation (Dry Lab)](https://img.shields.io/badge/phase-Experimentation%20(Dry%20Lab)-5C4B8A?style=flat-square) ![domain: Interdisciplinary](https://img.shields.io/badge/domain-Interdisciplinary-2D6F86?style=flat-square)
   - Agent pattern: researcher-engineer-manager
   - Why it matters: EvoScientist combines idea generation, experiment execution, and evolutionary memory in one multi-agent AI scientist workflow.
 
@@ -115,42 +111,42 @@ Verified recent papers, mainly from `2024` to `2026 YTD`.
   - Agent pattern: theorist-critic debate with experiential memory
   - Why it matters: Sci-Mind treats mathematical modeling as a debate-and-verification process grounded by retrieval from prior scientific cases.
 
-### Execution: Dry Lab
+### Experimentation (Dry Lab)
 
 - **[TianJi:An autonomous AI meteorologist for discovering physical mechanisms in atmospheric science](https://arxiv.org/abs/2603.27738)**
-  ![phase: Execution](https://img.shields.io/badge/phase-Execution-5C4B8A?style=flat-square) ![mode: Dry Lab](https://img.shields.io/badge/mode-Dry%20Lab-3F6B5B?style=flat-square) ![domain: Earth Science](https://img.shields.io/badge/domain-Earth%20Science-2D6F86?style=flat-square)
+  ![phase: Experimentation (Dry Lab)](https://img.shields.io/badge/phase-Experimentation%20(Dry%20Lab)-5C4B8A?style=flat-square) ![domain: Earth Science](https://img.shields.io/badge/domain-Earth%20Science-2D6F86?style=flat-square)
   - Agent pattern: meta-planner plus worker cohort
   - Why it matters: TianJi decomposes atmospheric science research into planning plus coordinated execution and analysis by specialized agents.
 
 - **[Multi-Agent Collaboration for Automated Design Exploration on High Performance Computing Systems](https://arxiv.org/abs/2603.11515)**
-  ![phase: Execution](https://img.shields.io/badge/phase-Execution-5C4B8A?style=flat-square) ![mode: Dry Lab](https://img.shields.io/badge/mode-Dry%20Lab-3F6B5B?style=flat-square) ![domain: Interdisciplinary](https://img.shields.io/badge/domain-Interdisciplinary-2D6F86?style=flat-square)
+  ![phase: Experimentation (Dry Lab)](https://img.shields.io/badge/phase-Experimentation%20(Dry%20Lab)-5C4B8A?style=flat-square) ![domain: Interdisciplinary](https://img.shields.io/badge/domain-Interdisciplinary-2D6F86?style=flat-square)
   - Agent pattern: job-management, geometry, and inverse-design agents
   - Why it matters: MADA coordinates specialized agents around simulation-driven design exploration on HPC systems.
 
 - **[Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research](https://arxiv.org/abs/2603.28986)**
-  ![phase: Execution](https://img.shields.io/badge/phase-Execution-5C4B8A?style=flat-square) ![mode: Dry Lab](https://img.shields.io/badge/mode-Dry%20Lab-3F6B5B?style=flat-square) ![domain: Interdisciplinary](https://img.shields.io/badge/domain-Interdisciplinary-2D6F86?style=flat-square)
+  ![phase: Experimentation (Dry Lab)](https://img.shields.io/badge/phase-Experimentation%20(Dry%20Lab)-5C4B8A?style=flat-square) ![domain: Interdisciplinary](https://img.shields.io/badge/domain-Interdisciplinary-2D6F86?style=flat-square)
   - Agent pattern: meta-orchestrator plus code-generating agents
   - Why it matters: Mimosa automatically synthesizes and refines task-specific scientific multi-agent workflows with code-generating agents and tool use.
 
-### Execution: Wet Lab
+### Experimentation (Wet-Lab)
 
 - **[Validation of an LLM-based Multi-Agent Framework for Protein Engineering in Dry Lab and Wet Lab](https://arxiv.org/abs/2411.06029)**
-  ![phase: Execution](https://img.shields.io/badge/phase-Execution-5C4B8A?style=flat-square) ![mode: Dry Lab](https://img.shields.io/badge/mode-Dry%20Lab-3F6B5B?style=flat-square) ![mode: Wet Lab](https://img.shields.io/badge/mode-Wet%20Lab-3F6B5B?style=flat-square) ![domain: Biomed](https://img.shields.io/badge/domain-Biomed-2D6F86?style=flat-square)
+  ![phase: Experimentation (Dry Lab)](https://img.shields.io/badge/phase-Experimentation%20(Dry%20Lab)-5C4B8A?style=flat-square) ![phase: Experimentation (Wet-Lab)](https://img.shields.io/badge/phase-Experimentation%20(Wet--Lab)-5C4B8A?style=flat-square) ![domain: Biomed](https://img.shields.io/badge/domain-Biomed-2D6F86?style=flat-square)
   - Agent pattern: conversational multi-agent protein engineering workflow
   - Why it matters: TourSynbio-Agent is validated across both computational and wet-lab protein engineering case studies, making it a strong bridge between dry-lab automation and experimental execution.
 
 - **[BioMARS: A Multi-Agent Robotic System for Autonomous Biological Experiments](https://arxiv.org/abs/2507.01485)**
-  ![phase: Execution](https://img.shields.io/badge/phase-Execution-5C4B8A?style=flat-square) ![mode: Wet Lab](https://img.shields.io/badge/mode-Wet%20Lab-3F6B5B?style=flat-square) ![domain: Biomed](https://img.shields.io/badge/domain-Biomed-2D6F86?style=flat-square)
+  ![phase: Experimentation (Wet-Lab)](https://img.shields.io/badge/phase-Experimentation%20(Wet--Lab)-5C4B8A?style=flat-square) ![domain: Biomed](https://img.shields.io/badge/domain-Biomed-2D6F86?style=flat-square)
   - Agent pattern: biologist-technician-inspector hierarchy
   - Why it matters: BioMARS integrates LLMs, VLMs, and modular robotics to design, plan, and execute biological experiments with explicit agent specialization.
 
 - **[AutoLabs: Cognitive Multi-Agent Systems with Self-Correction for Autonomous Chemical Experimentation](https://arxiv.org/abs/2509.25651)**
-  ![phase: Execution](https://img.shields.io/badge/phase-Execution-5C4B8A?style=flat-square) ![mode: Wet Lab](https://img.shields.io/badge/mode-Wet%20Lab-3F6B5B?style=flat-square) ![domain: Chemistry](https://img.shields.io/badge/domain-Chemistry-2D6F86?style=flat-square)
+  ![phase: Experimentation (Wet-Lab)](https://img.shields.io/badge/phase-Experimentation%20(Wet--Lab)-5C4B8A?style=flat-square) ![domain: Chemistry](https://img.shields.io/badge/domain-Chemistry-2D6F86?style=flat-square)
   - Agent pattern: self-correcting chemical lab agents
   - Why it matters: AutoLabs turns natural-language goals into hardware-ready liquid-handler protocols and studies why multi-agent chemistry execution works better than simpler baselines.
 
 - **[Swarms of Large Language Model Agents for Protein Sequence Design with Experimental Validation](https://arxiv.org/abs/2511.22311)**
-  ![phase: Execution](https://img.shields.io/badge/phase-Execution-5C4B8A?style=flat-square) ![mode: Dry Lab](https://img.shields.io/badge/mode-Dry%20Lab-3F6B5B?style=flat-square) ![mode: Wet Lab](https://img.shields.io/badge/mode-Wet%20Lab-3F6B5B?style=flat-square) ![domain: Biomed](https://img.shields.io/badge/domain-Biomed-2D6F86?style=flat-square)
+  ![phase: Experimentation (Dry Lab)](https://img.shields.io/badge/phase-Experimentation%20(Dry%20Lab)-5C4B8A?style=flat-square) ![phase: Experimentation (Wet-Lab)](https://img.shields.io/badge/phase-Experimentation%20(Wet--Lab)-5C4B8A?style=flat-square) ![domain: Biomed](https://img.shields.io/badge/domain-Biomed-2D6F86?style=flat-square)
   - Agent pattern: decentralized swarm of residue-level agents
   - Why it matters: This work frames protein design as a distributed multi-agent search process and backs it with experimental validation.
 
@@ -176,7 +172,7 @@ Verified recent papers, mainly from `2024` to `2026 YTD`.
   - Why it matters: PiFlow frames automated scientific discovery as structured uncertainty reduction guided by principles across multiple scientific domains.
 
 - **[Open Source Planning & Control System with Language Agents for Autonomous Scientific Discovery](https://arxiv.org/abs/2507.07257)**
-  ![phase: Execution](https://img.shields.io/badge/phase-Execution-5C4B8A?style=flat-square) ![mode: Dry Lab](https://img.shields.io/badge/mode-Dry%20Lab-3F6B5B?style=flat-square) ![domain: Interdisciplinary](https://img.shields.io/badge/domain-Interdisciplinary-2D6F86?style=flat-square)
+  ![phase: Experimentation (Dry Lab)](https://img.shields.io/badge/phase-Experimentation%20(Dry%20Lab)-5C4B8A?style=flat-square) ![domain: Interdisciplinary](https://img.shields.io/badge/domain-Interdisciplinary-2D6F86?style=flat-square)
   - Agent pattern: planning-and-control orchestration
   - Why it matters: cmbagent presents a large multi-agent research stack with specialized roles for literature, code, interpretation, and critique.
 
@@ -188,7 +184,7 @@ Verified recent papers, mainly from `2024` to `2026 YTD`.
 ### Domain-Specific Platforms
 
 - **[AGAPI-Agents: An Open-Access Agentic AI Platform for Accelerated Materials Design on AtomGPT.org](https://arxiv.org/abs/2512.11935)**
-  ![phase: Execution](https://img.shields.io/badge/phase-Execution-5C4B8A?style=flat-square) ![mode: Dry Lab](https://img.shields.io/badge/mode-Dry%20Lab-3F6B5B?style=flat-square) ![domain: Materials Science](https://img.shields.io/badge/domain-Materials%20Science-2D6F86?style=flat-square)
+  ![phase: Experimentation (Dry Lab)](https://img.shields.io/badge/phase-Experimentation%20(Dry%20Lab)-5C4B8A?style=flat-square) ![domain: Materials Science](https://img.shields.io/badge/domain-Materials%20Science-2D6F86?style=flat-square)
   - Agent pattern: planner-executor-summarizer
   - Why it matters: AGAPI unifies open materials APIs, simulations, and open-source LLMs through a multi-agent orchestration layer.
 
