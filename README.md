@@ -81,25 +81,84 @@ URL rules:
 
 ## By Research Task
 
+First verified batch:
+
+- all paper links below point to official arXiv abstract pages
+- all entries below were checked against title and abstract before inclusion
+
 ### Hypothesis Generation And Literature Review
 
 Papers on idea generation, literature synthesis, and question formulation by multiple agents.
+
+- **Two Heads Are Better Than One: A Multi-Agent System Has the Potential to Improve Scientific Idea Generation**. Haoyang Su et al. 2024. [paper](https://arxiv.org/abs/2410.09403)
+  - Task: Hypothesis generation and literature review
+  - Tags: `hypothesis-generation`, `literature-review`, `interdisciplinary`
+  - Agent pattern: collaborative ideation
+  - Why it matters: VirSci organizes multiple agents to generate, evaluate, and refine research ideas for autonomous scientific discovery.
+
+- **EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery**. Yougang Lyu et al. 2026. [paper](https://arxiv.org/abs/2603.08127)
+  - Task: Hypothesis generation and literature review
+  - Tags: `hypothesis-generation`, `interdisciplinary`, `scientific-coding`
+  - Agent pattern: researcher-engineer-manager
+  - Why it matters: EvoScientist combines idea generation, experiment execution, and evolutionary memory in one multi-agent AI scientist workflow.
 
 ### Experimental Design And Planning
 
 Papers on planning experiments, choosing protocols, and coordinating scientific workflows with multiple agents.
 
+- **Reasoning-Driven Design of Single Atom Catalysts via a Multi-Agent Large Language Model Framework**. Dong Hyeon Mok et al. 2026. [paper](https://arxiv.org/abs/2602.21533)
+  - Task: Experimental design and planning
+  - Tags: `experiment-design`, `chemistry`, `materials-science`
+  - Agent pattern: specialized catalyst-design agents
+  - Why it matters: MAESTRO uses specialized LLM roles to iteratively reason about and optimize single-atom catalyst candidates.
+
+- **MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration**. Ziqi Ni et al. 2024. [paper](https://arxiv.org/abs/2411.08063)
+  - Task: Experimental design and planning
+  - Tags: `experiment-design`, `materials-science`, `interdisciplinary`
+  - Agent pattern: human-machine multi-agent collaboration
+  - Why it matters: MatPilot explicitly uses a multi-agent materials scientist setup to generate hypotheses and experimental schemes.
+
 ### Autonomous Experimentation And Execution
 
 Papers on agents that interface with simulators, tools, robotics, or wet-lab pipelines.
+
+- **TianJi:An autonomous AI meteorologist for discovering physical mechanisms in atmospheric science**. Kaikai Zhang et al. 2026. [paper](https://arxiv.org/abs/2603.27738)
+  - Task: Autonomous experimentation and execution
+  - Tags: `autonomous-execution`, `earth-science`
+  - Agent pattern: meta-planner plus worker cohort
+  - Why it matters: TianJi decomposes atmospheric science research into planning plus coordinated execution and analysis by specialized agents.
+
+- **Multi-Agent Collaboration for Automated Design Exploration on High Performance Computing Systems**. Harshitha Menon et al. 2026. [paper](https://arxiv.org/abs/2603.11515)
+  - Task: Autonomous experimentation and execution
+  - Tags: `autonomous-execution`, `interdisciplinary`
+  - Agent pattern: job-management, geometry, and inverse-design agents
+  - Why it matters: MADA coordinates specialized agents around simulation-driven design exploration on HPC systems.
 
 ### Data Analysis And Interpretation
 
 Papers on multi-agent analysis, critique, and interpretation of scientific data or simulation results.
 
+- **A Multi-agent Framework for Materials Laws Discovery**. Bo Hu et al. 2024. [paper](https://arxiv.org/abs/2411.16416)
+  - Task: Data analysis and interpretation
+  - Tags: `data-analysis`, `materials-science`
+  - Agent pattern: multi-agent symbolic regression
+  - Why it matters: This framework uses multiple LLM agents to derive interpretable materials laws from scientific data.
+
+- **"DIVE" into Hydrogen Storage Materials Discovery with AI Agents**. Di Zhang et al. 2025. [paper](https://arxiv.org/abs/2508.13251)
+  - Task: Data analysis and interpretation
+  - Tags: `data-analysis`, `materials-science`, `literature-review`
+  - Agent pattern: multi-agent extraction and inverse design workflow
+  - Why it matters: DIVE organizes agents to read figures and tables from the literature, build a structured database, and support rapid materials discovery.
+
 ### Peer Review And Validation
 
 Papers on reviewer-critic-verifier loops, debate setups, and scientific validation agents.
+
+- **Towards Verifiable and Self-Correcting AI Physicists for Quantum Many-Body Simulations**. Ken Deng et al. 2026. [paper](https://arxiv.org/abs/2604.00149)
+  - Task: Peer review and validation
+  - Tags: `peer-review`, `physics`, `evaluation`
+  - Agent pattern: programming-verifier plus scientific-verifier
+  - Why it matters: PhysVEC builds verification and error-correction directly into a multi-agent physics research workflow.
 
 ### Scientific Writing And Communication
 
@@ -161,6 +220,16 @@ Suggested infrastructure tags:
 
 Frameworks for role specialization, message passing, planning, debate, orchestration, and shared memory.
 
+- **PiFlow: Principle-aware Scientific Discovery with Multi-Agent Collaboration**. Yingming Pu, Tao Lin, Hongyu Chen. 2025. [paper](https://arxiv.org/abs/2505.15047)
+  - Tags: `framework`, `multi-agent`, `interdisciplinary`
+  - Agent pattern: principle-aware multi-agent discovery
+  - Why it matters: PiFlow frames automated scientific discovery as structured uncertainty reduction guided by principles across multiple scientific domains.
+
+- **Open Source Planning & Control System with Language Agents for Autonomous Scientific Discovery**. Licong Xu et al. 2025. [paper](https://arxiv.org/abs/2507.07257)
+  - Tags: `framework`, `multi-agent`, `scientific-coding`, `interdisciplinary`
+  - Agent pattern: planning-and-control orchestration
+  - Why it matters: cmbagent presents a large multi-agent research stack with specialized roles for literature, code, interpretation, and critique.
+
 ### Domain-Specific Platforms
 
 Scientific platforms, toolchains, and environments built for a specific discipline.
@@ -188,7 +257,7 @@ Examples: long-horizon planning, cross-domain integration, uncertainty handling,
 Suggested paper entry format:
 
 ```markdown
-- **Paper title**. Authors. Venue or year. [paper](link) [code](link)
+- **Paper title**. Authors. Venue or year. [paper](link) Optional: [code](link)
   - Task:
   - Tags:
   - Agent pattern:
