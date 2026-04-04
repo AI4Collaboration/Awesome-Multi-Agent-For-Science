@@ -41,6 +41,7 @@ analysis/
 
 README.md
 LICENSE
+PAPER_ENTRY_TEMPLATE.md
 ```
 
 ## Curation Scope
@@ -81,24 +82,25 @@ URL rules:
 
 ## By Research Task
 
-First verified batch:
+Verified recent papers:
 
 - all paper links below point to official arXiv abstract pages
 - all entries below were checked against title and abstract before inclusion
+- current coverage is focused on `2024` to `2026 YTD`
 
 ### Hypothesis Generation And Literature Review
 
 Papers on idea generation, literature synthesis, and question formulation by multiple agents.
 
-- **Two Heads Are Better Than One: A Multi-Agent System Has the Potential to Improve Scientific Idea Generation**. Haoyang Su et al. 2024. [paper](https://arxiv.org/abs/2410.09403)
+- <sub><a href="https://arxiv.org/abs/2410.09403">Two Heads Are Better Than One: A Multi-Agent System Has the Potential to Improve Scientific Idea Generation</a></sub>
+  - Tags: ![task:hypothesis_generation](https://img.shields.io/badge/task-hypothesis_generation-7C3AED?style=flat-square) ![task:literature_review](https://img.shields.io/badge/task-literature_review-7C3AED?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2563EB?style=flat-square)
   - Task: Hypothesis generation and literature review
-  - Tags: `hypothesis-generation`, `literature-review`, `interdisciplinary`
   - Agent pattern: collaborative ideation
   - Why it matters: VirSci organizes multiple agents to generate, evaluate, and refine research ideas for autonomous scientific discovery.
 
-- **EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery**. Yougang Lyu et al. 2026. [paper](https://arxiv.org/abs/2603.08127)
+- <sub><a href="https://arxiv.org/abs/2603.08127">EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery</a></sub>
+  - Tags: ![task:hypothesis_generation](https://img.shields.io/badge/task-hypothesis_generation-7C3AED?style=flat-square) ![task:scientific_coding](https://img.shields.io/badge/task-scientific_coding-7C3AED?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2563EB?style=flat-square)
   - Task: Hypothesis generation and literature review
-  - Tags: `hypothesis-generation`, `interdisciplinary`, `scientific-coding`
   - Agent pattern: researcher-engineer-manager
   - Why it matters: EvoScientist combines idea generation, experiment execution, and evolutionary memory in one multi-agent AI scientist workflow.
 
@@ -106,21 +108,21 @@ Papers on idea generation, literature synthesis, and question formulation by mul
 
 Papers on planning experiments, choosing protocols, and coordinating scientific workflows with multiple agents.
 
-- **Reasoning-Driven Design of Single Atom Catalysts via a Multi-Agent Large Language Model Framework**. Dong Hyeon Mok et al. 2026. [paper](https://arxiv.org/abs/2602.21533)
+- <sub><a href="https://arxiv.org/abs/2602.21533">Reasoning-Driven Design of Single Atom Catalysts via a Multi-Agent Large Language Model Framework</a></sub>
+  - Tags: ![task:experiment_design](https://img.shields.io/badge/task-experiment_design-7C3AED?style=flat-square) ![domain:chemistry](https://img.shields.io/badge/domain-chemistry-2563EB?style=flat-square) ![domain:materials_science](https://img.shields.io/badge/domain-materials_science-2563EB?style=flat-square)
   - Task: Experimental design and planning
-  - Tags: `experiment-design`, `chemistry`, `materials-science`
   - Agent pattern: specialized catalyst-design agents
   - Why it matters: MAESTRO uses specialized LLM roles to iteratively reason about and optimize single-atom catalyst candidates.
 
-- **MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration**. Ziqi Ni et al. 2024. [paper](https://arxiv.org/abs/2411.08063)
+- <sub><a href="https://arxiv.org/abs/2411.08063">MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration</a></sub>
+  - Tags: ![task:experiment_design](https://img.shields.io/badge/task-experiment_design-7C3AED?style=flat-square) ![domain:materials_science](https://img.shields.io/badge/domain-materials_science-2563EB?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2563EB?style=flat-square)
   - Task: Experimental design and planning
-  - Tags: `experiment-design`, `materials-science`, `interdisciplinary`
   - Agent pattern: human-machine multi-agent collaboration
   - Why it matters: MatPilot explicitly uses a multi-agent materials scientist setup to generate hypotheses and experimental schemes.
 
-- **MAC-AMP: A Closed-Loop Multi-Agent Collaboration System for Multi-Objective Antimicrobial Peptide Design**. Qi Liu et al. 2026. [paper](https://arxiv.org/abs/2602.14926)
+- <sub><a href="https://arxiv.org/abs/2602.14926">MAC-AMP: A Closed-Loop Multi-Agent Collaboration System for Multi-Objective Antimicrobial Peptide Design</a></sub>
+  - Tags: ![task:experiment_design](https://img.shields.io/badge/task-experiment_design-7C3AED?style=flat-square) ![domain:biology](https://img.shields.io/badge/domain-biology-2563EB?style=flat-square) ![domain:drug_discovery](https://img.shields.io/badge/domain-drug_discovery-2563EB?style=flat-square)
   - Task: Experimental design and planning
-  - Tags: `experiment-design`, `biology`, `drug-discovery`
   - Agent pattern: closed-loop simulated peer review
   - Why it matters: MAC-AMP uses a multi-agent design-and-review loop to balance activity, toxicity, and novelty in peptide design.
 
@@ -128,21 +130,21 @@ Papers on planning experiments, choosing protocols, and coordinating scientific 
 
 Papers on agents that interface with simulators, tools, robotics, or wet-lab pipelines.
 
-- **TianJi:An autonomous AI meteorologist for discovering physical mechanisms in atmospheric science**. Kaikai Zhang et al. 2026. [paper](https://arxiv.org/abs/2603.27738)
+- <sub><a href="https://arxiv.org/abs/2603.27738">TianJi:An autonomous AI meteorologist for discovering physical mechanisms in atmospheric science</a></sub>
+  - Tags: ![task:autonomous_execution](https://img.shields.io/badge/task-autonomous_execution-7C3AED?style=flat-square) ![domain:earth_science](https://img.shields.io/badge/domain-earth_science-2563EB?style=flat-square)
   - Task: Autonomous experimentation and execution
-  - Tags: `autonomous-execution`, `earth-science`
   - Agent pattern: meta-planner plus worker cohort
   - Why it matters: TianJi decomposes atmospheric science research into planning plus coordinated execution and analysis by specialized agents.
 
-- **Multi-Agent Collaboration for Automated Design Exploration on High Performance Computing Systems**. Harshitha Menon et al. 2026. [paper](https://arxiv.org/abs/2603.11515)
+- <sub><a href="https://arxiv.org/abs/2603.11515">Multi-Agent Collaboration for Automated Design Exploration on High Performance Computing Systems</a></sub>
+  - Tags: ![task:autonomous_execution](https://img.shields.io/badge/task-autonomous_execution-7C3AED?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2563EB?style=flat-square)
   - Task: Autonomous experimentation and execution
-  - Tags: `autonomous-execution`, `interdisciplinary`
   - Agent pattern: job-management, geometry, and inverse-design agents
   - Why it matters: MADA coordinates specialized agents around simulation-driven design exploration on HPC systems.
 
-- **Swarms of Large Language Model Agents for Protein Sequence Design with Experimental Validation**. William Parker et al. 2025. [paper](https://arxiv.org/abs/2511.22311)
+- <sub><a href="https://arxiv.org/abs/2511.22311">Swarms of Large Language Model Agents for Protein Sequence Design with Experimental Validation</a></sub>
+  - Tags: ![task:autonomous_execution](https://img.shields.io/badge/task-autonomous_execution-7C3AED?style=flat-square) ![domain:biology](https://img.shields.io/badge/domain-biology-2563EB?style=flat-square) ![domain:drug_discovery](https://img.shields.io/badge/domain-drug_discovery-2563EB?style=flat-square)
   - Task: Autonomous experimentation and execution
-  - Tags: `autonomous-execution`, `biology`, `drug-discovery`
   - Agent pattern: decentralized swarm of residue-level agents
   - Why it matters: This work frames protein design as a distributed multi-agent search process and backs it with experimental validation.
 
@@ -150,21 +152,21 @@ Papers on agents that interface with simulators, tools, robotics, or wet-lab pip
 
 Papers on multi-agent analysis, critique, and interpretation of scientific data or simulation results.
 
-- **A Multi-agent Framework for Materials Laws Discovery**. Bo Hu et al. 2024. [paper](https://arxiv.org/abs/2411.16416)
+- <sub><a href="https://arxiv.org/abs/2411.16416">A Multi-agent Framework for Materials Laws Discovery</a></sub>
+  - Tags: ![task:data_analysis](https://img.shields.io/badge/task-data_analysis-7C3AED?style=flat-square) ![domain:materials_science](https://img.shields.io/badge/domain-materials_science-2563EB?style=flat-square)
   - Task: Data analysis and interpretation
-  - Tags: `data-analysis`, `materials-science`
   - Agent pattern: multi-agent symbolic regression
   - Why it matters: This framework uses multiple LLM agents to derive interpretable materials laws from scientific data.
 
-- **"DIVE" into Hydrogen Storage Materials Discovery with AI Agents**. Di Zhang et al. 2025. [paper](https://arxiv.org/abs/2508.13251)
+- <sub><a href="https://arxiv.org/abs/2508.13251">"DIVE" into Hydrogen Storage Materials Discovery with AI Agents</a></sub>
+  - Tags: ![task:data_analysis](https://img.shields.io/badge/task-data_analysis-7C3AED?style=flat-square) ![task:literature_review](https://img.shields.io/badge/task-literature_review-7C3AED?style=flat-square) ![domain:materials_science](https://img.shields.io/badge/domain-materials_science-2563EB?style=flat-square)
   - Task: Data analysis and interpretation
-  - Tags: `data-analysis`, `materials-science`, `literature-review`
   - Agent pattern: multi-agent extraction and inverse design workflow
   - Why it matters: DIVE organizes agents to read figures and tables from the literature, build a structured database, and support rapid materials discovery.
 
-- **Sci-Mind: Cognitively-Inspired Adversarial Debate for Autonomous Mathematical Modeling**. Jiazhen Cao et al. 2026. [paper](https://arxiv.org/abs/2603.27584)
+- <sub><a href="https://arxiv.org/abs/2603.27584">Sci-Mind: Cognitively-Inspired Adversarial Debate for Autonomous Mathematical Modeling</a></sub>
+  - Tags: ![task:data_analysis](https://img.shields.io/badge/task-data_analysis-7C3AED?style=flat-square) ![domain:mathematics](https://img.shields.io/badge/domain-mathematics-2563EB?style=flat-square) ![pattern:debate](https://img.shields.io/badge/pattern-debate-D97706?style=flat-square)
   - Task: Data analysis and interpretation
-  - Tags: `data-analysis`, `mathematics`, `debate`
   - Agent pattern: theorist-critic debate with experiential memory
   - Why it matters: Sci-Mind treats mathematical modeling as a debate-and-verification process grounded by retrieval from prior scientific cases.
 
@@ -172,9 +174,9 @@ Papers on multi-agent analysis, critique, and interpretation of scientific data 
 
 Papers on reviewer-critic-verifier loops, debate setups, and scientific validation agents.
 
-- **Towards Verifiable and Self-Correcting AI Physicists for Quantum Many-Body Simulations**. Ken Deng et al. 2026. [paper](https://arxiv.org/abs/2604.00149)
+- <sub><a href="https://arxiv.org/abs/2604.00149">Towards Verifiable and Self-Correcting AI Physicists for Quantum Many-Body Simulations</a></sub>
+  - Tags: ![task:peer_review](https://img.shields.io/badge/task-peer_review-7C3AED?style=flat-square) ![domain:physics](https://img.shields.io/badge/domain-physics-2563EB?style=flat-square) ![infra:evaluation](https://img.shields.io/badge/infra-evaluation-059669?style=flat-square)
   - Task: Peer review and validation
-  - Tags: `peer-review`, `physics`, `evaluation`
   - Agent pattern: programming-verifier plus scientific-verifier
   - Why it matters: PhysVEC builds verification and error-correction directly into a multi-agent physics research workflow.
 
@@ -182,9 +184,9 @@ Papers on reviewer-critic-verifier loops, debate setups, and scientific validati
 
 Papers on multi-agent drafting, revision, and structured scientific reporting.
 
-- **HLER: Human-in-the-Loop Economic Research via Multi-Agent Pipelines for Empirical Discovery**. Haolin Wang et al. 2026. [paper](https://arxiv.org/abs/2603.07444)
+- <sub><a href="https://arxiv.org/abs/2603.07444">HLER: Human-in-the-Loop Economic Research via Multi-Agent Pipelines for Empirical Discovery</a></sub>
+  - Tags: ![task:scientific_writing](https://img.shields.io/badge/task-scientific_writing-7C3AED?style=flat-square) ![task:data_analysis](https://img.shields.io/badge/task-data_analysis-7C3AED?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2563EB?style=flat-square)
   - Task: Scientific writing and communication
-  - Tags: `scientific-writing`, `data-analysis`, `interdisciplinary`
   - Agent pattern: human-in-the-loop multi-agent pipeline
   - Why it matters: HLER coordinates agents for data auditing, hypothesis generation, econometric analysis, manuscript drafting, and review in one empirical research pipeline.
 
@@ -192,15 +194,22 @@ Papers on multi-agent drafting, revision, and structured scientific reporting.
 
 Papers on multi-agent coding systems for scientific software, analysis pipelines, and reproducible workflows.
 
-- **Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research**. Xiaohang Jia et al. 2026. [paper](https://arxiv.org/abs/2603.28986)
+- <sub><a href="https://arxiv.org/abs/2603.28986">Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research</a></sub>
+  - Tags: ![task:scientific_coding](https://img.shields.io/badge/task-scientific_coding-7C3AED?style=flat-square) ![infra:framework](https://img.shields.io/badge/infra-framework-059669?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2563EB?style=flat-square)
   - Task: Programming and scientific software development
-  - Tags: `scientific-coding`, `framework`, `interdisciplinary`
   - Agent pattern: meta-orchestrator plus code-generating agents
   - Why it matters: Mimosa automatically synthesizes and refines task-specific scientific multi-agent workflows with code-generating agents and tool use.
 
 ## Tagging Convention
 
 Use tags to capture scientific discipline and other metadata without turning the repo into a second discipline taxonomy.
+
+Badge color convention used in the list:
+
+- task badges: purple
+- discipline badges: blue
+- infrastructure and evaluation badges: green
+- agent-pattern badges: orange
 
 Suggested discipline tags:
 
@@ -238,9 +247,11 @@ Suggested agent-pattern tags:
 Suggested infrastructure tags:
 
 - `framework`
+- `platform`
 - `benchmark`
 - `dataset`
 - `evaluation`
+- `coordination`
 - `failure-modes`
 - `safety`
 
@@ -250,18 +261,18 @@ Suggested infrastructure tags:
 
 Frameworks for role specialization, message passing, planning, debate, orchestration, and shared memory.
 
-- **PiFlow: Principle-aware Scientific Discovery with Multi-Agent Collaboration**. Yingming Pu, Tao Lin, Hongyu Chen. 2025. [paper](https://arxiv.org/abs/2505.15047)
-  - Tags: `framework`, `multi-agent`, `interdisciplinary`
+- <sub><a href="https://arxiv.org/abs/2505.15047">PiFlow: Principle-aware Scientific Discovery with Multi-Agent Collaboration</a></sub>
+  - Tags: ![infra:framework](https://img.shields.io/badge/infra-framework-059669?style=flat-square) ![pattern:multi_agent](https://img.shields.io/badge/pattern-multi_agent-D97706?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2563EB?style=flat-square)
   - Agent pattern: principle-aware multi-agent discovery
   - Why it matters: PiFlow frames automated scientific discovery as structured uncertainty reduction guided by principles across multiple scientific domains.
 
-- **Open Source Planning & Control System with Language Agents for Autonomous Scientific Discovery**. Licong Xu et al. 2025. [paper](https://arxiv.org/abs/2507.07257)
-  - Tags: `framework`, `multi-agent`, `scientific-coding`, `interdisciplinary`
+- <sub><a href="https://arxiv.org/abs/2507.07257">Open Source Planning & Control System with Language Agents for Autonomous Scientific Discovery</a></sub>
+  - Tags: ![infra:framework](https://img.shields.io/badge/infra-framework-059669?style=flat-square) ![pattern:multi_agent](https://img.shields.io/badge/pattern-multi_agent-D97706?style=flat-square) ![task:scientific_coding](https://img.shields.io/badge/task-scientific_coding-7C3AED?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2563EB?style=flat-square)
   - Agent pattern: planning-and-control orchestration
   - Why it matters: cmbagent presents a large multi-agent research stack with specialized roles for literature, code, interpretation, and critique.
 
-- **OrchMAS: Orchestrated Reasoning with Multi Collaborative Heterogeneous Scientific Expert Structured Agents**. Rui Zhang et al. 2026. [paper](https://arxiv.org/abs/2603.03005)
-  - Tags: `framework`, `multi-agent`, `interdisciplinary`
+- <sub><a href="https://arxiv.org/abs/2603.03005">OrchMAS: Orchestrated Reasoning with Multi Collaborative Heterogeneous Scientific Expert Structured Agents</a></sub>
+  - Tags: ![infra:framework](https://img.shields.io/badge/infra-framework-059669?style=flat-square) ![pattern:multi_agent](https://img.shields.io/badge/pattern-multi_agent-D97706?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2563EB?style=flat-square)
   - Agent pattern: orchestrator with heterogeneous expert agents
   - Why it matters: OrchMAS dynamically assembles domain-aware expert agents for long-horizon scientific reasoning tasks.
 
@@ -269,8 +280,8 @@ Frameworks for role specialization, message passing, planning, debate, orchestra
 
 Scientific platforms, toolchains, and environments built for a specific discipline.
 
-- **AGAPI-Agents: An Open-Access Agentic AI Platform for Accelerated Materials Design on AtomGPT.org**. Kamal Choudhary et al. 2025. [paper](https://arxiv.org/abs/2512.11935)
-  - Tags: `framework`, `materials-science`, `platform`
+- <sub><a href="https://arxiv.org/abs/2512.11935">AGAPI-Agents: An Open-Access Agentic AI Platform for Accelerated Materials Design on AtomGPT.org</a></sub>
+  - Tags: ![infra:framework](https://img.shields.io/badge/infra-framework-059669?style=flat-square) ![infra:platform](https://img.shields.io/badge/infra-platform-059669?style=flat-square) ![domain:materials_science](https://img.shields.io/badge/domain-materials_science-2563EB?style=flat-square)
   - Agent pattern: planner-executor-summarizer
   - Why it matters: AGAPI unifies open materials APIs, simulations, and open-source LLMs through a multi-agent orchestration layer.
 
@@ -278,8 +289,8 @@ Scientific platforms, toolchains, and environments built for a specific discipli
 
 Work on agent protocols, structured interaction, blackboards, memory, and delegation mechanisms.
 
-- **MACC: Multi-Agent Collaborative Competition for Scientific Exploration**. Zijie Wang et al. 2026. [paper](https://arxiv.org/abs/2603.03780)
-  - Tags: `framework`, `interdisciplinary`, `coordination`
+- <sub><a href="https://arxiv.org/abs/2603.03780">MACC: Multi-Agent Collaborative Competition for Scientific Exploration</a></sub>
+  - Tags: ![infra:framework](https://img.shields.io/badge/infra-framework-059669?style=flat-square) ![infra:coordination](https://img.shields.io/badge/infra-coordination-059669?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2563EB?style=flat-square)
   - Agent pattern: collaborative competition
   - Why it matters: MACC studies how cooperation and competition can be combined to improve scientific exploration across multiple agents.
 
@@ -302,9 +313,9 @@ Examples: long-horizon planning, cross-domain integration, uncertainty handling,
 Suggested paper entry format:
 
 ```markdown
-- **Paper title**. Authors. Venue or year. [paper](link) Optional: [code](link)
+- <sub><a href="paper-link">Paper title</a></sub>
+  - Tags: badges
   - Task:
-  - Tags:
   - Agent pattern:
   - Why it matters:
 ```
