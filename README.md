@@ -55,6 +55,7 @@ Every paper entry should:
 - match the stated `Tags` and `Agent pattern`
 - clearly be about `multi-agent for science`
 - avoid duplicate entries across preprint and venue versions
+- if a paper covers both dry-lab and wet-lab execution, include both task tags
 
 ## By Research Task
 
