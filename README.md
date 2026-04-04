@@ -14,7 +14,8 @@ A curated list of papers, systems, and resources on multi-agent AI for scientifi
   - [Data Analysis And Interpretation](#data-analysis-and-interpretation)
   - [Paper Review And Validation](#paper-review-and-validation)
   - [Scientific Writing And Communication](#scientific-writing-and-communication)
-  - [Execution: Coding](#execution-coding)
+  - [Execution: Dry Lab](#execution-dry-lab)
+  - [Execution: Wet Lab](#execution-wet-lab)
 - [Frameworks And Infrastructure](#frameworks-and-infrastructure)
   - [General MAS Frameworks](#general-mas-frameworks)
   - [Domain-Specific Platforms](#domain-specific-platforms)
@@ -67,7 +68,7 @@ Verified recent papers, mainly from `2024` to `2026 YTD`.
   - Why it matters: VirSci organizes multiple agents to generate, evaluate, and refine research ideas for autonomous scientific discovery.
 
 - **[EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery](https://arxiv.org/abs/2603.08127)**
-  - Tags: ![task:hypothesis_generation](https://img.shields.io/badge/task-hypothesis_generation-5C4B8A?style=flat-square) ![task:execution_coding](https://img.shields.io/badge/task-execution%3A%20coding-5C4B8A?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2D6F86?style=flat-square)
+  - Tags: ![task:hypothesis_generation](https://img.shields.io/badge/task-hypothesis_generation-5C4B8A?style=flat-square) ![task:execution_dry_lab](https://img.shields.io/badge/task-execution%3A%20dry%20lab-5C4B8A?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2D6F86?style=flat-square)
   - Agent pattern: researcher-engineer-manager
   - Why it matters: EvoScientist combines idea generation, experiment execution, and evolutionary memory in one multi-agent AI scientist workflow.
 
@@ -136,12 +137,29 @@ Verified recent papers, mainly from `2024` to `2026 YTD`.
   - Agent pattern: human-in-the-loop multi-agent pipeline
   - Why it matters: HLER coordinates agents for data auditing, hypothesis generation, econometric analysis, manuscript drafting, and review in one empirical research pipeline.
 
-### Execution: Coding
+### Execution: Dry Lab
 
 - **[Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research](https://arxiv.org/abs/2603.28986)**
-  - Tags: ![task:execution_coding](https://img.shields.io/badge/task-execution%3A%20coding-5C4B8A?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2D6F86?style=flat-square)
+  - Tags: ![task:execution_dry_lab](https://img.shields.io/badge/task-execution%3A%20dry%20lab-5C4B8A?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2D6F86?style=flat-square)
   - Agent pattern: meta-orchestrator plus code-generating agents
   - Why it matters: Mimosa automatically synthesizes and refines task-specific scientific multi-agent workflows with code-generating agents and tool use.
+
+### Execution: Wet Lab
+
+- **[Validation of an LLM-based Multi-Agent Framework for Protein Engineering in Dry Lab and Wet Lab](https://arxiv.org/abs/2411.06029)**
+  - Tags: ![task:execution_dry_lab](https://img.shields.io/badge/task-execution%3A%20dry%20lab-5C4B8A?style=flat-square) ![task:execution_wet_lab](https://img.shields.io/badge/task-execution%3A%20wet%20lab-5C4B8A?style=flat-square) ![domain:biology](https://img.shields.io/badge/domain-biology-2D6F86?style=flat-square) ![domain:biomed](https://img.shields.io/badge/domain-biomed-2D6F86?style=flat-square)
+  - Agent pattern: conversational multi-agent protein engineering workflow
+  - Why it matters: TourSynbio-Agent is explicitly validated across both computational and wet-lab protein engineering case studies, making it a strong bridge between dry-lab automation and experimental execution.
+
+- **[BioMARS: A Multi-Agent Robotic System for Autonomous Biological Experiments](https://arxiv.org/abs/2507.01485)**
+  - Tags: ![task:execution_wet_lab](https://img.shields.io/badge/task-execution%3A%20wet%20lab-5C4B8A?style=flat-square) ![domain:biology](https://img.shields.io/badge/domain-biology-2D6F86?style=flat-square) ![domain:biomed](https://img.shields.io/badge/domain-biomed-2D6F86?style=flat-square)
+  - Agent pattern: biologist-technician-inspector hierarchy
+  - Why it matters: BioMARS integrates LLMs, VLMs, and modular robotics to design, plan, and execute biological experiments with explicit agent specialization.
+
+- **[AutoLabs: Cognitive Multi-Agent Systems with Self-Correction for Autonomous Chemical Experimentation](https://arxiv.org/abs/2509.25651)**
+  - Tags: ![task:execution_wet_lab](https://img.shields.io/badge/task-execution%3A%20wet%20lab-5C4B8A?style=flat-square) ![domain:chemistry](https://img.shields.io/badge/domain-chemistry-2D6F86?style=flat-square)
+  - Agent pattern: self-correcting chemical lab agents
+  - Why it matters: AutoLabs turns natural-language goals into hardware-ready liquid-handler protocols and systematically studies why multi-agent chemistry execution works better than simpler baselines.
 
 ## Frameworks And Infrastructure
 
@@ -153,7 +171,7 @@ Verified recent papers, mainly from `2024` to `2026 YTD`.
   - Why it matters: PiFlow frames automated scientific discovery as structured uncertainty reduction guided by principles across multiple scientific domains.
 
 - **[Open Source Planning & Control System with Language Agents for Autonomous Scientific Discovery](https://arxiv.org/abs/2507.07257)**
-  - Tags: ![task:execution_coding](https://img.shields.io/badge/task-execution%3A%20coding-5C4B8A?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2D6F86?style=flat-square)
+  - Tags: ![task:execution_dry_lab](https://img.shields.io/badge/task-execution%3A%20dry%20lab-5C4B8A?style=flat-square) ![domain:interdisciplinary](https://img.shields.io/badge/domain-interdisciplinary-2D6F86?style=flat-square)
   - Agent pattern: planning-and-control orchestration
   - Why it matters: cmbagent presents a large multi-agent research stack with specialized roles for literature, code, interpretation, and critique.
 
