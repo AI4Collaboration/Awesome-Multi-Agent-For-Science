@@ -53,6 +53,11 @@ This awesome list is for work related to:
 - multi-agent scientific planning, review, debate, verification, and experimentation
 - infrastructure, evaluation, and failure modes for scientific MAS
 
+Organization principle:
+
+- the main sectioning is by `research task`
+- scientific discipline should be recorded as a `tag`, not as a top-level sectioning rule
+
 ## By Research Task
 
 ### Hypothesis Generation And Literature Review
@@ -83,31 +88,51 @@ Papers on multi-agent drafting, revision, and structured scientific reporting.
 
 Papers on multi-agent coding systems for scientific software, analysis pipelines, and reproducible workflows.
 
-## By Scientific Discipline
+## Tagging Convention
 
-### Physics
+Use tags to capture scientific discipline and other metadata without turning the repo into a second discipline taxonomy.
 
-Includes theoretical, computational, experimental, quantum, particle, and astrophysics settings.
+Suggested discipline tags:
 
-### Mathematics
+- `physics`
+- `mathematics`
+- `chemistry`
+- `materials-science`
+- `biology`
+- `life-sciences`
+- `drug-discovery`
+- `earth-science`
+- `environmental-science`
+- `interdisciplinary`
 
-Includes theorem proving, formal reasoning, numerical analysis, and scientific mathematical modeling.
+Suggested task tags:
 
-### Chemistry And Materials Science
+- `hypothesis-generation`
+- `literature-review`
+- `experiment-design`
+- `autonomous-execution`
+- `data-analysis`
+- `peer-review`
+- `scientific-writing`
+- `scientific-coding`
 
-Includes molecular design, reaction planning, catalysts, solvents, materials discovery, and computational chemistry.
+Suggested agent-pattern tags:
 
-### Biology And Life Sciences
+- `multi-agent`
+- `other-agentic`
+- `planner-executor`
+- `debate`
+- `reviewer-critic`
+- `generator-verifier`
 
-Includes drug discovery, protein engineering, genomics, systems biology, synthetic biology, and neuroscience.
+Suggested infrastructure tags:
 
-### Earth And Environmental Sciences
-
-Includes climate, atmospheric science, geoscience, oceanography, ecology, and environmental modeling.
-
-### Cross-Domain And Interdisciplinary Systems
-
-Includes general AI scientists, cross-domain discovery systems, and multi-domain scientific platforms.
+- `framework`
+- `benchmark`
+- `dataset`
+- `evaluation`
+- `failure-modes`
+- `safety`
 
 ## Frameworks And Infrastructure
 
@@ -144,7 +169,7 @@ Suggested paper entry format:
 ```markdown
 - **Paper title**. Authors. Venue or year. [paper](link) [code](link)
   - Task:
-  - Domain:
+  - Tags:
   - Agent pattern:
   - Why it matters:
 ```
@@ -152,9 +177,11 @@ Suggested paper entry format:
 If you add papers, try to tag:
 
 - research task
-- scientific domain
+- scientific discipline
 - whether the system is `multi-agent`, `other-agentic`, or mixed
 - whether code or benchmark artifacts are available
+
+Try to keep discipline as a tag inside each entry rather than creating new discipline sections.
 
 ## License
 
