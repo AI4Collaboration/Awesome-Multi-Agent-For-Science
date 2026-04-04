@@ -20,14 +20,11 @@ A curated list of papers, systems, and resources on multi-agent AI for scientifi
   - [Domain-Specific Platforms](#domain-specific-platforms)
   - [Communication And Coordination](#communication-and-coordination)
 - [Failure Modes And Open Challenges](#failure-modes-and-open-challenges)
-- [Contribution Guide](#contribution-guide)
 - [License](#license)
 
 ## Trend Snapshot
 
-OpenAlex-backed, query-defined trend estimates from `2024` to `2026-04-02`.
-
-![Trend of multi-agent share from 2024 to 2026 YTD](./analysis/trend_of_mas4sci/assets/trend_share_2024_now.svg)
+OpenAlex-backed trend estimates from `2024` to `2026-04-02`.
 
 | Period | LLM4Science `multi-agent / all` | AI4Science `multi-agent / all` |
 | --- | --- | --- |
@@ -35,15 +32,14 @@ OpenAlex-backed, query-defined trend estimates from `2024` to `2026-04-02`.
 | `2025` | `415 / 2726 = 15.22%` | `630 / 6442 = 9.78%` |
 | `2026 YTD` (`2026-01-01` to `2026-04-02`) | `245 / 1145 = 21.40%` | `322 / 2158 = 14.92%` |
 
-The detailed methodology, keyword families, scripts, and lightweight result files live in [analysis/trend_of_mas4sci](./analysis/trend_of_mas4sci).
+Methods, keyword families, scripts, and result files are in [analysis/trend_of_mas4sci](./analysis/trend_of_mas4sci).
 
 ## Scope
 
 This list focuses on:
 
 - multi-agent LLM systems for scientific discovery
-- role-specialized scientific agents
-- autonomous or semi-autonomous research workflows
+- role-specialized scientific agents and research workflows
 - planning, review, debate, verification, and experimentation in science
 - infrastructure, evaluation, and failure modes for scientific MAS
 
@@ -53,17 +49,15 @@ The main organization is by `research task`. Scientific discipline is recorded a
 
 Every paper entry should:
 
-- be checked against a primary source such as arXiv, a publisher page, a conference page, or an official project page
+- be checked against a primary source
 - use a real, public, direct URL
 - match the stated `Tags` and `Agent pattern`
-- clearly be about `multi-agent for science`, not an unrelated use of the word `agent`
+- clearly be about `multi-agent for science`
 - avoid duplicate entries across preprint and venue versions
-
-If a paper is still ambiguous, keep it out of the main list until it is verified.
 
 ## By Research Task
 
-Current coverage is centered on verified papers from `2024` to `2026 YTD`.
+Verified recent papers, mainly from `2024` to `2026 YTD`.
 
 ### Hypothesis Generation And Literature Review
 
@@ -187,26 +181,6 @@ Current coverage is centered on verified papers from `2024` to `2026 YTD`.
 - Technical failure modes: communication breakdown, coordination overhead, agent disagreement, and cascade failures.
 - Scientific reliability issues: hallucination, unverifiable claims, invalid methodology, poor calibration, and reproducibility failures.
 - Open problems: long-horizon planning, cross-domain integration, uncertainty handling, efficient coordination, and safety.
-
-## Contribution Guide
-
-Suggested entry format:
-
-```markdown
-- **[Paper title](paper-link)**
-  - Tags: badges
-  - Agent pattern:
-  - Why it matters:
-```
-
-When adding papers, try to include:
-
-- research task
-- scientific discipline as tags
-- whether the system is `multi-agent`, `other-agentic`, or mixed
-- whether code, benchmark, or dataset artifacts are available
-
-All paper and code links should be live, direct, and publicly accessible when added. For a stricter intake workflow, use [PAPER_ENTRY_TEMPLATE.md](./PAPER_ENTRY_TEMPLATE.md).
 
 ## License
 
