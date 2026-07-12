@@ -92,6 +92,11 @@ Verified recent papers, mainly from `2024` to `2026 YTD`.
   - Agent pattern: specialized catalyst-design agents
   - Why it matters: MAESTRO uses specialized LLM roles to iteratively reason about and optimize single-atom catalyst candidates.
 
+- **[Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy](https://arxiv.org/abs/2606.24177)**
+  ![phase: Hypothesis Formulation](https://img.shields.io/badge/phase-Hypothesis%20Formulation-5C4B8A?style=flat-square) ![phase: Experimentation (Dry Lab)](https://img.shields.io/badge/phase-Experimentation%20(Dry%20Lab)-5C4B8A?style=flat-square) ![domain: Interdisciplinary](https://img.shields.io/badge/domain-Interdisciplinary-2D6F86?style=flat-square)
+  - Agent pattern: scientist-coder-auditor loop
+  - Why it matters: Agon treats prompt engineering as engineering rather than art (Prompt Economy), running the same reusable loop across 10+ disciplines with an 18-role prompt surface.
+
 - **[MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration](https://arxiv.org/abs/2411.08063)**
   ![phase: Hypothesis Formulation](https://img.shields.io/badge/phase-Hypothesis%20Formulation-5C4B8A?style=flat-square) ![domain: Materials Science](https://img.shields.io/badge/domain-Materials%20Science-2D6F86?style=flat-square)
   - Agent pattern: human-machine multi-agent collaboration
@@ -128,6 +133,11 @@ Verified recent papers, mainly from `2024` to `2026 YTD`.
   ![phase: Experimentation (Dry Lab)](https://img.shields.io/badge/phase-Experimentation%20(Dry%20Lab)-5C4B8A?style=flat-square) ![domain: Interdisciplinary](https://img.shields.io/badge/domain-Interdisciplinary-2D6F86?style=flat-square)
   - Agent pattern: meta-orchestrator plus code-generating agents
   - Why it matters: Mimosa automatically synthesizes and refines task-specific scientific multi-agent workflows with code-generating agents and tool use.
+
+- **[AutoNumerics: An Autonomous, PDE-Agnostic Multi-Agent Pipeline for Scientific Computing](https://arxiv.org/abs/2602.17607)**
+  ![phase: Experimentation (Dry Lab)](https://img.shields.io/badge/phase-Experimentation%20(Dry%20Lab)-5C4B8A?style=flat-square) ![domain: Interdisciplinary](https://img.shields.io/badge/domain-Interdisciplinary-2D6F86?style=flat-square)
+  - Agent pattern: formulator-planner-coder-critic loop
+  - Why it matters: AutoNumerics writes, debugs, and validates classical PDE numerical solvers from a plain-language problem description, picking the right method (Fourier, Chebyshev, etc.) automatically based on the problem structure.
 
 ### Experimentation (Wet-Lab)
 
