@@ -1,0 +1,179 @@
+{
+  "cross_window_duplicate_identities": 0,
+  "deduplicated_records": 76639,
+  "logical_query_count": 17,
+  "page_count": 936,
+  "queries": [
+    {
+      "pages": 74,
+      "query_id": "B1",
+      "raw_hits": 7365,
+      "terminal_cursor": null,
+      "total_reported": 7365
+    },
+    {
+      "pages": 5,
+      "query_id": "B2",
+      "raw_hits": 481,
+      "terminal_cursor": null,
+      "total_reported": 481
+    },
+    {
+      "pages": 97,
+      "query_id": "B5",
+      "raw_hits": 9638,
+      "terminal_cursor": null,
+      "total_reported": 9638
+    },
+    {
+      "pages": 61,
+      "query_id": "B7",
+      "raw_hits": 6025,
+      "terminal_cursor": null,
+      "total_reported": 6025
+    },
+    {
+      "pages": 28,
+      "query_id": "B9",
+      "raw_hits": 2799,
+      "terminal_cursor": null,
+      "total_reported": 2799
+    },
+    {
+      "pages": 13,
+      "query_id": "B10",
+      "raw_hits": 1246,
+      "terminal_cursor": null,
+      "total_reported": 1246
+    },
+    {
+      "pages": 9,
+      "query_id": "B11",
+      "raw_hits": 841,
+      "terminal_cursor": null,
+      "total_reported": 841
+    },
+    {
+      "pages": 20,
+      "query_id": "B12",
+      "raw_hits": 1953,
+      "terminal_cursor": null,
+      "total_reported": 1953
+    },
+    {
+      "pages": 50,
+      "query_id": "B13",
+      "raw_hits": 4915,
+      "terminal_cursor": null,
+      "total_reported": 4915
+    },
+    {
+      "pages": 138,
+      "query_id": "B14",
+      "raw_hits": 13716,
+      "terminal_cursor": null,
+      "total_reported": 13716
+    },
+    {
+      "pages": 18,
+      "query_id": "A1",
+      "raw_hits": 1758,
+      "terminal_cursor": null,
+      "total_reported": 1758
+    },
+    {
+      "pages": 3,
+      "query_id": "A2",
+      "raw_hits": 251,
+      "terminal_cursor": null,
+      "total_reported": 251
+    },
+    {
+      "pages": 9,
+      "query_id": "A3",
+      "raw_hits": 806,
+      "terminal_cursor": null,
+      "total_reported": 806
+    },
+    {
+      "pages": 250,
+      "query_id": "M1",
+      "raw_hits": 24934,
+      "terminal_cursor": null,
+      "total_reported": 24934
+    },
+    {
+      "pages": 6,
+      "query_id": "M3",
+      "raw_hits": 563,
+      "terminal_cursor": null,
+      "total_reported": 563
+    },
+    {
+      "pages": 2,
+      "query_id": "M4",
+      "raw_hits": 118,
+      "terminal_cursor": null,
+      "total_reported": 118
+    },
+    {
+      "pages": 67,
+      "query_id": "M5",
+      "raw_hits": 6697,
+      "terminal_cursor": null,
+      "total_reported": 6697
+    },
+    {
+      "pages": 86,
+      "query_id": "U1",
+      "raw_hits": 17190,
+      "terminal_cursor": null,
+      "total_reported": 17190
+    }
+  ],
+  "query_count": 18,
+  "raw_occurrences": 101296,
+  "reported_request_cost_usd_exact": "0.936",
+  "validated_complete": true,
+  "validation_method": "Verified adjacent source batches, exact OR expression, frozen classifier hash, unique identities, occurrence provenance, and recomputed denominators. No human labeling audit.",
+  "verified_proportions": {
+    "bookkeeping_corrected": {
+      "2024": {
+        "ai4science": {
+          "denominator": 5911,
+          "numerator": 367,
+          "percent": 6.208763322618847
+        },
+        "llm4science": {
+          "denominator": 2031,
+          "numerator": 146,
+          "percent": 7.188577055637617
+        }
+      },
+      "2025": {
+        "ai4science": {
+          "denominator": 10301,
+          "numerator": 1044,
+          "percent": 10.134938355499466
+        },
+        "llm4science": {
+          "denominator": 3924,
+          "numerator": 571,
+          "percent": 14.551478083588176
+        }
+      },
+      "2026_ytd": {
+        "ai4science": {
+          "denominator": 12058,
+          "numerator": 1895,
+          "percent": 15.71570741416487
+        },
+        "llm4science": {
+          "denominator": 5952,
+          "numerator": 1230,
+          "percent": 20.66532258064516
+        }
+      }
+    }
+  }
+}

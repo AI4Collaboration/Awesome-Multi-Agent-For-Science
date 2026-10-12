@@ -1,0 +1,148 @@
+{
+  "classification_method": "Original lexical classifier and bookkeeping-corrected inclusion; no semantic changes.",
+  "classifier_sha256": "9f2e3cd2319ee40cefd6615578db2c97c905209341af1dd840b444c3fbcbf0b2",
+  "corpus_request_cost_usd": 0.086,
+  "daily_remaining_usd": 0.046,
+  "daily_used_usd": 0.954,
+  "deduplicated_records": 17190,
+  "extension_total_cost_usd": 0.087,
+  "individual_clause_membership": "unknown; query_ids contains only U1",
+  "logical_queries": [
+    {
+      "bucket": "broad",
+      "query_id": "B1",
+      "search_text": "\"AI for Science\""
+    },
+    {
+      "bucket": "broad",
+      "query_id": "B2",
+      "search_text": "AI4Science"
+    },
+    {
+      "bucket": "broad",
+      "query_id": "B5",
+      "search_text": "\"machine learning\" \"scientific discovery\""
+    },
+    {
+      "bucket": "broad",
+      "query_id": "B7",
+      "search_text": "\"deep learning\" \"scientific discovery\""
+    },
+    {
+      "bucket": "broad",
+      "query_id": "B9",
+      "search_text": "\"reinforcement learning\" \"scientific discovery\""
+    },
+    {
+      "bucket": "broad",
+      "query_id": "B10",
+      "search_text": "\"graph neural network\" \"scientific discovery\""
+    },
+    {
+      "bucket": "broad",
+      "query_id": "B11",
+      "search_text": "\"diffusion model\" \"scientific discovery\""
+    },
+    {
+      "bucket": "broad",
+      "query_id": "B12",
+      "search_text": "\"generative model\" \"scientific discovery\""
+    },
+    {
+      "bucket": "broad",
+      "query_id": "B13",
+      "search_text": "\"large language model\" \"scientific discovery\""
+    },
+    {
+      "bucket": "broad",
+      "query_id": "B14",
+      "search_text": "\"large language model\" \"scientific research\""
+    },
+    {
+      "bucket": "agentic",
+      "query_id": "A1",
+      "search_text": "\"AI scientist\""
+    },
+    {
+      "bucket": "agentic",
+      "query_id": "A2",
+      "search_text": "\"scientific agent\" scientific"
+    },
+    {
+      "bucket": "agentic",
+      "query_id": "A3",
+      "search_text": "\"research agent\" scientific"
+    },
+    {
+      "bucket": "multi-agent",
+      "query_id": "M1",
+      "search_text": "\"multi-agent\" scientific"
+    },
+    {
+      "bucket": "multi-agent",
+      "query_id": "M3",
+      "search_text": "\"agent team\" scientific"
+    },
+    {
+      "bucket": "multi-agent",
+      "query_id": "M4",
+      "search_text": "\"planner executor\" scientific"
+    },
+    {
+      "bucket": "multi-agent",
+      "query_id": "M5",
+      "search_text": "critic reviewer scientific"
+    }
+  ],
+  "logical_query_count": 17,
+  "noncorpus_probe_cost_usd": 0.001,
+  "page_count": 86,
+  "physical_query_count": 1,
+  "proportions": {
+    "ai4science": {
+      "denominator": 7022,
+      "numerator": 1128,
+      "percent": 16.063799487325547
+    },
+    "llm4science": {
+      "denominator": 3576,
+      "numerator": 731,
+      "percent": 20.441834451901567
+    }
+  },
+  "query_definition": "(\"AI for Science\") OR (AI4Science) OR (\"machine learning\" \"scientific discovery\") OR (\"deep learning\" \"scientific discovery\") OR (\"reinforcement learning\" \"scientific discovery\") OR (\"graph neural network\" \"scientific discovery\") OR (\"diffusion model\" \"scientific discovery\") OR (\"generative model\" \"scientific discovery\") OR (\"large language model\" \"scientific discovery\") OR (\"large language model\" \"scientific research\") OR (\"AI scientist\") OR (\"scientific agent\" scientific) OR (\"research agent\" scientific) OR (\"multi-agent\" scientific) OR (\"agent team\" scientific) OR (\"planner executor\" scientific) OR (critic reviewer scientific)",
+  "raw_occurrences": 17190,
+  "record_schema": [
+    "abstract",
+    "architecture_confidence",
+    "architecture_kind",
+    "document_type",
+    "doi",
+    "evidence_span",
+    "exclude_reason",
+    "identity",
+    "included_ai4science",
+    "included_llm4science",
+    "is_ai4science",
+    "is_llm4science",
+    "matched_query_texts",
+    "missing_source_fields",
+    "normalized_title",
+    "null_or_empty_source_fields",
+    "occurrence_indices",
+    "openalex_id",
+    "publication_date",
+    "publication_year",
+    "query_buckets",
+    "query_ids",
+    "source",
+    "title",
+    "work_type"
+  ],
+  "records_file": "deduplicated_corrected.jsonl.gz",
+  "status": "complete",
+  "time_window": {
+    "end_date": "2026-09-01",
+    "start_date": "2026-04-03"
+  }
+}

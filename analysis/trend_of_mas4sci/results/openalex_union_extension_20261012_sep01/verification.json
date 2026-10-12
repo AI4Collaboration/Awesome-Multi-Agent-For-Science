@@ -1,0 +1,33 @@
+{
+  "classification_records_reproduced": 17190,
+  "daily_remaining_usd": 0.046,
+  "daily_used_usd": 0.954,
+  "deduplicated_records": 17190,
+  "duplicate_ids": 0,
+  "extension_total_cost_usd": 0.087,
+  "frozen_base_manifest_unchanged": true,
+  "noncorpus_probe_cost_usd": 0.001,
+  "page_count": 86,
+  "queries": [
+    {
+      "pages": 86,
+      "query_id": "U1",
+      "raw_hits": 17190,
+      "terminal_cursor": null,
+      "total_reported": 17190
+    }
+  ],
+  "raw_occurrences": 17190,
+  "reported_request_cost_usd_exact": "0.086",
+  "union_equivalence": {
+    "date": "2024-03-01",
+    "duplicate_ids": 0,
+    "exact_set_match": true,
+    "expected_count": 122,
+    "extra_ids": [],
+    "missing_ids": [],
+    "reported_count": 122,
+    "retrieved_count": 122
+  },
+  "validated_complete": true
+}

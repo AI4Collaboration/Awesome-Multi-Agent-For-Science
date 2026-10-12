@@ -8,11 +8,13 @@ Question:
 
 ## Auditable OpenAlex Rerun
 
-The repaired collector uses exactly the original 17 queries and the publication
-window `2024-01-01` through `2026-04-02`. It saves every response page before
-advancing its cursor, reserves request costs before sending, and resumes from
-saved pages. Results are written to a new directory; historical outputs are not
-overwritten. The 2026 period is January 1 through April 2, not exact Q1.
+The completed snapshot covers `2024-01-01` through `2026-09-01`, inclusive,
+using the original 17 search expressions. They were queried separately through
+April 2; the April 3-September 1 extension uses their Boolean OR union to avoid
+downloading cross-query duplicates. A 122-record calibration day reproduced the
+same complete set of identifiers. Both batches were retrieved on `2026-10-12`.
+Every response page is saved before advancing its cursor. Costs are reserved
+before requests, and saved pages support resumption. The 2026 window is partial.
 
 The primary outputs are compressed raw pages, record-level classifications,
 deduplicated corpora, per-query completion counts, period proportions, cost
@@ -23,18 +25,21 @@ Methods, surveys/perspectives, and benchmarks/datasets remain eligible. These ar
 keyword-defined multi-agent proportions in a query-retrieved corpus, not verified
 swarm architectures or field-wide prevalence.
 
-See `results/openalex_rerun_20261012/` for the new evidence and run report.
-All 17 queries completed, yielding 84,106 query hits and 59,449 distinct records.
-The corrected screen retains 21,248 AI4Science records, including 8,331 LLM4Science records.
-All six fractions were independently reproduced from the saved response pages.
+Final counts are in `results/openalex_through_20260901/`. Raw response pages remain
+in `results/openalex_rerun_20261012/` and
+`results/openalex_union_extension_20261012_sep01/`. All retrieval streams completed:
+936 pages, 101,296 retrieval occurrences, and 76,639 distinct records.
+The corrected screen retains 28,270 AI4Science records, including 11,907 LLM4Science records.
+All six fractions were reproduced from the saved records after raw-page validation.
+The full day's API use, including cost probes, was $0.954 of the $1 allowance.
 
 | Publication period | LLM4Science multi-agent / all | AI4Science multi-agent / all |
 | --- | --- | --- |
 | 2024 | 146 / 2,031 = 7.19% | 367 / 5,911 = 6.21% |
 | 2025 | 571 / 3,924 = 14.55% | 1,044 / 10,301 = 10.13% |
-| 2026 Jan 1-Apr 2 | 499 / 2,376 = 21.00% | 767 / 5,036 = 15.23% |
+| 2026 Jan 1-Sep 1 | 1,230 / 5,952 = 20.67% | 1,895 / 12,058 = 15.72% |
 
-Its 850 compressed raw pages and both deduplicated corpora are retained for Git.
+The 936 compressed raw pages and deduplicated corpora are retained for Git.
 The reproducible `classified_occurrences.jsonl.gz` intermediate stays local and is
 ignored by Git; `--mode replay` regenerates it before validation. The evidence
 index retains its expected hash and marks it optional. Scoped Git attributes
@@ -299,6 +304,19 @@ Rebuild and validate the saved 2026-10-12 evidence without API access:
 & C:/Python313/python.exe -B scripts/openalex_mas4sci_from_2024.py --mode validate --out-dir results/openalex_rerun_20261012
 & C:/Python313/python.exe -B scripts/verify_openalex_evidence.py --out-dir results/openalex_rerun_20261012 --compare-git-legacy d6a37e4cae69b95efe85ed5467ad2fe519046b34
 ```
+
+The September 1 extension uses `scripts/openalex_union_extension.py` with
+`--mode collect --end-date 2026-09-01` and an `OPENALEX_API_KEY` environment
+variable. It retains the original keyword rules and leaves a $0.01 daily margin.
+
+Merge the two saved, verified windows without API access into a new output directory:
+
+```powershell
+python scripts/merge_openalex_windows.py results/openalex_rerun_20261012 results/openalex_union_extension_20261012_sep01 results/openalex_through_20260901_REPRODUCED
+```
+
+The merge checks adjacent date coverage, frozen classifier identity, query
+equivalence, duplicate identities, provenance, and the unchanged 2024/2025 counts.
 
 ## Notes
 

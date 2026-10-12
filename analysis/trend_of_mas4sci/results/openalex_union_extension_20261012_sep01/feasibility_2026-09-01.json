@@ -1,0 +1,22 @@
+{
+  "actual_per_page": 200,
+  "daily_remaining_usd": 0.131,
+  "daily_used_usd": 0.869,
+  "end_date": "2026-09-01",
+  "estimated_at": "2026-10-12T19:41:57.542766+00:00",
+  "estimated_data_pages": 86,
+  "extension_accounted_cost_usd": 0.002,
+  "first_page_records": 200,
+  "fits": true,
+  "logical_query_count": 17,
+  "physical_query_id": "U1",
+  "price_per_page_usd": 0.001,
+  "remaining_cost_with_allowances_usd": 0.087,
+  "remaining_pages": 85,
+  "requested_per_page": 200,
+  "retry_allowance_requests": 2,
+  "safe_additional_allowance_usd": 0.121,
+  "start_date": "2026-04-03",
+  "terminal_page_allowance": 0,
+  "total_reported": 17190
+}

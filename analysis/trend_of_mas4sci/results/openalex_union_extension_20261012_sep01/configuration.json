@@ -1,0 +1,105 @@
+{
+  "base_classifier_sha256": "9f2e3cd2319ee40cefd6615578db2c97c905209341af1dd840b444c3fbcbf0b2",
+  "base_manifest_sha256": "98f708958d98227cbb6a4f277d5d7e7c4d88b967f746cf028bf901b41cca4a00",
+  "classification": "Original lexical classifier and bookkeeping-corrected inclusion; no semantic changes.",
+  "logical_queries": [
+    {
+      "bucket": "broad",
+      "query_id": "B1",
+      "search_text": "\"AI for Science\""
+    },
+    {
+      "bucket": "broad",
+      "query_id": "B2",
+      "search_text": "AI4Science"
+    },
+    {
+      "bucket": "broad",
+      "query_id": "B5",
+      "search_text": "\"machine learning\" \"scientific discovery\""
+    },
+    {
+      "bucket": "broad",
+      "query_id": "B7",
+      "search_text": "\"deep learning\" \"scientific discovery\""
+    },
+    {
+      "bucket": "broad",
+      "query_id": "B9",
+      "search_text": "\"reinforcement learning\" \"scientific discovery\""
+    },
+    {
+      "bucket": "broad",
+      "query_id": "B10",
+      "search_text": "\"graph neural network\" \"scientific discovery\""
+    },
+    {
+      "bucket": "broad",
+      "query_id": "B11",
+      "search_text": "\"diffusion model\" \"scientific discovery\""
+    },
+    {
+      "bucket": "broad",
+      "query_id": "B12",
+      "search_text": "\"generative model\" \"scientific discovery\""
+    },
+    {
+      "bucket": "broad",
+      "query_id": "B13",
+      "search_text": "\"large language model\" \"scientific discovery\""
+    },
+    {
+      "bucket": "broad",
+      "query_id": "B14",
+      "search_text": "\"large language model\" \"scientific research\""
+    },
+    {
+      "bucket": "agentic",
+      "query_id": "A1",
+      "search_text": "\"AI scientist\""
+    },
+    {
+      "bucket": "agentic",
+      "query_id": "A2",
+      "search_text": "\"scientific agent\" scientific"
+    },
+    {
+      "bucket": "agentic",
+      "query_id": "A3",
+      "search_text": "\"research agent\" scientific"
+    },
+    {
+      "bucket": "multi-agent",
+      "query_id": "M1",
+      "search_text": "\"multi-agent\" scientific"
+    },
+    {
+      "bucket": "multi-agent",
+      "query_id": "M3",
+      "search_text": "\"agent team\" scientific"
+    },
+    {
+      "bucket": "multi-agent",
+      "query_id": "M4",
+      "search_text": "\"planner executor\" scientific"
+    },
+    {
+      "bucket": "multi-agent",
+      "query_id": "M5",
+      "search_text": "critic reviewer scientific"
+    }
+  ],
+  "physical_query_id": "U1",
+  "query_membership": "U1 identifies the OR union; individual clause membership is not inferred.",
+  "search": "(\"AI for Science\") OR (AI4Science) OR (\"machine learning\" \"scientific discovery\") OR (\"deep learning\" \"scientific discovery\") OR (\"reinforcement learning\" \"scientific discovery\") OR (\"graph neural network\" \"scientific discovery\") OR (\"diffusion model\" \"scientific discovery\") OR (\"generative model\" \"scientific discovery\") OR (\"large language model\" \"scientific discovery\") OR (\"large language model\" \"scientific research\") OR (\"AI scientist\") OR (\"scientific agent\" scientific) OR (\"research agent\" scientific) OR (\"multi-agent\" scientific) OR (\"agent team\" scientific) OR (\"planner executor\" scientific) OR (critic reviewer scientific)",
+  "select": [
+    "id",
+    "display_name",
+    "publication_date",
+    "publication_year",
+    "type",
+    "abstract_inverted_index",
+    "doi"
+  ],
+  "start_date": "2026-04-03"
+}

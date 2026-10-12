@@ -1,0 +1,16 @@
+{
+  "all_attempts_successful": true,
+  "frozen_manifest_unchanged": true,
+  "max_date": "2026-09-01",
+  "min_date": "2026-04-03",
+  "missing_selected_source_fields": {},
+  "null_or_empty_source_fields": {
+    "doi": 1365
+  },
+  "overlap_with_frozen_base_ids": [],
+  "page_count": 86,
+  "raw_date_and_identity_check_passed": true,
+  "raw_occurrences": 17190,
+  "raw_page_bytes": 18115968,
+  "total_extension_request_cost_usd_exact": "0.087"
+}

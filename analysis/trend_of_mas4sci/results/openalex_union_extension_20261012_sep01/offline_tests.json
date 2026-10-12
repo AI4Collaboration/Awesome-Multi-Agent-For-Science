@@ -1,0 +1,8 @@
+{
+  "errors": 0,
+  "failures": 0,
+  "log": "test_day_rollover_stops (__main__.OfflineTests.test_day_rollover_stops) ... ok\ntest_duplicate_records_rejected (__main__.OfflineTests.test_duplicate_records_rejected) ... ok\ntest_external_spending_reduces_allowance (__main__.OfflineTests.test_external_spending_reduces_allowance) ... ok\ntest_failed_request_remains_charged (__main__.OfflineTests.test_failed_request_remains_charged) ... ok\ntest_logical_queries_and_search_scope (__main__.OfflineTests.test_logical_queries_and_search_scope) ... ok\ntest_out_of_window_rejected (__main__.OfflineTests.test_out_of_window_rejected) ... ok\ntest_overall_daily_cap_and_margin (__main__.OfflineTests.test_overall_daily_cap_and_margin) ... ok\ntest_rate_response_key_not_saved (__main__.OfflineTests.test_rate_response_key_not_saved) ... ok\ntest_reserved_cost_survives_stale_balance (__main__.OfflineTests.test_reserved_cost_survives_stale_balance) ... ok\ntest_saved_page_reused_without_network (__main__.OfflineTests.test_saved_page_reused_without_network) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.086s\n\nOK\n",
+  "network": "mock_transport_only",
+  "passed": true,
+  "tests_run": 10
+}

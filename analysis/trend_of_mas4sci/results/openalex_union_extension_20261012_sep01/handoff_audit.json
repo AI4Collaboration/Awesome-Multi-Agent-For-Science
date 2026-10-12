@@ -1,0 +1,25 @@
+{
+  "expected_merged_deduplicated_records": 76639,
+  "expected_merged_raw_occurrences": 101296,
+  "field_count": 25,
+  "frozen_base_manifest_unchanged": true,
+  "occurrence_index_max": 17189,
+  "occurrence_index_min": 0,
+  "passed": true,
+  "proportions_recounted": {
+    "ai4science_denominator": 7022,
+    "ai4science_numerator": 1128,
+    "llm4science_denominator": 3576,
+    "llm4science_numerator": 731
+  },
+  "query_buckets": [
+    "union"
+  ],
+  "query_ids": [
+    "U1"
+  ],
+  "record_count": 17190,
+  "records_bytes": 12582746,
+  "records_file": "deduplicated_corrected.jsonl.gz",
+  "same_field_set_as_frozen_base": true
+}

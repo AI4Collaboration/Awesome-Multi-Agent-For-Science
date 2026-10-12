@@ -1,0 +1,3275 @@
+{
+  "accounted_extension_cost_usd": 0.087,
+  "attempts": [
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 1,
+      "finished_at": "2026-10-12T19:40:13.880147+00:00",
+      "page_number": 1,
+      "purpose": "equivalence_2024-03-01",
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:40:12.193257+00:00",
+      "saved_path": "pages/equivalence_2024-03-01/00001.json.gz",
+      "saved_sha256": "d0b97c262ec81aa1ec357f1e2c5b9095b9996b10d95d350b18b597483bdc2f05",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 2,
+      "finished_at": "2026-10-12T19:40:18.558949+00:00",
+      "page_number": 1,
+      "purpose": "incremental_2026-09-01",
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:40:14.139733+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00001.json.gz",
+      "saved_sha256": "cdac7387109ed45597ac839289a04440b6ee27a945661e59a0662cc239707fc6",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 3,
+      "finished_at": "2026-10-12T19:41:59.830611+00:00",
+      "page_number": 2,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1300",
+        "x-ratelimit-reset": "15479"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:41:57.875593+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00002.json.gz",
+      "saved_sha256": "5c30f6de0a025e4972c65e99cac3ca12548b92aa05ab1fd5ac90a22462944c53",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 4,
+      "finished_at": "2026-10-12T19:42:01.894245+00:00",
+      "page_number": 3,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1290",
+        "x-ratelimit-reset": "15477"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:00.126392+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00003.json.gz",
+      "saved_sha256": "10b50e726c5a25940d944646a8b4d9188fd230e1e8c3e793bd97efb69f4c98eb",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 5,
+      "finished_at": "2026-10-12T19:42:04.250604+00:00",
+      "page_number": 4,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1280",
+        "x-ratelimit-reset": "15475"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:02.196176+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00004.json.gz",
+      "saved_sha256": "9251d74e03e2d175e629386b15040dd376e540c591f88038f757f381e21a7f84",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 6,
+      "finished_at": "2026-10-12T19:42:06.339295+00:00",
+      "page_number": 5,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1270",
+        "x-ratelimit-reset": "15473"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:04.551026+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00005.json.gz",
+      "saved_sha256": "126b9ba3b0e9a67769be9df6831f027fc8ad4fa6b9aed7614d84e60ba42c18eb",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 7,
+      "finished_at": "2026-10-12T19:42:08.368144+00:00",
+      "page_number": 6,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1260",
+        "x-ratelimit-reset": "15471"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:06.647122+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00006.json.gz",
+      "saved_sha256": "24bcdfa5f9108cb0edb14d8dfeb53c3f7e7e20e67f9b2a272b003bd284f3a0d1",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 8,
+      "finished_at": "2026-10-12T19:42:10.470937+00:00",
+      "page_number": 7,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1250",
+        "x-ratelimit-reset": "15469"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:08.641369+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00007.json.gz",
+      "saved_sha256": "82ad8b883ab043fc1f5e290b7e25668a72fccf94c828741c20173292de7462c0",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 9,
+      "finished_at": "2026-10-12T19:42:12.536181+00:00",
+      "page_number": 8,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1240",
+        "x-ratelimit-reset": "15467"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:10.729454+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00008.json.gz",
+      "saved_sha256": "fe06cc33017f1c72cc48e2fe015f78c8e069a6f96da497a0f5e6f3653cabd11b",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 10,
+      "finished_at": "2026-10-12T19:42:14.632254+00:00",
+      "page_number": 9,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1230",
+        "x-ratelimit-reset": "15465"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:12.842708+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00009.json.gz",
+      "saved_sha256": "a2f22cf749d2bb98868b69f7469b0be1a27c567a4c27645bb82e22d0c9d0ca9d",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 11,
+      "finished_at": "2026-10-12T19:42:16.691748+00:00",
+      "page_number": 10,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1220",
+        "x-ratelimit-reset": "15462"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:14.907345+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00010.json.gz",
+      "saved_sha256": "804733b1ab7cd629e1560b532b1d33aa9c639197514c93b03296948454eb974b",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 12,
+      "finished_at": "2026-10-12T19:42:18.802066+00:00",
+      "page_number": 11,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1210",
+        "x-ratelimit-reset": "15460"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:17.034003+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00011.json.gz",
+      "saved_sha256": "14e7ce52b07136b77c58417aa84d8fb69a7843eb7d6ae0103f7c88eb522f2bf2",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 13,
+      "finished_at": "2026-10-12T19:42:20.935095+00:00",
+      "page_number": 12,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1200",
+        "x-ratelimit-reset": "15458"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:19.143080+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00012.json.gz",
+      "saved_sha256": "8b73552b4eb3c8791ad4cfdb96fe39e5ad00d145cecdd8067b02b21e89dcad3f",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 14,
+      "finished_at": "2026-10-12T19:42:22.955013+00:00",
+      "page_number": 13,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1190",
+        "x-ratelimit-reset": "15456"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:21.211095+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00013.json.gz",
+      "saved_sha256": "5cb4ee2b7aee2ba6132bafd7debcbd066cd187ddd394dd5d7ca77af2e1095f48",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 15,
+      "finished_at": "2026-10-12T19:42:25.189758+00:00",
+      "page_number": 14,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1180",
+        "x-ratelimit-reset": "15454"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:23.229853+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00014.json.gz",
+      "saved_sha256": "baeaef8ca9a7b9356858131247ca4825ba783111e7f65f65325d0d4cd33d7ab3",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 16,
+      "finished_at": "2026-10-12T19:42:27.981030+00:00",
+      "page_number": 15,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1170",
+        "x-ratelimit-reset": "15452"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:25.454054+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00015.json.gz",
+      "saved_sha256": "0aec4d458fdd696b355283b4b8c347fcb85b2c33bc0a52f6d36bf0e46ad8edac",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 17,
+      "finished_at": "2026-10-12T19:42:30.155395+00:00",
+      "page_number": 16,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1160",
+        "x-ratelimit-reset": "15449"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:28.304716+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00016.json.gz",
+      "saved_sha256": "5db593677f401fdca1a93d3c0af6267050f60ffec955bcdf93585d25c62e2203",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 18,
+      "finished_at": "2026-10-12T19:42:32.960445+00:00",
+      "page_number": 17,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1150",
+        "x-ratelimit-reset": "15447"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:30.422137+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00017.json.gz",
+      "saved_sha256": "9766d67f0dbaf54e5f7bece5b9e7afc77e25173d4284a493ead766db9104a3c2",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 19,
+      "finished_at": "2026-10-12T19:42:35.230648+00:00",
+      "page_number": 18,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1140",
+        "x-ratelimit-reset": "15444"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:33.266743+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00018.json.gz",
+      "saved_sha256": "526c9211c497c9ea9606f52f01e44ebd6e97baedb0e70bcbb3bffb1521598827",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 20,
+      "finished_at": "2026-10-12T19:42:37.246838+00:00",
+      "page_number": 19,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1130",
+        "x-ratelimit-reset": "15442"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:35.491985+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00019.json.gz",
+      "saved_sha256": "dd82b7a53bf379b63de2eb1947437e8cd625884b7e9562009e46cf6786c622c1",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 21,
+      "finished_at": "2026-10-12T19:42:40.172181+00:00",
+      "page_number": 20,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1120",
+        "x-ratelimit-reset": "15440"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:37.542150+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00020.json.gz",
+      "saved_sha256": "8e1055072a61f2f54ea78e0594e720fa383e41380cfb62f23b3c8e370e8d4eb2",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 22,
+      "finished_at": "2026-10-12T19:42:42.232810+00:00",
+      "page_number": 21,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1110",
+        "x-ratelimit-reset": "15437"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:40.506479+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00021.json.gz",
+      "saved_sha256": "c4e867a96f853d11d85870f9e8cf1b7a4d2af734fa2b76ac1517b99c9875db14",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 23,
+      "finished_at": "2026-10-12T19:42:44.431422+00:00",
+      "page_number": 22,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1100",
+        "x-ratelimit-reset": "15435"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:42.489419+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00022.json.gz",
+      "saved_sha256": "3359673a6c189e40a6a4306d84e6ffef714839509deb424de65ee33ce5735c54",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 24,
+      "finished_at": "2026-10-12T19:42:47.354810+00:00",
+      "page_number": 23,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1090",
+        "x-ratelimit-reset": "15432"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:44.704493+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00023.json.gz",
+      "saved_sha256": "9d1e8a0f5427ff40b4dec07c87782773148c1bec725781a18d96576e8d2dc988",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 25,
+      "finished_at": "2026-10-12T19:42:49.914004+00:00",
+      "page_number": 24,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1080",
+        "x-ratelimit-reset": "15430"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:47.642342+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00024.json.gz",
+      "saved_sha256": "a289b100e91a3d665ba7edbfa89c1a8fbcee2225389b519154d440933bfd388e",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 26,
+      "finished_at": "2026-10-12T19:42:52.360914+00:00",
+      "page_number": 25,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1070",
+        "x-ratelimit-reset": "15427"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:50.214426+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00025.json.gz",
+      "saved_sha256": "eb591654a3d093cc2850d0e7edc6bcf51a05ddcd37625da451df0b9e8883666f",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 27,
+      "finished_at": "2026-10-12T19:42:54.534606+00:00",
+      "page_number": 26,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1060",
+        "x-ratelimit-reset": "15425"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:52.648019+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00026.json.gz",
+      "saved_sha256": "0020f9915758f3fe173e78d2eae01c5f71fa08fd83424bcc43c7cf7c7240b28f",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 28,
+      "finished_at": "2026-10-12T19:42:56.810151+00:00",
+      "page_number": 27,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1050",
+        "x-ratelimit-reset": "15422"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:54.817152+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00027.json.gz",
+      "saved_sha256": "367ce141fe97f63eda5cd36b56837c36284ae20014481b44db8b92adba4a15bf",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 29,
+      "finished_at": "2026-10-12T19:42:59.075813+00:00",
+      "page_number": 28,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1040",
+        "x-ratelimit-reset": "15420"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:57.189396+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00028.json.gz",
+      "saved_sha256": "dc2cf7c6fc5cbb62a53a7d133054bc6b599c12dc03d1b73e013504168dacaddb",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 30,
+      "finished_at": "2026-10-12T19:43:01.132554+00:00",
+      "page_number": 29,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1030",
+        "x-ratelimit-reset": "15418"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:42:59.341663+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00029.json.gz",
+      "saved_sha256": "e074ad8cf2b6eee9a5cc0c546eba0f490153d68099fa6dd57dc4e556ea99ea26",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 31,
+      "finished_at": "2026-10-12T19:43:03.416785+00:00",
+      "page_number": 30,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1020",
+        "x-ratelimit-reset": "15416"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:01.393451+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00030.json.gz",
+      "saved_sha256": "4d12ac3111ce825f7fb22b687f30a1849defdfd4972eece4ff11c30a869f3f00",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 32,
+      "finished_at": "2026-10-12T19:43:05.954338+00:00",
+      "page_number": 31,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1010",
+        "x-ratelimit-reset": "15413"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:03.707436+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00031.json.gz",
+      "saved_sha256": "98db2ced0b63e3bab206826e5da5210b2fa0c945320010b010b17217eca5aeb4",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 33,
+      "finished_at": "2026-10-12T19:43:08.074105+00:00",
+      "page_number": 32,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1000",
+        "x-ratelimit-reset": "15411"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:06.240663+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00032.json.gz",
+      "saved_sha256": "ce8c6588220046e3b748f1cd13bb386cebbda46907f54ed65fafa6b31e55fa1b",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 34,
+      "finished_at": "2026-10-12T19:43:10.266414+00:00",
+      "page_number": 33,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "990",
+        "x-ratelimit-reset": "15409"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:08.365123+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00033.json.gz",
+      "saved_sha256": "33fefb63b45683aaa8859ac4791cc7e8e0a59a695e5f3c286e9b8a10eaeb1877",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 35,
+      "finished_at": "2026-10-12T19:43:12.749684+00:00",
+      "page_number": 34,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "980",
+        "x-ratelimit-reset": "15407"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:10.545267+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00034.json.gz",
+      "saved_sha256": "b6a9f60d3cf442c82a9276e866399012af1c6ef8a37604471f6d8f2ab482dacd",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 36,
+      "finished_at": "2026-10-12T19:43:14.784192+00:00",
+      "page_number": 35,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "970",
+        "x-ratelimit-reset": "15404"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:13.060750+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00035.json.gz",
+      "saved_sha256": "8825049051554dc077209da279b4293b65264f26006945313e2506575ce4ee2a",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 37,
+      "finished_at": "2026-10-12T19:43:16.731546+00:00",
+      "page_number": 36,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "960",
+        "x-ratelimit-reset": "15402"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:15.079715+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00036.json.gz",
+      "saved_sha256": "ed6a4fe55350d9b3e1a0316888a07ea5b2fae0cdd1dae164315c1593664e55ba",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 38,
+      "finished_at": "2026-10-12T19:43:18.811394+00:00",
+      "page_number": 37,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "950",
+        "x-ratelimit-reset": "15400"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:16.995873+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00037.json.gz",
+      "saved_sha256": "fe1ba4ee6630bf362865d91f84ca69aec9d1b772d122df524a1ae5e47632487e",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 39,
+      "finished_at": "2026-10-12T19:43:21.177975+00:00",
+      "page_number": 38,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "940",
+        "x-ratelimit-reset": "15398"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:19.428512+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00038.json.gz",
+      "saved_sha256": "4e2ffc6ee04f7406979c341b6630be951acfaab6a391ef55f8f676d11a6b1e11",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 40,
+      "finished_at": "2026-10-12T19:43:23.224426+00:00",
+      "page_number": 39,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "930",
+        "x-ratelimit-reset": "15396"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:21.453066+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00039.json.gz",
+      "saved_sha256": "327106958e7f39a23e16021fda2c176a2883cb54d9795f3ea65ae9056d7c0aa8",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 41,
+      "finished_at": "2026-10-12T19:43:25.302812+00:00",
+      "page_number": 40,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "920",
+        "x-ratelimit-reset": "15394"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:23.499722+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00040.json.gz",
+      "saved_sha256": "98bc50c750cfd1354f66ff0ea45690dd46059b67f1b661f5f56d13b16539c161",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 42,
+      "finished_at": "2026-10-12T19:43:27.339768+00:00",
+      "page_number": 41,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "910",
+        "x-ratelimit-reset": "15392"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:25.580680+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00041.json.gz",
+      "saved_sha256": "dd1b9bfabc6bd6f7b4990c401129e66091476100239360d703576bee031d2b51",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 43,
+      "finished_at": "2026-10-12T19:43:29.405063+00:00",
+      "page_number": 42,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "900",
+        "x-ratelimit-reset": "15390"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:27.640203+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00042.json.gz",
+      "saved_sha256": "af4f9e068a6b0b3bfb13b0811b98f8967603b6cc1032610cfd4d60485743a78b",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 44,
+      "finished_at": "2026-10-12T19:43:31.399011+00:00",
+      "page_number": 43,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "890",
+        "x-ratelimit-reset": "15388"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:29.703199+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00043.json.gz",
+      "saved_sha256": "b5ab3d1093b0880841beea219944c186323aa9db18d6f9a73c22cada90924a97",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 45,
+      "finished_at": "2026-10-12T19:43:33.521777+00:00",
+      "page_number": 44,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "880",
+        "x-ratelimit-reset": "15386"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:31.685051+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00044.json.gz",
+      "saved_sha256": "9e6c5768d88d594a61dbc66c3e76ca348b5411006999e99df257c70d6e617547",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 46,
+      "finished_at": "2026-10-12T19:43:35.542217+00:00",
+      "page_number": 45,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "870",
+        "x-ratelimit-reset": "15384"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:33.830164+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00045.json.gz",
+      "saved_sha256": "96cc602cdc340de69c3791644fd50d68ba2815ad5911151a35bc2934d1955696",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 47,
+      "finished_at": "2026-10-12T19:43:37.598356+00:00",
+      "page_number": 46,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "860",
+        "x-ratelimit-reset": "15382"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:35.827659+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00046.json.gz",
+      "saved_sha256": "14cd31c0f638cc20762a0463e06dab1ce133952d630462371cb8e5f22edfa871",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 48,
+      "finished_at": "2026-10-12T19:43:39.580587+00:00",
+      "page_number": 47,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "850",
+        "x-ratelimit-reset": "15380"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:37.866013+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00047.json.gz",
+      "saved_sha256": "9f781e8d3a7f07d45cef6704b2e67fc99bc1f4bb868668f8c9dbb47fee5cdf80",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 49,
+      "finished_at": "2026-10-12T19:43:41.572333+00:00",
+      "page_number": 48,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "840",
+        "x-ratelimit-reset": "15378"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:39.862490+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00048.json.gz",
+      "saved_sha256": "1f5c65b3db1ea5a4135091295c2c877773fd6bcdd98ff7efa342fd45365ea397",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 50,
+      "finished_at": "2026-10-12T19:43:43.862506+00:00",
+      "page_number": 49,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "830",
+        "x-ratelimit-reset": "15376"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:41.840465+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00049.json.gz",
+      "saved_sha256": "588b9b9457f79ae4fc82e7754b3276ff29135f6dc2a5f854677812626697935f",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 51,
+      "finished_at": "2026-10-12T19:43:46.236350+00:00",
+      "page_number": 50,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "820",
+        "x-ratelimit-reset": "15373"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:44.191724+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00050.json.gz",
+      "saved_sha256": "a4c9d618ad85fc02d804e79db5bf17b2ae2b21a6fb681ae7b845d3db69ccb681",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 52,
+      "finished_at": "2026-10-12T19:43:48.605965+00:00",
+      "page_number": 51,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "810",
+        "x-ratelimit-reset": "15371"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:46.514024+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00051.json.gz",
+      "saved_sha256": "a6a21fa67bc92dcb96681ee83d5aae9ffef055049eb79e3ec30df8e24ce008b1",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 53,
+      "finished_at": "2026-10-12T19:43:50.673155+00:00",
+      "page_number": 52,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "800",
+        "x-ratelimit-reset": "15368"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:48.909598+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00052.json.gz",
+      "saved_sha256": "733ee3f4124c13faf32151c02d68ec817fb08d7be9101ffc99f90f1255771879",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 54,
+      "finished_at": "2026-10-12T19:43:52.703144+00:00",
+      "page_number": 53,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "790",
+        "x-ratelimit-reset": "15366"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:50.958963+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00053.json.gz",
+      "saved_sha256": "8bf8a27a187a2d13e0f476f24f5df93292d77038b81f9c5423e164c842bbec11",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 55,
+      "finished_at": "2026-10-12T19:43:55.325460+00:00",
+      "page_number": 54,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "780",
+        "x-ratelimit-reset": "15364"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:52.987845+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00054.json.gz",
+      "saved_sha256": "8c52027fa781dcb94c06dbce8ad0b3e32ccf0c7d9de3a8812601dacc5884c1c5",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 56,
+      "finished_at": "2026-10-12T19:43:57.560711+00:00",
+      "page_number": 55,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "770",
+        "x-ratelimit-reset": "15362"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:55.613957+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00055.json.gz",
+      "saved_sha256": "f3fe710be82b3692083f3e2e08b01ca875872bdb88fc6a5116af37ced354c4aa",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 57,
+      "finished_at": "2026-10-12T19:44:00.067818+00:00",
+      "page_number": 56,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "760",
+        "x-ratelimit-reset": "15359"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:43:57.938306+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00056.json.gz",
+      "saved_sha256": "e60e23f8db8ba3173381f84c3d097eb36871af789dc63a3752c4ec0658587c8a",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 58,
+      "finished_at": "2026-10-12T19:44:02.561730+00:00",
+      "page_number": 57,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "750",
+        "x-ratelimit-reset": "15357"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:00.377066+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00057.json.gz",
+      "saved_sha256": "eec95f7ded2ac33caba2b4d8cc05cfe9c719be2616c02462f4d4522e4f51d99f",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 59,
+      "finished_at": "2026-10-12T19:44:04.701718+00:00",
+      "page_number": 58,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "740",
+        "x-ratelimit-reset": "15354"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:02.873796+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00058.json.gz",
+      "saved_sha256": "a5a3fcc627114ac2ad6eb7ae518e2f6e94a1436c47cdce44a7524d779c1d2fb9",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 60,
+      "finished_at": "2026-10-12T19:44:06.883120+00:00",
+      "page_number": 59,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "730",
+        "x-ratelimit-reset": "15352"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:04.998843+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00059.json.gz",
+      "saved_sha256": "fbbf33ab9a4fe83fa9e5b955edfaca4ed0fa6da7c1db10fb2dc1ec56acda7580",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 61,
+      "finished_at": "2026-10-12T19:44:08.888399+00:00",
+      "page_number": 60,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "720",
+        "x-ratelimit-reset": "15350"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:07.164440+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00060.json.gz",
+      "saved_sha256": "cae622eb7f619fcc0010295c17a2e60d4482192f867eb7a486d45ac25e04cb67",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 62,
+      "finished_at": "2026-10-12T19:44:10.910614+00:00",
+      "page_number": 61,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "710",
+        "x-ratelimit-reset": "15348"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:09.198441+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00061.json.gz",
+      "saved_sha256": "5b0178818468c379ad279933f7572bab1f8644dc84862a41af1c7db21657b1f6",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 63,
+      "finished_at": "2026-10-12T19:44:13.003343+00:00",
+      "page_number": 62,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "700",
+        "x-ratelimit-reset": "15346"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:11.223814+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00062.json.gz",
+      "saved_sha256": "235bda7dee944a9704908e90482bffb44a5b3aeab5c5936622796f6224e77080",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 64,
+      "finished_at": "2026-10-12T19:44:15.067020+00:00",
+      "page_number": 63,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "690",
+        "x-ratelimit-reset": "15344"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:13.320795+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00063.json.gz",
+      "saved_sha256": "1f12bbfa8d92748ccc8e3c125df1d9fa8f422503f55f4af6fca9c55a5c1f8bbc",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 65,
+      "finished_at": "2026-10-12T19:44:17.367658+00:00",
+      "page_number": 64,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "680",
+        "x-ratelimit-reset": "15342"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:15.369273+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00064.json.gz",
+      "saved_sha256": "68d2166fd33f2f4927ea31a48fe89dd5e38f0dc277dfcdbe1157439cdd668a28",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 66,
+      "finished_at": "2026-10-12T19:44:19.460388+00:00",
+      "page_number": 65,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "670",
+        "x-ratelimit-reset": "15340"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:17.685484+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00065.json.gz",
+      "saved_sha256": "bb64dfd8fafc4d898ebbb4d118c0efa3a600670e0637bdf5c152a672ea371f9f",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 67,
+      "finished_at": "2026-10-12T19:44:21.502361+00:00",
+      "page_number": 66,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "660",
+        "x-ratelimit-reset": "15338"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:19.775714+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00066.json.gz",
+      "saved_sha256": "e5e8d335b1cb153549e9b3035ad15d6d5928f0680788ff0562922c3c3ae685e1",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 68,
+      "finished_at": "2026-10-12T19:44:23.587754+00:00",
+      "page_number": 67,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "650",
+        "x-ratelimit-reset": "15336"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:21.805420+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00067.json.gz",
+      "saved_sha256": "b136c3a1651ccaabc8b7a24b8b29dfca248479df0cc5faea24db8317aeea11de",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 69,
+      "finished_at": "2026-10-12T19:44:25.767956+00:00",
+      "page_number": 68,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "640",
+        "x-ratelimit-reset": "15333"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:23.897420+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00068.json.gz",
+      "saved_sha256": "60a6d319838167e7f0c76024e0bfb587e744a0be0e26a2965bdce632f0e024cb",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 70,
+      "finished_at": "2026-10-12T19:44:28.168249+00:00",
+      "page_number": 69,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "630",
+        "x-ratelimit-reset": "15331"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:26.080642+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00069.json.gz",
+      "saved_sha256": "c72f803f86b7f7e5b66e2baefba1e2512f2b63a810cf4c8f42c0c2c3dbedd332",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 71,
+      "finished_at": "2026-10-12T19:44:30.259267+00:00",
+      "page_number": 70,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "620",
+        "x-ratelimit-reset": "15329"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:28.482767+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00070.json.gz",
+      "saved_sha256": "6e1b9f135d913e549a188c1c14b8c2bd51d51b6cb3c8e5f478d7033fb4868e22",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 72,
+      "finished_at": "2026-10-12T19:44:32.360681+00:00",
+      "page_number": 71,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "610",
+        "x-ratelimit-reset": "15327"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:30.544607+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00071.json.gz",
+      "saved_sha256": "ebca34edcf16e17f8e08154c94e6f16080e9dfed5b23dd19aa4a97730b9d4231",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 73,
+      "finished_at": "2026-10-12T19:44:34.564053+00:00",
+      "page_number": 72,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "600",
+        "x-ratelimit-reset": "15325"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:32.663037+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00072.json.gz",
+      "saved_sha256": "8ee61f8e9d34260bde2d337eb7828ad95caeda8c6c9eed94119d30363084a821",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 74,
+      "finished_at": "2026-10-12T19:44:36.940850+00:00",
+      "page_number": 73,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "590",
+        "x-ratelimit-reset": "15322"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:34.845489+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00073.json.gz",
+      "saved_sha256": "ada2ee81a41b6864acb8382cf471822804be9303739045369dcabb93efd38dc7",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 75,
+      "finished_at": "2026-10-12T19:44:39.356908+00:00",
+      "page_number": 74,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "580",
+        "x-ratelimit-reset": "15320"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:37.217002+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00074.json.gz",
+      "saved_sha256": "49589625508cc29dad8449a20fdb40af76849dbdf0398e66f7be7515dd55e846",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 76,
+      "finished_at": "2026-10-12T19:44:41.606712+00:00",
+      "page_number": 75,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "570",
+        "x-ratelimit-reset": "15318"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:39.670895+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00075.json.gz",
+      "saved_sha256": "257c1f04a993e39694b9fdcc08ad1def9fc2d3b6004f69eb8b727ce86f07a8b4",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 77,
+      "finished_at": "2026-10-12T19:44:43.787646+00:00",
+      "page_number": 76,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "560",
+        "x-ratelimit-reset": "15315"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:41.882991+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00076.json.gz",
+      "saved_sha256": "a78079073212d0eb0c5c622a50f9751f200e347249ef2ec92005d84f01a6717e",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 78,
+      "finished_at": "2026-10-12T19:44:45.775227+00:00",
+      "page_number": 77,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "550",
+        "x-ratelimit-reset": "15313"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:44.068051+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00077.json.gz",
+      "saved_sha256": "9e8d079f1325462b6f6884f6a0bd6f85d0bc337608b78b9ddc8ae7c04eeaa854",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 79,
+      "finished_at": "2026-10-12T19:44:48.089329+00:00",
+      "page_number": 78,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "540",
+        "x-ratelimit-reset": "15311"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:46.063890+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00078.json.gz",
+      "saved_sha256": "5f1ebfc3e8568b4a16e6dc6eb8b45082d410d398598636be3a110cdfe6ec3ce5",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 80,
+      "finished_at": "2026-10-12T19:44:50.222430+00:00",
+      "page_number": 79,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "530",
+        "x-ratelimit-reset": "15309"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:48.372293+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00079.json.gz",
+      "saved_sha256": "316e3be4530c0297626831016eeda3b61ae83e99707c6af2b70c75e338df642d",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 81,
+      "finished_at": "2026-10-12T19:44:52.335729+00:00",
+      "page_number": 80,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "520",
+        "x-ratelimit-reset": "15307"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:50.504698+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00080.json.gz",
+      "saved_sha256": "d141ad03e9c95a00d44d918dcae2b326868b9179d92471bf4e88c7ef37b4df57",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 82,
+      "finished_at": "2026-10-12T19:44:54.450717+00:00",
+      "page_number": 81,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "510",
+        "x-ratelimit-reset": "15305"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:52.636500+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00081.json.gz",
+      "saved_sha256": "baed38c2d6ae3f19834dba7046163d727910a4355f8c001366111b9829f4d8d9",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 83,
+      "finished_at": "2026-10-12T19:44:56.617704+00:00",
+      "page_number": 82,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "500",
+        "x-ratelimit-reset": "15303"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:54.758744+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00082.json.gz",
+      "saved_sha256": "be2cba1454e9ad8faa0f7325dbef654b8c407ae7325482d9cc3e14c8f8434bbd",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 84,
+      "finished_at": "2026-10-12T19:44:58.863370+00:00",
+      "page_number": 83,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "490",
+        "x-ratelimit-reset": "15300"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:56.911269+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00083.json.gz",
+      "saved_sha256": "997dda93d7fe33e909d2e82d58a817841d6f2c89ac8f5bfd04ef4d6debe2ede2",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 85,
+      "finished_at": "2026-10-12T19:45:01.189905+00:00",
+      "page_number": 84,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "480",
+        "x-ratelimit-reset": "15298"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:44:59.171230+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00084.json.gz",
+      "saved_sha256": "ba44439ccf81c495ee5a09010aa8753baf92541e4b5d9a7ce369881afb84da2a",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 86,
+      "finished_at": "2026-10-12T19:45:03.356937+00:00",
+      "page_number": 85,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "470",
+        "x-ratelimit-reset": "15296"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:45:01.473706+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00085.json.gz",
+      "saved_sha256": "71d8477d1f6306fd14d0ba5238162f7e952a998bf59249d9ffa14ca86082d932",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 87,
+      "finished_at": "2026-10-12T19:45:05.808066+00:00",
+      "page_number": 86,
+      "purpose": "incremental_2026-09-01",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "460",
+        "x-ratelimit-reset": "15294"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:45:03.639743+00:00",
+      "saved_path": "pages/incremental_2026-09-01/00086.json.gz",
+      "saved_sha256": "5a4d0cfed92cb8a5043118477b96bf9737f5962cfd4e4120be57e1bde01c6f92",
+      "status": 200
+    }
+  ],
+  "free_margin_usd": 0.01,
+  "initial_daily_used_microdollars": 867000,
+  "overall_daily_cap_usd": 0.99,
+  "snapshots": [
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.133,
+      "daily_used_usd": 0.867,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:40:12.189856+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.132,
+      "daily_used_usd": 0.868,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:40:14.136237+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.131,
+      "daily_used_usd": 0.869,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:40:18.802652+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.131,
+      "daily_used_usd": 0.869,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:41:57.514625+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.131,
+      "daily_used_usd": 0.869,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:41:57.860967+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.13,
+      "daily_used_usd": 0.87,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:00.124879+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.129,
+      "daily_used_usd": 0.871,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:02.176591+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.128,
+      "daily_used_usd": 0.872,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:04.530134+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.127,
+      "daily_used_usd": 0.873,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:06.633167+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.126,
+      "daily_used_usd": 0.874,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:08.638427+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.125,
+      "daily_used_usd": 0.875,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:10.727018+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.124,
+      "daily_used_usd": 0.876,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:12.802476+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.123,
+      "daily_used_usd": 0.877,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:14.905495+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.122,
+      "daily_used_usd": 0.878,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:16.968312+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.121,
+      "daily_used_usd": 0.879,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:19.108746+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.12,
+      "daily_used_usd": 0.88,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:21.196632+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.119,
+      "daily_used_usd": 0.881,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:23.227666+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.118,
+      "daily_used_usd": 0.882,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:25.451240+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.117,
+      "daily_used_usd": 0.883,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:28.260659+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.116,
+      "daily_used_usd": 0.884,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:30.420297+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.115,
+      "daily_used_usd": 0.885,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:33.218996+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.114,
+      "daily_used_usd": 0.886,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:35.489424+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.113,
+      "daily_used_usd": 0.887,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:37.507367+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.112,
+      "daily_used_usd": 0.888,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:40.431442+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.111,
+      "daily_used_usd": 0.889,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:42.487718+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.11,
+      "daily_used_usd": 0.89,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:44.702857+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.109,
+      "daily_used_usd": 0.891,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:47.640262+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.108,
+      "daily_used_usd": 0.892,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:50.196366+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.107,
+      "daily_used_usd": 0.893,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:52.646578+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.106,
+      "daily_used_usd": 0.894,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:54.814638+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.105,
+      "daily_used_usd": 0.895,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:57.119096+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.104,
+      "daily_used_usd": 0.896,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:42:59.340087+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.103,
+      "daily_used_usd": 0.897,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:01.391651+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.102,
+      "daily_used_usd": 0.898,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:03.692963+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.101,
+      "daily_used_usd": 0.899,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:06.221544+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.1,
+      "daily_used_usd": 0.9,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:08.348897+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.099,
+      "daily_used_usd": 0.901,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:10.543026+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.098,
+      "daily_used_usd": 0.902,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:13.058857+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.097,
+      "daily_used_usd": 0.903,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:15.077433+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.096,
+      "daily_used_usd": 0.904,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:16.993278+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.095,
+      "daily_used_usd": 0.905,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:19.426191+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.094,
+      "daily_used_usd": 0.906,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:21.450823+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.093,
+      "daily_used_usd": 0.907,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:23.497479+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.092,
+      "daily_used_usd": 0.908,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:25.572926+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.091,
+      "daily_used_usd": 0.909,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:27.624018+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.09,
+      "daily_used_usd": 0.91,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:29.685425+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.089,
+      "daily_used_usd": 0.911,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:31.668480+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.088,
+      "daily_used_usd": 0.912,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:33.808472+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.087,
+      "daily_used_usd": 0.913,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:35.812976+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.086,
+      "daily_used_usd": 0.914,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:37.863917+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.085,
+      "daily_used_usd": 0.915,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:39.859910+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.084,
+      "daily_used_usd": 0.916,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:41.838544+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.083,
+      "daily_used_usd": 0.917,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:44.189848+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.082,
+      "daily_used_usd": 0.918,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:46.512013+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.081,
+      "daily_used_usd": 0.919,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:48.907566+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.08,
+      "daily_used_usd": 0.92,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:50.957010+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.079,
+      "daily_used_usd": 0.921,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:52.985471+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.078,
+      "daily_used_usd": 0.922,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:55.611541+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.077,
+      "daily_used_usd": 0.923,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:43:57.936096+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.076,
+      "daily_used_usd": 0.924,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:00.375029+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.075,
+      "daily_used_usd": 0.925,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:02.871449+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.074,
+      "daily_used_usd": 0.926,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:04.996638+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.073,
+      "daily_used_usd": 0.927,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:07.161996+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.072,
+      "daily_used_usd": 0.928,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:09.174577+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.071,
+      "daily_used_usd": 0.929,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:11.205984+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.07,
+      "daily_used_usd": 0.93,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:13.302769+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.069,
+      "daily_used_usd": 0.931,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:15.346995+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.068,
+      "daily_used_usd": 0.932,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:17.662302+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.067,
+      "daily_used_usd": 0.933,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:19.759881+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.066,
+      "daily_used_usd": 0.934,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:21.783167+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.065,
+      "daily_used_usd": 0.935,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:23.876624+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.064,
+      "daily_used_usd": 0.936,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:26.056791+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.063,
+      "daily_used_usd": 0.937,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:28.457483+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.062,
+      "daily_used_usd": 0.938,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:30.542023+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.061,
+      "daily_used_usd": 0.939,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:32.660412+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.06,
+      "daily_used_usd": 0.94,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:34.842540+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.059,
+      "daily_used_usd": 0.941,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:37.214585+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.058,
+      "daily_used_usd": 0.942,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:39.668509+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.057,
+      "daily_used_usd": 0.943,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:41.880638+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.056,
+      "daily_used_usd": 0.944,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:44.065669+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.055,
+      "daily_used_usd": 0.945,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:46.061054+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.054,
+      "daily_used_usd": 0.946,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:48.370029+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.053,
+      "daily_used_usd": 0.947,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:50.502327+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.052,
+      "daily_used_usd": 0.948,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:52.634498+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.051,
+      "daily_used_usd": 0.949,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:54.756134+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.05,
+      "daily_used_usd": 0.95,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:56.905728+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.049,
+      "daily_used_usd": 0.951,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:44:59.168641+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.048,
+      "daily_used_usd": 0.952,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:45:01.471095+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.047,
+      "daily_used_usd": 0.953,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:45:03.637599+00:00"
+    },
+    {
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.046,
+      "daily_used_usd": 0.954,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:45:06.101123+00:00"
+    }
+  ],
+  "utc_day": "2026-10-12"
+}

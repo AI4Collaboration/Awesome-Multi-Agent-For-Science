@@ -1,0 +1,10 @@
+{
+  "corrected_exclude_reasons": {
+    "included": 28270,
+    "not_science_scope": 48042,
+    "out_of_scope": 324,
+    "unclear_architecture": 3
+  },
+  "cross_window_duplicate_identities": 0,
+  "rubric_changes": []
+}

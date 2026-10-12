@@ -1,0 +1,4 @@
+{
+  "method": "Authorization Bearer header; value not persisted",
+  "source": "explicitly_authorized_historical_git_blob_in_memory"
+}

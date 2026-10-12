@@ -1,0 +1,301 @@
+{
+  "architecture_evidence_counts": {
+    "2 multi-agent role words": 48,
+    "3 multi-agent role words": 7,
+    "4 multi-agent role words": 1,
+    "COORDINATION": 4,
+    "Coordination": 109,
+    "DEbate": 1,
+    "Debate": 40,
+    "Delegation": 7,
+    "MULTI AGENT": 1,
+    "MULTI-AGENT": 41,
+    "Multi Agent": 16,
+    "Multi agent": 7,
+    "Multi-Agent": 1205,
+    "Multi-agenT": 1,
+    "Multi-agent": 169,
+    "Multiple Agents": 1,
+    "Multiple agents": 1,
+    "Planner-Executor": 1,
+    "agent team": 1,
+    "coordination": 919,
+    "debate": 530,
+    "delegation": 44,
+    "multi agent": 17,
+    "multi-Agent": 3,
+    "multi-agent": 2035,
+    "multiple agents": 49,
+    "planner-executor": 3,
+    "team of agents": 2
+  },
+  "attempts_without_pages": [],
+  "cost_estimate_verification": {
+    "fits_current_safe_budget": true,
+    "reporting_correction_applied": false,
+    "run_cost_estimate_usd": 0.867,
+    "verified_from_saved_budget_evidence": true
+  },
+  "credential_check": {
+    "credential_source": "in-memory values only; values never exported",
+    "credential_values_checked": 1,
+    "files_checked": 875,
+    "files_with_matches": [],
+    "passed": true,
+    "scan_scope": "new dated output directory only; includes decompressed evidence"
+  },
+  "deduplicated_records": 59449,
+  "legacy_compatibility": {
+    "all_period_summaries_match": true,
+    "classification_differences": [],
+    "compared_occurrences": 84106,
+    "deduplication_matches": true,
+    "null_adapter_definition": "Only null display_name, id, or publication_date values are mapped to empty strings before executing the original collector. Raw pages retain the original values; missing-title records remain unclear.",
+    "source": {
+      "git_commit": "d6a37e4cae69b95efe85ed5467ad2fe519046b34",
+      "path": "provenance/openalex_original.7a2c6927ae4f0327.py",
+      "sha256": "7a2c6927ae4f032734cce1f8ee3b03193f40e5a5fdc51337b97d1666856ef5fb"
+    },
+    "source_null_to_empty_adaptations": [
+      {
+        "fields": [
+          "display_name"
+        ],
+        "occurrence_index": 11267
+      },
+      {
+        "fields": [
+          "display_name"
+        ],
+        "occurrence_index": 19692
+      },
+      {
+        "fields": [
+          "display_name"
+        ],
+        "occurrence_index": 32219
+      },
+      {
+        "fields": [
+          "display_name"
+        ],
+        "occurrence_index": 77552
+      }
+    ]
+  },
+  "missing_source_fields": {},
+  "null_or_empty_source_fields": {
+    "display_name": 5,
+    "doi": 5858
+  },
+  "page_count": 850,
+  "queries": [
+    {
+      "pages": 74,
+      "query_id": "B1",
+      "raw_hits": 7365,
+      "terminal_cursor": null,
+      "total_reported": 7365
+    },
+    {
+      "pages": 5,
+      "query_id": "B2",
+      "raw_hits": 481,
+      "terminal_cursor": null,
+      "total_reported": 481
+    },
+    {
+      "pages": 97,
+      "query_id": "B5",
+      "raw_hits": 9638,
+      "terminal_cursor": null,
+      "total_reported": 9638
+    },
+    {
+      "pages": 61,
+      "query_id": "B7",
+      "raw_hits": 6025,
+      "terminal_cursor": null,
+      "total_reported": 6025
+    },
+    {
+      "pages": 28,
+      "query_id": "B9",
+      "raw_hits": 2799,
+      "terminal_cursor": null,
+      "total_reported": 2799
+    },
+    {
+      "pages": 13,
+      "query_id": "B10",
+      "raw_hits": 1246,
+      "terminal_cursor": null,
+      "total_reported": 1246
+    },
+    {
+      "pages": 9,
+      "query_id": "B11",
+      "raw_hits": 841,
+      "terminal_cursor": null,
+      "total_reported": 841
+    },
+    {
+      "pages": 20,
+      "query_id": "B12",
+      "raw_hits": 1953,
+      "terminal_cursor": null,
+      "total_reported": 1953
+    },
+    {
+      "pages": 50,
+      "query_id": "B13",
+      "raw_hits": 4915,
+      "terminal_cursor": null,
+      "total_reported": 4915
+    },
+    {
+      "pages": 138,
+      "query_id": "B14",
+      "raw_hits": 13716,
+      "terminal_cursor": null,
+      "total_reported": 13716
+    },
+    {
+      "pages": 18,
+      "query_id": "A1",
+      "raw_hits": 1758,
+      "terminal_cursor": null,
+      "total_reported": 1758
+    },
+    {
+      "pages": 3,
+      "query_id": "A2",
+      "raw_hits": 251,
+      "terminal_cursor": null,
+      "total_reported": 251
+    },
+    {
+      "pages": 9,
+      "query_id": "A3",
+      "raw_hits": 806,
+      "terminal_cursor": null,
+      "total_reported": 806
+    },
+    {
+      "pages": 250,
+      "query_id": "M1",
+      "raw_hits": 24934,
+      "terminal_cursor": null,
+      "total_reported": 24934
+    },
+    {
+      "pages": 6,
+      "query_id": "M3",
+      "raw_hits": 563,
+      "terminal_cursor": null,
+      "total_reported": 563
+    },
+    {
+      "pages": 2,
+      "query_id": "M4",
+      "raw_hits": 118,
+      "terminal_cursor": null,
+      "total_reported": 118
+    },
+    {
+      "pages": 67,
+      "query_id": "M5",
+      "raw_hits": 6697,
+      "terminal_cursor": null,
+      "total_reported": 6697
+    }
+  ],
+  "query_count": 17,
+  "raw_occurrences": 84106,
+  "reported_request_cost_usd_exact": "0.850",
+  "search_attempts": 850,
+  "validated_complete": true,
+  "validation_method": "Independent raw-page, identity, cursor, count, provenance, cost, source-hash and denominator checks; no human labeling audit.",
+  "verified_proportions": {
+    "bookkeeping_corrected": {
+      "2024": {
+        "ai4science": {
+          "denominator": 5911,
+          "numerator": 367,
+          "percent": 6.208763322618846
+        },
+        "llm4science": {
+          "denominator": 2031,
+          "numerator": 146,
+          "percent": 7.188577055637617
+        }
+      },
+      "2025": {
+        "ai4science": {
+          "denominator": 10301,
+          "numerator": 1044,
+          "percent": 10.134938355499466
+        },
+        "llm4science": {
+          "denominator": 3924,
+          "numerator": 571,
+          "percent": 14.551478083588176
+        }
+      },
+      "2026_ytd": {
+        "ai4science": {
+          "denominator": 5036,
+          "numerator": 767,
+          "percent": 15.230341540905481
+        },
+        "llm4science": {
+          "denominator": 2376,
+          "numerator": 499,
+          "percent": 21.0016835016835
+        }
+      }
+    },
+    "legacy_exact": {
+      "2024": {
+        "ai4science": {
+          "denominator": 5911,
+          "numerator": 367,
+          "percent": 6.208763322618846
+        },
+        "llm4science": {
+          "denominator": 2031,
+          "numerator": 146,
+          "percent": 7.188577055637617
+        }
+      },
+      "2025": {
+        "ai4science": {
+          "denominator": 10302,
+          "numerator": 1044,
+          "percent": 10.13395457192778
+        },
+        "llm4science": {
+          "denominator": 3925,
+          "numerator": 571,
+          "percent": 14.547770700636942
+        }
+      },
+      "2026_ytd": {
+        "ai4science": {
+          "denominator": 5036,
+          "numerator": 767,
+          "percent": 15.230341540905481
+        },
+        "llm4science": {
+          "denominator": 2376,
+          "numerator": 499,
+          "percent": 21.0016835016835
+        }
+      }
+    }
+  },
+  "verifier_source": {
+    "path": "provenance/verify_openalex_evidence.104adb91d996f3c4.py",
+    "sha256": "104adb91d996f3c42206f758df2ea0f5f6f286d68bc202d0a727e236a39554b2"
+  }
+}

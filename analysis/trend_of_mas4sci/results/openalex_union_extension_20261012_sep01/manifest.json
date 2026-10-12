@@ -1,0 +1,1188 @@
+{
+  "artifacts": {
+    "budget.json": {
+      "bytes": 104505,
+      "sha256": "43d1791c769fbe9d5bf026926ff60dea6c43582cdeb6a92edc6c65441d41ed83"
+    },
+    "credential_check.json": {
+      "bytes": 212,
+      "sha256": "5917f3d07ef554064c08d4dad136b6d5589c952c914ad18b62f5011d696e3161"
+    },
+    "deduplicated_corrected.jsonl.gz": {
+      "bytes": 12582746,
+      "sha256": "b9fe0da723c5903d837edda0146cd8862d19be29734747c42ce8e5c9575893e1"
+    },
+    "handoff_audit.json": {
+      "bytes": 631,
+      "sha256": "cf244aedf02b1b1bbc63c8f89083f188418eb076dcb676443fb1e1adf42dde3e"
+    },
+    "offline_tests.json": {
+      "bytes": 1239,
+      "sha256": "bbda16d772223d6da958c642f2ab1f079780c439a1f1b9f63869925448a7bc05"
+    },
+    "raw_independent_audit.json": {
+      "bytes": 442,
+      "sha256": "1ada50f423ea2b5c670fbe2a503fe91f5ac689754734ad16b980018dec23d6c4"
+    },
+    "summary.json": {
+      "bytes": 4400,
+      "sha256": "051c77f59010ad6a1035be16120cd4682d26a9589504262f3c55642d4500e7d4"
+    },
+    "union_equivalence.json": {
+      "bytes": 192,
+      "sha256": "c034afc65446afe2dac7812fc179c98c5227c22710872f3a1dea81bb0fe2c804"
+    },
+    "verification.json": {
+      "bytes": 798,
+      "sha256": "30391b700e6801c9a44338256e5ced9aa9b214046fa0a25eee5d35d7cb62d14c"
+    }
+  },
+  "configuration": {
+    "classifier_sha256": "9f2e3cd2319ee40cefd6615578db2c97c905209341af1dd840b444c3fbcbf0b2",
+    "end_date": "2026-09-01",
+    "filter": "from_publication_date:2026-04-03,to_publication_date:2026-09-01,has_abstract:true,type:!paratext",
+    "logical_queries": [
+      {
+        "bucket": "broad",
+        "query_id": "B1",
+        "search_text": "\"AI for Science\""
+      },
+      {
+        "bucket": "broad",
+        "query_id": "B2",
+        "search_text": "AI4Science"
+      },
+      {
+        "bucket": "broad",
+        "query_id": "B5",
+        "search_text": "\"machine learning\" \"scientific discovery\""
+      },
+      {
+        "bucket": "broad",
+        "query_id": "B7",
+        "search_text": "\"deep learning\" \"scientific discovery\""
+      },
+      {
+        "bucket": "broad",
+        "query_id": "B9",
+        "search_text": "\"reinforcement learning\" \"scientific discovery\""
+      },
+      {
+        "bucket": "broad",
+        "query_id": "B10",
+        "search_text": "\"graph neural network\" \"scientific discovery\""
+      },
+      {
+        "bucket": "broad",
+        "query_id": "B11",
+        "search_text": "\"diffusion model\" \"scientific discovery\""
+      },
+      {
+        "bucket": "broad",
+        "query_id": "B12",
+        "search_text": "\"generative model\" \"scientific discovery\""
+      },
+      {
+        "bucket": "broad",
+        "query_id": "B13",
+        "search_text": "\"large language model\" \"scientific discovery\""
+      },
+      {
+        "bucket": "broad",
+        "query_id": "B14",
+        "search_text": "\"large language model\" \"scientific research\""
+      },
+      {
+        "bucket": "agentic",
+        "query_id": "A1",
+        "search_text": "\"AI scientist\""
+      },
+      {
+        "bucket": "agentic",
+        "query_id": "A2",
+        "search_text": "\"scientific agent\" scientific"
+      },
+      {
+        "bucket": "agentic",
+        "query_id": "A3",
+        "search_text": "\"research agent\" scientific"
+      },
+      {
+        "bucket": "multi-agent",
+        "query_id": "M1",
+        "search_text": "\"multi-agent\" scientific"
+      },
+      {
+        "bucket": "multi-agent",
+        "query_id": "M3",
+        "search_text": "\"agent team\" scientific"
+      },
+      {
+        "bucket": "multi-agent",
+        "query_id": "M4",
+        "search_text": "\"planner executor\" scientific"
+      },
+      {
+        "bucket": "multi-agent",
+        "query_id": "M5",
+        "search_text": "critic reviewer scientific"
+      }
+    ],
+    "per_page": 200,
+    "queries": [
+      {
+        "bucket": "union",
+        "query_id": "U1",
+        "search_text": "(\"AI for Science\") OR (AI4Science) OR (\"machine learning\" \"scientific discovery\") OR (\"deep learning\" \"scientific discovery\") OR (\"reinforcement learning\" \"scientific discovery\") OR (\"graph neural network\" \"scientific discovery\") OR (\"diffusion model\" \"scientific discovery\") OR (\"generative model\" \"scientific discovery\") OR (\"large language model\" \"scientific discovery\") OR (\"large language model\" \"scientific research\") OR (\"AI scientist\") OR (\"scientific agent\" scientific) OR (\"research agent\" scientific) OR (\"multi-agent\" scientific) OR (\"agent team\" scientific) OR (\"planner executor\" scientific) OR (critic reviewer scientific)"
+      }
+    ],
+    "select": [
+      "id",
+      "display_name",
+      "publication_date",
+      "publication_year",
+      "type",
+      "abstract_inverted_index",
+      "doi"
+    ],
+    "start_date": "2026-04-03"
+  },
+  "pages": [
+    {
+      "attempt_id": 2,
+      "cursor": "*",
+      "next_cursor": "Ils0OS45NTQwMywgMTc4NzAxMTIwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MjAzNjgxODI5J10i",
+      "page_number": 1,
+      "path": "pages/incremental_2026-09-01/00001.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:40:18.410770+00:00",
+      "sha256": "cdac7387109ed45597ac839289a04440b6ee27a945661e59a0662cc239707fc6",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 3,
+      "cursor": "Ils0OS45NTQwMywgMTc4NzAxMTIwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MjAzNjgxODI5J10i",
+      "next_cursor": "IlszNS4yOTYyOSwgMTc3ODU0NDAwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTYwOTg1MDkzJ10i",
+      "page_number": 2,
+      "path": "pages/incremental_2026-09-01/00002.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:41:59.687596+00:00",
+      "sha256": "5c30f6de0a025e4972c65e99cac3ca12548b92aa05ab1fd5ac90a22462944c53",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 4,
+      "cursor": "IlszNS4yOTYyOSwgMTc3ODU0NDAwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTYwOTg1MDkzJ10i",
+      "next_cursor": "IlsyOS45NjU3NzMsIDE3Nzc5MzkyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MDQzMTcwOCddIg==",
+      "page_number": 3,
+      "path": "pages/incremental_2026-09-01/00003.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:01.754822+00:00",
+      "sha256": "10b50e726c5a25940d944646a8b4d9188fd230e1e8c3e793bd97efb69f4c98eb",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 5,
+      "cursor": "IlsyOS45NjU3NzMsIDE3Nzc5MzkyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MDQzMTcwOCddIg==",
+      "next_cursor": "IlsyNi41NTQ2NjMsIDE3ODcyNzA0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwNDEyNDU4MSddIg==",
+      "page_number": 4,
+      "path": "pages/incremental_2026-09-01/00004.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:04.043422+00:00",
+      "sha256": "9251d74e03e2d175e629386b15040dd376e540c591f88038f757f381e21a7f84",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 6,
+      "cursor": "IlsyNi41NTQ2NjMsIDE3ODcyNzA0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwNDEyNDU4MSddIg==",
+      "next_cursor": "IlsyNC4wNTUwNzcsIDE3ODI3Nzc2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NjY5ODg4OCddIg==",
+      "page_number": 5,
+      "path": "pages/incremental_2026-09-01/00005.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:06.191579+00:00",
+      "sha256": "126b9ba3b0e9a67769be9df6831f027fc8ad4fa6b9aed7614d84e60ba42c18eb",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 7,
+      "cursor": "IlsyNC4wNTUwNzcsIDE3ODI3Nzc2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NjY5ODg4OCddIg==",
+      "next_cursor": "IlsyMC44Njg2MjYsIDE3NzYxMjQ4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE1NDQ1OTYzMiddIg==",
+      "page_number": 6,
+      "path": "pages/incremental_2026-09-01/00006.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:08.225063+00:00",
+      "sha256": "24bcdfa5f9108cb0edb14d8dfeb53c3f7e7e20e67f9b2a272b003bd284f3a0d1",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 8,
+      "cursor": "IlsyMC44Njg2MjYsIDE3NzYxMjQ4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE1NDQ1OTYzMiddIg==",
+      "next_cursor": "IlsxOC4xOTYzMDQsIDE3NzU1MjAwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQwODAwOTQwMyddIg==",
+      "page_number": 7,
+      "path": "pages/incremental_2026-09-01/00007.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:10.331866+00:00",
+      "sha256": "82ad8b883ab043fc1f5e290b7e25668a72fccf94c828741c20173292de7462c0",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 9,
+      "cursor": "IlsxOC4xOTYzMDQsIDE3NzU1MjAwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQwODAwOTQwMyddIg==",
+      "next_cursor": "IlsxNi44MzczOCwgMTc3NjEyNDgwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTU0MjEwMDM1J10i",
+      "page_number": 8,
+      "path": "pages/incremental_2026-09-01/00008.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:12.407852+00:00",
+      "sha256": "fe06cc33017f1c72cc48e2fe015f78c8e069a6f96da497a0f5e6f3653cabd11b",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 10,
+      "cursor": "IlsxNi44MzczOCwgMTc3NjEyNDgwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTU0MjEwMDM1J10i",
+      "next_cursor": "IlsxNi4xMTgwMjMsIDE3ODcyNzA0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwMzkzMTMxMiddIg==",
+      "page_number": 9,
+      "path": "pages/incremental_2026-09-01/00009.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:14.434612+00:00",
+      "sha256": "a2f22cf749d2bb98868b69f7469b0be1a27c567a4c27645bb82e22d0c9d0ca9d",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 11,
+      "cursor": "IlsxNi4xMTgwMjMsIDE3ODcyNzA0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwMzkzMTMxMiddIg==",
+      "next_cursor": "IlsxNS41MDIwNjUsIDE3ODY0MDY0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwMjIxMjkyNiddIg==",
+      "page_number": 10,
+      "path": "pages/incremental_2026-09-01/00010.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:16.512456+00:00",
+      "sha256": "804733b1ab7cd629e1560b532b1d33aa9c639197514c93b03296948454eb974b",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 12,
+      "cursor": "IlsxNS41MDIwNjUsIDE3ODY0MDY0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwMjIxMjkyNiddIg==",
+      "next_cursor": "IlsxNC40MTk1MDYsIDE3ODA3MDQwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NDA0OTg1NCddIg==",
+      "page_number": 11,
+      "path": "pages/incremental_2026-09-01/00011.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:18.639217+00:00",
+      "sha256": "14e7ce52b07136b77c58417aa84d8fb69a7843eb7d6ae0103f7c88eb522f2bf2",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 13,
+      "cursor": "IlsxNC40MTk1MDYsIDE3ODA3MDQwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NDA0OTg1NCddIg==",
+      "next_cursor": "IlsxMy4xMDcxOSwgMTc4NzUyOTYwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MjA0MjI1NDUyJ10i",
+      "page_number": 12,
+      "path": "pages/incremental_2026-09-01/00012.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:20.765747+00:00",
+      "sha256": "8b73552b4eb3c8791ad4cfdb96fe39e5ad00d145cecdd8067b02b21e89dcad3f",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 14,
+      "cursor": "IlsxMy4xMDcxOSwgMTc4NzUyOTYwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MjA0MjI1NDUyJ10i",
+      "next_cursor": "IlsxMi4yMjY0ODksIDE3ODI0MzIwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQxNzUzMDMzNyddIg==",
+      "page_number": 13,
+      "path": "pages/incremental_2026-09-01/00013.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:22.744590+00:00",
+      "sha256": "5cb4ee2b7aee2ba6132bafd7debcbd066cd187ddd394dd5d7ca77af2e1095f48",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 15,
+      "cursor": "IlsxMi4yMjY0ODksIDE3ODI0MzIwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQxNzUzMDMzNyddIg==",
+      "next_cursor": "IlsxMS42OTQzMDMsIDE3NzgxOTg0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MDg2MjIxMSddIg==",
+      "page_number": 14,
+      "path": "pages/incremental_2026-09-01/00014.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:25.020965+00:00",
+      "sha256": "baeaef8ca9a7b9356858131247ca4825ba783111e7f65f65325d0d4cd33d7ab3",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 16,
+      "cursor": "IlsxMS42OTQzMDMsIDE3NzgxOTg0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MDg2MjIxMSddIg==",
+      "next_cursor": "IlsxMC44ODkwMjEsIDE3ODA2MTc2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MzY5NDYzMSddIg==",
+      "page_number": 15,
+      "path": "pages/incremental_2026-09-01/00015.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:27.839017+00:00",
+      "sha256": "0aec4d458fdd696b355283b4b8c347fcb85b2c33bc0a52f6d36bf0e46ad8edac",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 17,
+      "cursor": "IlsxMC44ODkwMjEsIDE3ODA2MTc2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MzY5NDYzMSddIg==",
+      "next_cursor": "IlsxMC4xNDIyNTUsIDE3ODM5MDA4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2ODM2OTI4NyddIg==",
+      "page_number": 16,
+      "path": "pages/incremental_2026-09-01/00016.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:29.947649+00:00",
+      "sha256": "5db593677f401fdca1a93d3c0af6267050f60ffec955bcdf93585d25c62e2203",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 18,
+      "cursor": "IlsxMC4xNDIyNTUsIDE3ODM5MDA4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2ODM2OTI4NyddIg==",
+      "next_cursor": "Ils4Ljk5MTY2NCwgMTc3ODExMjAwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTYwNTMxOTA5J10i",
+      "page_number": 17,
+      "path": "pages/incremental_2026-09-01/00017.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:32.815128+00:00",
+      "sha256": "9766d67f0dbaf54e5f7bece5b9e7afc77e25173d4284a493ead766db9104a3c2",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 19,
+      "cursor": "Ils4Ljk5MTY2NCwgMTc3ODExMjAwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTYwNTMxOTA5J10i",
+      "next_cursor": "Ils3LjMwMTMyMiwgMTc3Nzg1MjgwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTYwMTkxMzY1J10i",
+      "page_number": 18,
+      "path": "pages/incremental_2026-09-01/00018.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:35.075172+00:00",
+      "sha256": "526c9211c497c9ea9606f52f01e44ebd6e97baedb0e70bcbb3bffb1521598827",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 20,
+      "cursor": "Ils3LjMwMTMyMiwgMTc3Nzg1MjgwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTYwMTkxMzY1J10i",
+      "next_cursor": "Ils2LjQwNzM1NzcsIDE3Nzg0NTc2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MTAzNjQ1NSddIg==",
+      "page_number": 19,
+      "path": "pages/incremental_2026-09-01/00019.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:37.105625+00:00",
+      "sha256": "dd82b7a53bf379b63de2eb1947437e8cd625884b7e9562009e46cf6786c622c1",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 21,
+      "cursor": "Ils2LjQwNzM1NzcsIDE3Nzg0NTc2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MTAzNjQ1NSddIg==",
+      "next_cursor": "Ils1LjcwODUwNSwgMTc3NTY5MjgwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTUyMzczMjYzJ10i",
+      "page_number": 20,
+      "path": "pages/incremental_2026-09-01/00020.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:39.956124+00:00",
+      "sha256": "8e1055072a61f2f54ea78e0594e720fa383e41380cfb62f23b3c8e370e8d4eb2",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 22,
+      "cursor": "Ils1LjcwODUwNSwgMTc3NTY5MjgwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTUyMzczMjYzJ10i",
+      "next_cursor": "Ils1LjA5NDI2MDcsIDE3ODA2MTc2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NTE4ODM2NyddIg==",
+      "page_number": 21,
+      "path": "pages/incremental_2026-09-01/00021.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:42.079530+00:00",
+      "sha256": "c4e867a96f853d11d85870f9e8cf1b7a4d2af734fa2b76ac1517b99c9875db14",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 23,
+      "cursor": "Ils1LjA5NDI2MDcsIDE3ODA2MTc2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NTE4ODM2NyddIg==",
+      "next_cursor": "Ils0LjYzMjIyNiwgMTc3NTYwNjQwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTUyMzY0ODEyJ10i",
+      "page_number": 22,
+      "path": "pages/incremental_2026-09-01/00022.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:44.281292+00:00",
+      "sha256": "3359673a6c189e40a6a4306d84e6ffef714839509deb424de65ee33ce5735c54",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 24,
+      "cursor": "Ils0LjYzMjIyNiwgMTc3NTYwNjQwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTUyMzY0ODEyJ10i",
+      "next_cursor": "Ils0LjI5OTUyODYsIDE3Nzg1NDQwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MTE3MDg5NiddIg==",
+      "page_number": 23,
+      "path": "pages/incremental_2026-09-01/00023.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:47.141234+00:00",
+      "sha256": "9d1e8a0f5427ff40b4dec07c87782773148c1bec725781a18d96576e8d2dc988",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 25,
+      "cursor": "Ils0LjI5OTUyODYsIDE3Nzg1NDQwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MTE3MDg5NiddIg==",
+      "next_cursor": "IlszLjk0MDM1ODQsIDE3ODE1NjgwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM5NjcxNTI1NSddIg==",
+      "page_number": 24,
+      "path": "pages/incremental_2026-09-01/00024.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:49.742311+00:00",
+      "sha256": "a289b100e91a3d665ba7edbfa89c1a8fbcee2225389b519154d440933bfd388e",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 26,
+      "cursor": "IlszLjk0MDM1ODQsIDE3ODE1NjgwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM5NjcxNTI1NSddIg==",
+      "next_cursor": "IlszLjY1MTI0NzcsIDE3ODcyNzA0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwNDIwNTYyNSddIg==",
+      "page_number": 25,
+      "path": "pages/incremental_2026-09-01/00025.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:52.198781+00:00",
+      "sha256": "eb591654a3d093cc2850d0e7edc6bcf51a05ddcd37625da451df0b9e8883666f",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 27,
+      "cursor": "IlszLjY1MTI0NzcsIDE3ODcyNzA0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwNDIwNTYyNSddIg==",
+      "next_cursor": "IlszLjM1OTc3OCwgMTc4MjAwMDAwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTY1NDk0OTU3J10i",
+      "page_number": 26,
+      "path": "pages/incremental_2026-09-01/00026.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:54.343567+00:00",
+      "sha256": "0020f9915758f3fe173e78d2eae01c5f71fa08fd83424bcc43c7cf7c7240b28f",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 28,
+      "cursor": "IlszLjM1OTc3OCwgMTc4MjAwMDAwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTY1NDk0OTU3J10i",
+      "next_cursor": "IlszLjAwOTc4MSwgMTc4MTM5NTIwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTY0NzQ5MzExJ10i",
+      "page_number": 27,
+      "path": "pages/incremental_2026-09-01/00027.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:56.618246+00:00",
+      "sha256": "367ce141fe97f63eda5cd36b56837c36284ae20014481b44db8b92adba4a15bf",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 29,
+      "cursor": "IlszLjAwOTc4MSwgMTc4MTM5NTIwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTY0NzQ5MzExJ10i",
+      "next_cursor": "IlsyLjY1OTgzNSwgMTc4NTU0MjQwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MjE0NTAyMzk2J10i",
+      "page_number": 28,
+      "path": "pages/incremental_2026-09-01/00028.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:42:58.893348+00:00",
+      "sha256": "dc2cf7c6fc5cbb62a53a7d133054bc6b599c12dc03d1b73e013504168dacaddb",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 30,
+      "cursor": "IlsyLjY1OTgzNSwgMTc4NTU0MjQwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MjE0NTAyMzk2J10i",
+      "next_cursor": "IlsyLjQ5Njg5MzIsIDE3ODM3MjgwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2ODI4MTg1NSddIg==",
+      "page_number": 29,
+      "path": "pages/incremental_2026-09-01/00029.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:01.046746+00:00",
+      "sha256": "e074ad8cf2b6eee9a5cc0c546eba0f490153d68099fa6dd57dc4e556ea99ea26",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 31,
+      "cursor": "IlsyLjQ5Njg5MzIsIDE3ODM3MjgwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2ODI4MTg1NSddIg==",
+      "next_cursor": "IlsyLjExOTIyODYsIDE3Nzk3NTM2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MjUzMzQxOCddIg==",
+      "page_number": 30,
+      "path": "pages/incremental_2026-09-01/00030.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:03.237404+00:00",
+      "sha256": "4d12ac3111ce825f7fb22b687f30a1849defdfd4972eece4ff11c30a869f3f00",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 32,
+      "cursor": "IlsyLjExOTIyODYsIDE3Nzk3NTM2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MjUzMzQxOCddIg==",
+      "next_cursor": "IlsxLjg0MTMzNDEsIDE3ODQ2Nzg0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQxNTEwNDIwNyddIg==",
+      "page_number": 31,
+      "path": "pages/incremental_2026-09-01/00031.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:05.776241+00:00",
+      "sha256": "98db2ced0b63e3bab206826e5da5210b2fa0c945320010b010b17217eca5aeb4",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 33,
+      "cursor": "IlsxLjg0MTMzNDEsIDE3ODQ2Nzg0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQxNTEwNDIwNyddIg==",
+      "next_cursor": "IlsxLjY2NTQ3MjEsIDE3ODMwMzY4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2Nzc0OTEzMCddIg==",
+      "page_number": 32,
+      "path": "pages/incremental_2026-09-01/00032.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:07.895422+00:00",
+      "sha256": "ce8c6588220046e3b748f1cd13bb386cebbda46907f54ed65fafa6b31e55fa1b",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 34,
+      "cursor": "IlsxLjY2NTQ3MjEsIDE3ODMwMzY4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2Nzc0OTEzMCddIg==",
+      "next_cursor": "IlsxLjUwNDEzNDIsIDE3NzY1NTY4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE1NTI0NTA0MiddIg==",
+      "page_number": 33,
+      "path": "pages/incremental_2026-09-01/00033.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:10.054744+00:00",
+      "sha256": "33fefb63b45683aaa8859ac4791cc7e8e0a59a695e5f3c286e9b8a10eaeb1877",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 35,
+      "cursor": "IlsxLjUwNDEzNDIsIDE3NzY1NTY4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE1NTI0NTA0MiddIg==",
+      "next_cursor": "IlsxLjM1MjQ3MjcsIDE3ODE4MjcyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NTYyMTc0MiddIg==",
+      "page_number": 34,
+      "path": "pages/incremental_2026-09-01/00034.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:12.594018+00:00",
+      "sha256": "b6a9f60d3cf442c82a9276e866399012af1c6ef8a37604471f6d8f2ab482dacd",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 36,
+      "cursor": "IlsxLjM1MjQ3MjcsIDE3ODE4MjcyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NTYyMTc0MiddIg==",
+      "next_cursor": "IlsxLjI5NTc3NiwgMTc4NTM2OTYwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTcxOTM4NjEzJ10i",
+      "page_number": 35,
+      "path": "pages/incremental_2026-09-01/00035.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:14.638121+00:00",
+      "sha256": "8825049051554dc077209da279b4293b65264f26006945313e2506575ce4ee2a",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 37,
+      "cursor": "IlsxLjI5NTc3NiwgMTc4NTM2OTYwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTcxOTM4NjEzJ10i",
+      "next_cursor": "IlsxLjI0Njk4MjgsIDE3ODIxNzI4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NDE0NTI3OSddIg==",
+      "page_number": 36,
+      "path": "pages/incremental_2026-09-01/00036.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:16.586080+00:00",
+      "sha256": "ed6a4fe55350d9b3e1a0316888a07ea5b2fae0cdd1dae164315c1593664e55ba",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 38,
+      "cursor": "IlsxLjI0Njk4MjgsIDE3ODIxNzI4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NDE0NTI3OSddIg==",
+      "next_cursor": "IlsxLjIwMjAyMDYsIDE3ODc4NzUyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwNDU5MTA5NiddIg==",
+      "page_number": 37,
+      "path": "pages/incremental_2026-09-01/00037.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:18.669246+00:00",
+      "sha256": "fe1ba4ee6630bf362865d91f84ca69aec9d1b772d122df524a1ae5e47632487e",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 39,
+      "cursor": "IlsxLjIwMjAyMDYsIDE3ODc4NzUyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwNDU5MTA5NiddIg==",
+      "next_cursor": "IlsxLjE0NzM5NTcsIDE3ODA1MzEyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MzU0ODc5NyddIg==",
+      "page_number": 38,
+      "path": "pages/incremental_2026-09-01/00038.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:21.034546+00:00",
+      "sha256": "4e2ffc6ee04f7406979c341b6630be951acfaab6a391ef55f8f676d11a6b1e11",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 40,
+      "cursor": "IlsxLjE0NzM5NTcsIDE3ODA1MzEyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MzU0ODc5NyddIg==",
+      "next_cursor": "IlsxLjA4MjUyMDQsIDE3ODE3NDA4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NTM1Nzg2NyddIg==",
+      "page_number": 39,
+      "path": "pages/incremental_2026-09-01/00039.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:23.071449+00:00",
+      "sha256": "327106958e7f39a23e16021fda2c176a2883cb54d9795f3ea65ae9056d7c0aa8",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 41,
+      "cursor": "IlsxLjA4MjUyMDQsIDE3ODE3NDA4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NTM1Nzg2NyddIg==",
+      "next_cursor": "IlswLjk2NjcyOTMsIDE3NzkyMzUyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MjE0OTYzNCddIg==",
+      "page_number": 40,
+      "path": "pages/incremental_2026-09-01/00040.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:25.132914+00:00",
+      "sha256": "98bc50c750cfd1354f66ff0ea45690dd46059b67f1b661f5f56d13b16539c161",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 42,
+      "cursor": "IlswLjk2NjcyOTMsIDE3NzkyMzUyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MjE0OTYzNCddIg==",
+      "next_cursor": "IlswLjg2MTM4MTUsIDE3ODQ1OTIwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE3MDA4NTE2NSddIg==",
+      "page_number": 41,
+      "path": "pages/incremental_2026-09-01/00041.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:27.168546+00:00",
+      "sha256": "dd1b9bfabc6bd6f7b4990c401129e66091476100239360d703576bee031d2b51",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 43,
+      "cursor": "IlswLjg2MTM4MTUsIDE3ODQ1OTIwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE3MDA4NTE2NSddIg==",
+      "next_cursor": "IlswLjc4NzEyOCwgMTc4Mzk4NzIwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTY4Mjc0MjU1J10i",
+      "page_number": 42,
+      "path": "pages/incremental_2026-09-01/00042.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:29.256936+00:00",
+      "sha256": "af4f9e068a6b0b3bfb13b0811b98f8967603b6cc1032610cfd4d60485743a78b",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 44,
+      "cursor": "IlswLjc4NzEyOCwgMTc4Mzk4NzIwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTY4Mjc0MjU1J10i",
+      "next_cursor": "IlswLjcyNTA1MzQsIDE3ODYyMzM2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwMjIwMTk4OSddIg==",
+      "page_number": 43,
+      "path": "pages/incremental_2026-09-01/00043.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:31.241078+00:00",
+      "sha256": "b5ab3d1093b0880841beea219944c186323aa9db18d6f9a73c22cada90924a97",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 45,
+      "cursor": "IlswLjcyNTA1MzQsIDE3ODYyMzM2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwMjIwMTk4OSddIg==",
+      "next_cursor": "IlswLjY2NTcxMzU1LCAxNzc5NjY3MjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MTcxMTQzOTknXSI=",
+      "page_number": 44,
+      "path": "pages/incremental_2026-09-01/00044.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:33.329276+00:00",
+      "sha256": "9e6c5768d88d594a61dbc66c3e76ca348b5411006999e99df257c70d6e617547",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 46,
+      "cursor": "IlswLjY2NTcxMzU1LCAxNzc5NjY3MjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQ0MTcxMTQzOTknXSI=",
+      "next_cursor": "IlswLjYxODEzNDEsIDE3ODE1NjgwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NDkyNTIxMSddIg==",
+      "page_number": 45,
+      "path": "pages/incremental_2026-09-01/00045.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:35.390779+00:00",
+      "sha256": "96cc602cdc340de69c3791644fd50d68ba2815ad5911151a35bc2934d1955696",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 47,
+      "cursor": "IlswLjYxODEzNDEsIDE3ODE1NjgwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NDkyNTIxMSddIg==",
+      "next_cursor": "IlswLjU3NDkzOCwgMTc3OTE0ODgwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTYxODUwODM0J10i",
+      "page_number": 46,
+      "path": "pages/incremental_2026-09-01/00046.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:37.443695+00:00",
+      "sha256": "14cd31c0f638cc20762a0463e06dab1ce133952d630462371cb8e5f22edfa871",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 48,
+      "cursor": "IlswLjU3NDkzOCwgMTc3OTE0ODgwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTYxODUwODM0J10i",
+      "next_cursor": "IlswLjUzMTYwNTA2LCAxNzgyODY0MDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjY3OTYxMDInXSI=",
+      "page_number": 47,
+      "path": "pages/incremental_2026-09-01/00047.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:39.419892+00:00",
+      "sha256": "9f781e8d3a7f07d45cef6704b2e67fc99bc1f4bb868668f8c9dbb47fee5cdf80",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 49,
+      "cursor": "IlswLjUzMTYwNTA2LCAxNzgyODY0MDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjY3OTYxMDInXSI=",
+      "next_cursor": "IlswLjQ5NzI1NjgsIDE3ODE1NjgwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NTAyMzA5MCddIg==",
+      "page_number": 48,
+      "path": "pages/incremental_2026-09-01/00048.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:41.416501+00:00",
+      "sha256": "1f5c65b3db1ea5a4135091295c2c877773fd6bcdd98ff7efa342fd45365ea397",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 50,
+      "cursor": "IlswLjQ5NzI1NjgsIDE3ODE1NjgwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NTAyMzA5MCddIg==",
+      "next_cursor": "IlswLjQ3NzIxMjU1LCAxNzgwNDQ0ODAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjM1NTM0MjcnXSI=",
+      "page_number": 49,
+      "path": "pages/incremental_2026-09-01/00049.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:43.697738+00:00",
+      "sha256": "588b9b9457f79ae4fc82e7754b3276ff29135f6dc2a5f854677812626697935f",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 51,
+      "cursor": "IlswLjQ3NzIxMjU1LCAxNzgwNDQ0ODAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjM1NTM0MjcnXSI=",
+      "next_cursor": "IlswLjQ2MjIwMDgyLCAxNzc2NjQzMjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNTQ5NzQzMjInXSI=",
+      "page_number": 50,
+      "path": "pages/incremental_2026-09-01/00050.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:46.069466+00:00",
+      "sha256": "a4c9d618ad85fc02d804e79db5bf17b2ae2b21a6fb681ae7b845d3db69ccb681",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 52,
+      "cursor": "IlswLjQ2MjIwMDgyLCAxNzc2NjQzMjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNTQ5NzQzMjInXSI=",
+      "next_cursor": "IlswLjQ0OTIwMjQyLCAxNzc2NTU2ODAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNTUyNDc0MjQnXSI=",
+      "page_number": 51,
+      "path": "pages/incremental_2026-09-01/00051.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:48.353299+00:00",
+      "sha256": "a6a21fa67bc92dcb96681ee83d5aae9ffef055049eb79e3ec30df8e24ce008b1",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 53,
+      "cursor": "IlswLjQ0OTIwMjQyLCAxNzc2NTU2ODAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNTUyNDc0MjQnXSI=",
+      "next_cursor": "IlswLjQzODY3ODYyLCAxNzc4NjMwNDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjEwMTk2NTMnXSI=",
+      "page_number": 52,
+      "path": "pages/incremental_2026-09-01/00052.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:50.502500+00:00",
+      "sha256": "733ee3f4124c13faf32151c02d68ec817fb08d7be9101ffc99f90f1255771879",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 54,
+      "cursor": "IlswLjQzODY3ODYyLCAxNzc4NjMwNDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjEwMTk2NTMnXSI=",
+      "next_cursor": "IlswLjQyOTEwNDMzLCAxNzc2OTg4ODAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNTc1MDYyOTAnXSI=",
+      "page_number": 53,
+      "path": "pages/incremental_2026-09-01/00053.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:52.552830+00:00",
+      "sha256": "8bf8a27a187a2d13e0f476f24f5df93292d77038b81f9c5423e164c842bbec11",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 55,
+      "cursor": "IlswLjQyOTEwNDMzLCAxNzc2OTg4ODAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNTc1MDYyOTAnXSI=",
+      "next_cursor": "IlswLjQyMDI3NDE0LCAxNzg3NjE2MDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcyMDQyMDYzNjcnXSI=",
+      "page_number": 54,
+      "path": "pages/incremental_2026-09-01/00054.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:55.134706+00:00",
+      "sha256": "8c52027fa781dcb94c06dbce8ad0b3e32ccf0c7d9de3a8812601dacc5884c1c5",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 56,
+      "cursor": "IlswLjQyMDI3NDE0LCAxNzg3NjE2MDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcyMDQyMDYzNjcnXSI=",
+      "next_cursor": "IlswLjQxMjk1OTUyLCAxNzgxMDQ5NjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjQxODgyNzInXSI=",
+      "page_number": 55,
+      "path": "pages/incremental_2026-09-01/00055.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:57.368920+00:00",
+      "sha256": "f3fe710be82b3692083f3e2e08b01ca875872bdb88fc6a5116af37ced354c4aa",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 57,
+      "cursor": "IlswLjQxMjk1OTUyLCAxNzgxMDQ5NjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjQxODgyNzInXSI=",
+      "next_cursor": "IlswLjQwNTA3MTA1LCAxNzgwMDEyODAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjI3NjkzMjgnXSI=",
+      "page_number": 56,
+      "path": "pages/incremental_2026-09-01/00056.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:43:59.889863+00:00",
+      "sha256": "e60e23f8db8ba3173381f84c3d097eb36871af789dc63a3752c4ec0658587c8a",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 58,
+      "cursor": "IlswLjQwNTA3MTA1LCAxNzgwMDEyODAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjI3NjkzMjgnXSI=",
+      "next_cursor": "IlswLjM5NjA3NTk2LCAxNzg2MDYwODAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcyMDIxMjA4NjInXSI=",
+      "page_number": 57,
+      "path": "pages/incremental_2026-09-01/00057.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:02.371541+00:00",
+      "sha256": "eec95f7ded2ac33caba2b4d8cc05cfe9c719be2616c02462f4d4522e4f51d99f",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 59,
+      "cursor": "IlswLjM5NjA3NTk2LCAxNzg2MDYwODAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcyMDIxMjA4NjInXSI=",
+      "next_cursor": "IlswLjM4ODc1ODUsIDE3ODI1MTg0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NjMyNjY1MCddIg==",
+      "page_number": 58,
+      "path": "pages/incremental_2026-09-01/00058.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:04.531199+00:00",
+      "sha256": "a5a3fcc627114ac2ad6eb7ae518e2f6e94a1436c47cdce44a7524d779c1d2fb9",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 60,
+      "cursor": "IlswLjM4ODc1ODUsIDE3ODI1MTg0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NjMyNjY1MCddIg==",
+      "next_cursor": "IlswLjM4MTk0MzU4LCAxNzgzNjQxNjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjc5MjY2NDYnXSI=",
+      "page_number": 59,
+      "path": "pages/incremental_2026-09-01/00059.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:06.725214+00:00",
+      "sha256": "fbbf33ab9a4fe83fa9e5b955edfaca4ed0fa6da7c1db10fb2dc1ec56acda7580",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 61,
+      "cursor": "IlswLjM4MTk0MzU4LCAxNzgzNjQxNjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjc5MjY2NDYnXSI=",
+      "next_cursor": "IlswLjM3NDA2NjcsIDE3ODU4ODgwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE3MjUwNDU2OCddIg==",
+      "page_number": 60,
+      "path": "pages/incremental_2026-09-01/00060.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:08.699925+00:00",
+      "sha256": "cae622eb7f619fcc0010295c17a2e60d4482192f867eb7a486d45ac25e04cb67",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 62,
+      "cursor": "IlswLjM3NDA2NjcsIDE3ODU4ODgwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE3MjUwNDU2OCddIg==",
+      "next_cursor": "IlswLjM2NzE2MDg2LCAxNzgzNjQxNjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjc5MzcxNTAnXSI=",
+      "page_number": 61,
+      "path": "pages/incremental_2026-09-01/00061.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:10.747976+00:00",
+      "sha256": "5b0178818468c379ad279933f7572bab1f8644dc84862a41af1c7db21657b1f6",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 63,
+      "cursor": "IlswLjM2NzE2MDg2LCAxNzgzNjQxNjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjc5MzcxNTAnXSI=",
+      "next_cursor": "IlswLjM2MDU4NjEsIDE3ODcwMTEyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwMzc0OTg2NyddIg==",
+      "page_number": 62,
+      "path": "pages/incremental_2026-09-01/00062.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:12.843087+00:00",
+      "sha256": "235bda7dee944a9704908e90482bffb44a5b3aeab5c5936622796f6224e77080",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 64,
+      "cursor": "IlswLjM2MDU4NjEsIDE3ODcwMTEyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwMzc0OTg2NyddIg==",
+      "next_cursor": "IlswLjM1Mjc4OTksIDE3ODEyMjI0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NDUwMDIzMiddIg==",
+      "page_number": 63,
+      "path": "pages/incremental_2026-09-01/00063.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:14.908050+00:00",
+      "sha256": "1f12bbfa8d92748ccc8e3c125df1d9fa8f422503f55f4af6fca9c55a5c1f8bbc",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 65,
+      "cursor": "IlswLjM1Mjc4OTksIDE3ODEyMjI0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NDUwMDIzMiddIg==",
+      "next_cursor": "IlswLjM0NTAyOTE4LCAxNzg4MDQ4MDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcyMDQ3MjQzNjAnXSI=",
+      "page_number": 64,
+      "path": "pages/incremental_2026-09-01/00064.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:17.207391+00:00",
+      "sha256": "68d2166fd33f2f4927ea31a48fe89dd5e38f0dc277dfcdbe1157439cdd668a28",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 66,
+      "cursor": "IlswLjM0NTAyOTE4LCAxNzg4MDQ4MDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcyMDQ3MjQzNjAnXSI=",
+      "next_cursor": "IlswLjMzOTYwMDUsIDE3ODAyNzIwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwNDk2NDgzMCddIg==",
+      "page_number": 65,
+      "path": "pages/incremental_2026-09-01/00065.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:19.294959+00:00",
+      "sha256": "bb64dfd8fafc4d898ebbb4d118c0efa3a600670e0637bdf5c152a672ea371f9f",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 67,
+      "cursor": "IlswLjMzOTYwMDUsIDE3ODAyNzIwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwNDk2NDgzMCddIg==",
+      "next_cursor": "IlswLjMzMTcxMzM1LCAxNzg4MjIwODAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcyMTIyNjI5ODknXSI=",
+      "page_number": 66,
+      "path": "pages/incremental_2026-09-01/00066.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:21.332744+00:00",
+      "sha256": "e5e8d335b1cb153549e9b3035ad15d6d5928f0680788ff0562922c3c3ae685e1",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 68,
+      "cursor": "IlswLjMzMTcxMzM1LCAxNzg4MjIwODAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcyMTIyNjI5ODknXSI=",
+      "next_cursor": "IlswLjMyNTYzNTAyLCAxNzc5OTI2NDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjMwMTU5MjEnXSI=",
+      "page_number": 67,
+      "path": "pages/incremental_2026-09-01/00067.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:23.409566+00:00",
+      "sha256": "b136c3a1651ccaabc8b7a24b8b29dfca248479df0cc5faea24db8317aeea11de",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 69,
+      "cursor": "IlswLjMyNTYzNTAyLCAxNzc5OTI2NDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjMwMTU5MjEnXSI=",
+      "next_cursor": "IlswLjMxNzkwNjEsIDE3ODU4ODgwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwMTg2MjcyNCddIg==",
+      "page_number": 68,
+      "path": "pages/incremental_2026-09-01/00068.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:25.562723+00:00",
+      "sha256": "60a6d319838167e7f0c76024e0bfb587e744a0be0e26a2965bdce632f0e024cb",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 70,
+      "cursor": "IlswLjMxNzkwNjEsIDE3ODU4ODgwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwMTg2MjcyNCddIg==",
+      "next_cursor": "IlswLjMxMjMyODg4LCAxNzc5ODQwMDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjI2ODA2MzQnXSI=",
+      "page_number": 69,
+      "path": "pages/incremental_2026-09-01/00069.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:28.015572+00:00",
+      "sha256": "c72f803f86b7f7e5b66e2baefba1e2512f2b63a810cf4c8f42c0c2c3dbedd332",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 71,
+      "cursor": "IlswLjMxMjMyODg4LCAxNzc5ODQwMDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjI2ODA2MzQnXSI=",
+      "next_cursor": "IlswLjMwMzczOSwgMTc4MjY5MTIwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTY2NTI3NzQ4J10i",
+      "page_number": 70,
+      "path": "pages/incremental_2026-09-01/00070.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:30.107709+00:00",
+      "sha256": "6e1b9f135d913e549a188c1c14b8c2bd51d51b6cb3c8e5f478d7033fb4868e22",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 72,
+      "cursor": "IlswLjMwMzczOSwgMTc4MjY5MTIwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTY2NTI3NzQ4J10i",
+      "next_cursor": "IlswLjI5NTQ1Nzc1LCAxNzg3MDk3NjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcyMDM5MTkzNjUnXSI=",
+      "page_number": 71,
+      "path": "pages/incremental_2026-09-01/00071.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:32.197395+00:00",
+      "sha256": "ebca34edcf16e17f8e08154c94e6f16080e9dfed5b23dd19aa4a97730b9d4231",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 73,
+      "cursor": "IlswLjI5NTQ1Nzc1LCAxNzg3MDk3NjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcyMDM5MTkzNjUnXSI=",
+      "next_cursor": "IlswLjI4NzM5MjM4LCAxNzg1ODAxNjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNzI0OTIxOTMnXSI=",
+      "page_number": 72,
+      "path": "pages/incremental_2026-09-01/00072.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:34.400731+00:00",
+      "sha256": "8ee61f8e9d34260bde2d337eb7828ad95caeda8c6c9eed94119d30363084a821",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 74,
+      "cursor": "IlswLjI4NzM5MjM4LCAxNzg1ODAxNjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNzI0OTIxOTMnXSI=",
+      "next_cursor": "IlswLjI3OTk0NDA2LCAxNzc1NTIwMDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNTI0NjQwMjAnXSI=",
+      "page_number": 73,
+      "path": "pages/incremental_2026-09-01/00073.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:36.772804+00:00",
+      "sha256": "ada2ee81a41b6864acb8382cf471822804be9303739045369dcabb93efd38dc7",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 75,
+      "cursor": "IlswLjI3OTk0NDA2LCAxNzc1NTIwMDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNTI0NjQwMjAnXSI=",
+      "next_cursor": "IlswLjI3MTEwMTA2LCAxNzgxNDgxNjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjQ4MjE2MDEnXSI=",
+      "page_number": 74,
+      "path": "pages/incremental_2026-09-01/00074.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:39.197354+00:00",
+      "sha256": "49589625508cc29dad8449a20fdb40af76849dbdf0398e66f7be7515dd55e846",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 76,
+      "cursor": "IlswLjI3MTEwMTA2LCAxNzgxNDgxNjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjQ4MjE2MDEnXSI=",
+      "next_cursor": "IlswLjI2MTMxMDE2LCAxNzgzMDM2ODAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjc2MzIwMDgnXSI=",
+      "page_number": 75,
+      "path": "pages/incremental_2026-09-01/00075.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:41.440448+00:00",
+      "sha256": "257c1f04a993e39694b9fdcc08ad1def9fc2d3b6004f69eb8b727ce86f07a8b4",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 77,
+      "cursor": "IlswLjI2MTMxMDE2LCAxNzgzMDM2ODAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjc2MzIwMDgnXSI=",
+      "next_cursor": "IlswLjI1MjY4MTI2LCAxNzgyODY0MDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcyMDc2MjUzNjknXSI=",
+      "page_number": 76,
+      "path": "pages/incremental_2026-09-01/00076.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:43.620599+00:00",
+      "sha256": "a78079073212d0eb0c5c622a50f9751f200e347249ef2ec92005d84f01a6717e",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 78,
+      "cursor": "IlswLjI1MjY4MTI2LCAxNzgyODY0MDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcyMDc2MjUzNjknXSI=",
+      "next_cursor": "IlswLjI0Mzc2MTU0LCAxNzg4MTM0NDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcyMjAzNjc0MjEnXSI=",
+      "page_number": 77,
+      "path": "pages/incremental_2026-09-01/00077.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:45.612789+00:00",
+      "sha256": "9e8d079f1325462b6f6884f6a0bd6f85d0bc337608b78b9ddc8ae7c04eeaa854",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 79,
+      "cursor": "IlswLjI0Mzc2MTU0LCAxNzg4MTM0NDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcyMjAzNjc0MjEnXSI=",
+      "next_cursor": "IlswLjIzMjQ1OTQ5LCAxNzc4MDI1NjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjA0MTE5ODcnXSI=",
+      "page_number": 78,
+      "path": "pages/incremental_2026-09-01/00078.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:47.871333+00:00",
+      "sha256": "5f1ebfc3e8568b4a16e6dc6eb8b45082d410d398598636be3a110cdfe6ec3ce5",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 80,
+      "cursor": "IlswLjIzMjQ1OTQ5LCAxNzc4MDI1NjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjA0MTE5ODcnXSI=",
+      "next_cursor": "IlswLjIyMTUwOTM0LCAxNzc1NjA2NDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNTE5ODM2ODEnXSI=",
+      "page_number": 79,
+      "path": "pages/incremental_2026-09-01/00079.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:50.062069+00:00",
+      "sha256": "316e3be4530c0297626831016eeda3b61ae83e99707c6af2b70c75e338df642d",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 81,
+      "cursor": "IlswLjIyMTUwOTM0LCAxNzc1NjA2NDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNTE5ODM2ODEnXSI=",
+      "next_cursor": "IlswLjIwODg1NDUxLCAxNzgzNjQxNjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjgxNDcyMzQnXSI=",
+      "page_number": 80,
+      "path": "pages/incremental_2026-09-01/00080.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:52.172578+00:00",
+      "sha256": "d141ad03e9c95a00d44d918dcae2b326868b9179d92471bf4e88c7ef37b4df57",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 82,
+      "cursor": "IlswLjIwODg1NDUxLCAxNzgzNjQxNjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjgxNDcyMzQnXSI=",
+      "next_cursor": "IlswLjE5MzIzMTczLCAxNzgyNzc3NjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjY3MjkwNjEnXSI=",
+      "page_number": 81,
+      "path": "pages/incremental_2026-09-01/00081.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:54.280523+00:00",
+      "sha256": "baed38c2d6ae3f19834dba7046163d727910a4355f8c001366111b9829f4d8d9",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 83,
+      "cursor": "IlswLjE5MzIzMTczLCAxNzgyNzc3NjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjY3MjkwNjEnXSI=",
+      "next_cursor": "IlswLjE4MzM2MTk4LCAxNzc1NTIwMDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNTEyNTI2NDYnXSI=",
+      "page_number": 82,
+      "path": "pages/incremental_2026-09-01/00082.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:56.441486+00:00",
+      "sha256": "be2cba1454e9ad8faa0f7325dbef654b8c407ae7325482d9cc3e14c8f8434bbd",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 84,
+      "cursor": "IlswLjE4MzM2MTk4LCAxNzc1NTIwMDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNTEyNTI2NDYnXSI=",
+      "next_cursor": "IlswLjE2NTkwMTY5LCAxNzg4MjIwODAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcyMDQ4OTY1NzcnXSI=",
+      "page_number": 83,
+      "path": "pages/incremental_2026-09-01/00083.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:44:58.693960+00:00",
+      "sha256": "997dda93d7fe33e909d2e82d58a817841d6f2c89ac8f5bfd04ef4d6debe2ede2",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 85,
+      "cursor": "IlswLjE2NTkwMTY5LCAxNzg4MjIwODAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcyMDQ4OTY1NzcnXSI=",
+      "next_cursor": "IlswLjE0ODAwMjMxLCAxNzc5MjM1MjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjE3NzU4MTknXSI=",
+      "page_number": 84,
+      "path": "pages/incremental_2026-09-01/00084.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:45:01.017133+00:00",
+      "sha256": "ba44439ccf81c495ee5a09010aa8753baf92541e4b5d9a7ce369881afb84da2a",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 86,
+      "cursor": "IlswLjE0ODAwMjMxLCAxNzc5MjM1MjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjE3NzU4MTknXSI=",
+      "next_cursor": "IlswLjEzMDM0NTg1LCAxNzc2MTI0ODAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNTQzODMxNTgnXSI=",
+      "page_number": 85,
+      "path": "pages/incremental_2026-09-01/00085.json.gz",
+      "query_id": "U1",
+      "raw_hits": 200,
+      "retrieved_at": "2026-10-12T19:45:03.191342+00:00",
+      "sha256": "71d8477d1f6306fd14d0ba5238162f7e952a998bf59249d9ffa14ca86082d932",
+      "total_reported": 17190
+    },
+    {
+      "attempt_id": 87,
+      "cursor": "IlswLjEzMDM0NTg1LCAxNzc2MTI0ODAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNTQzODMxNTgnXSI=",
+      "next_cursor": null,
+      "page_number": 86,
+      "path": "pages/incremental_2026-09-01/00086.json.gz",
+      "query_id": "U1",
+      "raw_hits": 190,
+      "retrieved_at": "2026-10-12T19:45:05.651155+00:00",
+      "sha256": "5a4d0cfed92cb8a5043118477b96bf9737f5962cfd4e4120be57e1bde01c6f92",
+      "total_reported": 17190
+    }
+  ],
+  "probe_pages_excluded_from_corpus": true,
+  "schema_version": 1,
+  "status": "complete",
+  "updated_at": "2026-10-12T19:45:05.829784+00:00"
+}

@@ -1,0 +1,91 @@
+{
+  "after_dedup": 76639,
+  "completed_queries": 18,
+  "estimates": {
+    "bookkeeping_corrected": {
+      "2024": {
+        "ai4science": {
+          "after_dedup_in_scope": 5911,
+          "benchmark_dataset": 956,
+          "denominator": 5911,
+          "ma_share_all": 0.06208763322618846,
+          "method_system": 3149,
+          "multi_agent": 367,
+          "non_agentic": 4906,
+          "other_agentic": 638,
+          "survey_perspective": 1806
+        },
+        "llm4science": {
+          "after_dedup_in_scope": 2031,
+          "benchmark_dataset": 411,
+          "denominator": 2031,
+          "ma_share_all": 0.07188577055637617,
+          "method_system": 1067,
+          "multi_agent": 146,
+          "non_agentic": 1598,
+          "other_agentic": 287,
+          "survey_perspective": 553
+        }
+      },
+      "2025": {
+        "ai4science": {
+          "after_dedup_in_scope": 10301,
+          "benchmark_dataset": 1868,
+          "denominator": 10301,
+          "ma_share_all": 0.10134938355499466,
+          "method_system": 5113,
+          "multi_agent": 1044,
+          "non_agentic": 7757,
+          "other_agentic": 1500,
+          "survey_perspective": 3320
+        },
+        "llm4science": {
+          "after_dedup_in_scope": 3924,
+          "benchmark_dataset": 896,
+          "denominator": 3924,
+          "ma_share_all": 0.14551478083588176,
+          "method_system": 1942,
+          "multi_agent": 571,
+          "non_agentic": 2630,
+          "other_agentic": 723,
+          "survey_perspective": 1086
+        }
+      },
+      "2026_ytd": {
+        "ai4science": {
+          "after_dedup_in_scope": 12058,
+          "benchmark_dataset": 2796,
+          "denominator": 12058,
+          "ma_share_all": 0.1571570741416487,
+          "method_system": 5738,
+          "multi_agent": 1895,
+          "non_agentic": 7470,
+          "other_agentic": 2693,
+          "survey_perspective": 3524
+        },
+        "llm4science": {
+          "after_dedup_in_scope": 5952,
+          "benchmark_dataset": 1713,
+          "denominator": 5952,
+          "ma_share_all": 0.20665322580645162,
+          "method_system": 2817,
+          "multi_agent": 1230,
+          "non_agentic": 2996,
+          "other_agentic": 1726,
+          "survey_perspective": 1422
+        }
+      }
+    }
+  },
+  "interpretation": "Title/abstract keyword frequencies in the fixed-query corpus; not field-wide adoption or manually validated swarm architecture.",
+  "logical_query_count": 17,
+  "pages_saved": 936,
+  "query_count": 18,
+  "raw_retrieved": 101296,
+  "source": "openalex",
+  "status": "complete",
+  "time_window": {
+    "end_date": "2026-09-01",
+    "start_date": "2024-01-01"
+  }
+}
