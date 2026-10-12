@@ -6,9 +6,47 @@ Question:
 
 `How large is the multi-agent share inside LLM4Science and AI4Science, and how is that share changing over time?`
 
-## Main Result
+## Auditable OpenAlex Rerun
 
-The main result comes from a cost-conscious OpenAlex candidate corpus covering `2024-01-01` to `2026-04-02`, followed by local labeling into `LLM4Science` and `AI4Science`.
+The repaired collector uses exactly the original 17 queries and the publication
+window `2024-01-01` through `2026-04-02`. It saves every response page before
+advancing its cursor, reserves request costs before sending, and resumes from
+saved pages. Results are written to a new directory; historical outputs are not
+overwritten. The 2026 period is January 1 through April 2, not exact Q1.
+
+The primary outputs are compressed raw pages, record-level classifications,
+deduplicated corpora, per-query completion counts, period proportions, cost
+accounting, and SHA-256 manifests. `legacy_exact` retains the original merge and
+denominator behavior. `bookkeeping_corrected` uses the same lexical rules but
+recomputes exclusions after merging and removes unclear records from denominators.
+Methods, surveys/perspectives, and benchmarks/datasets remain eligible. These are
+keyword-defined multi-agent proportions in a query-retrieved corpus, not verified
+swarm architectures or field-wide prevalence.
+
+See `results/openalex_rerun_20261012/` for the new evidence and run report.
+All 17 queries completed, yielding 84,106 query hits and 59,449 distinct records.
+The corrected screen retains 21,248 AI4Science records, including 8,331 LLM4Science records.
+All six fractions were independently reproduced from the saved response pages.
+
+| Publication period | LLM4Science multi-agent / all | AI4Science multi-agent / all |
+| --- | --- | --- |
+| 2024 | 146 / 2,031 = 7.19% | 367 / 5,911 = 6.21% |
+| 2025 | 571 / 3,924 = 14.55% | 1,044 / 10,301 = 10.13% |
+| 2026 Jan 1-Apr 2 | 499 / 2,376 = 21.00% | 767 / 5,036 = 15.23% |
+
+Its 850 compressed raw pages and both deduplicated corpora are retained for Git.
+The reproducible `classified_occurrences.jsonl.gz` intermediate stays local and is
+ignored by Git; `--mode replay` regenerates it before validation. The evidence
+index retains its expected hash and marks it optional. Scoped Git attributes
+preserve the exact bytes covered by archived evidence hashes.
+
+## Historical Partial Result
+
+The historical cost-conscious OpenAlex run covered `2024-01-01` to `2026-04-02`.
+It completed 13 queries, retrieved 5,700 of the 19,541 then-reported M1 hits, and
+did not retrieve M3, M4, or M5. Its saved summary contains 47,050 query hits and
+29,910 deduplicated records; the original raw records were not found in either
+local repository. The following table preserves that partial result.
 
 | Period | LLM4Science `multi-agent / all` | AI4Science `multi-agent / all` |
 | --- | --- | --- |
@@ -33,7 +71,9 @@ The main reporting unit is:
 where:
 
 - `all in-scope = multi-agent + other-agentic + non-agentic`
-- we exclude `out-of-scope-delete` and `unclear-delete`
+- the corrected estimate excludes `out-of-scope-delete` and `unclear-delete`
+- the legacy estimate reproduces the original code, which included some unclear
+  lexical matches and could retain a stale exclusion after a priority merge
 
 ### LLM4Science
 
@@ -217,7 +257,8 @@ analysis/trend_of_mas4sci/
       2026_ytd/
 ```
 
-Only lightweight final artifacts are included here. Large raw retrieval dumps and exploratory recovery runs are intentionally left out of the public repo.
+Historical directories contain lightweight summaries. The new dated OpenAlex
+directory retains compressed record-level evidence and its source-code snapshots.
 
 ## Reproduce
 
@@ -233,15 +274,34 @@ Run the arXiv `LLM4Science` yearly analysis:
 python analysis/trend_of_mas4sci/scripts/arxiv_llm4science_trend.py --scope llm4science --start-date 2024-01-01 --end-date 2024-12-31 --page-size 50 --concurrency 1 --timeout-seconds 90 --max-retries 8 --request-delay-seconds 2 --out-dir analysis/trend_of_mas4sci/results/arxiv_llm4science/2024
 ```
 
-Run the OpenAlex expanded candidate corpus:
+From this directory, run the offline tests:
 
-```bash
-$env:OPENALEX_API_KEY="YOUR_KEY_HERE"
-python analysis/trend_of_mas4sci/scripts/openalex_mas4sci_from_2024.py --start-date 2024-01-01 --end-date 2026-04-02 --per-page 100 --request-delay-seconds 0.2 --timeout-seconds 90 --max-retries 5 --out-dir analysis/trend_of_mas4sci/results/openalex_from_2024_cost_conscious --query-id B1 --query-id B2 --query-id B5 --query-id B7 --query-id B9 --query-id B10 --query-id B11 --query-id B12 --query-id B13 --query-id B14 --query-id A1 --query-id A2 --query-id A3 --query-id M1 --query-id M3 --query-id M4 --query-id M5
+```powershell
+& C:/Python313/python.exe -B -m unittest discover -s tests -v
+```
+
+Collect reusable first pages and estimate the cost in a new directory:
+
+```powershell
+& C:/Python313/python.exe -B scripts/openalex_mas4sci_from_2024.py --out-dir results/openalex_rerun_NEW --first-pages-only --prompt-key --run-cap-usd 0.95 --free-margin-usd 0.05 --concurrency 3
+```
+
+Resume collection by repeating the command without `--first-pages-only`. The key
+is read without echo or supplied through `OPENALEX_API_KEY`; it is sent only in
+the authorization header. There is no key-in-URL or command-line-key option.
+The collector stops at its run cap or the remaining free allowance minus the
+safety margin. It does not buy credits, use prepaid funds, or schedule another day.
+
+Rebuild and validate the saved 2026-10-12 evidence without API access:
+
+```powershell
+& C:/Python313/python.exe -B scripts/openalex_mas4sci_from_2024.py --mode replay --out-dir results/openalex_rerun_20261012
+& C:/Python313/python.exe -B scripts/openalex_mas4sci_from_2024.py --mode validate --out-dir results/openalex_rerun_20261012
+& C:/Python313/python.exe -B scripts/verify_openalex_evidence.py --out-dir results/openalex_rerun_20261012 --compare-git-legacy d6a37e4cae69b95efe85ed5467ad2fe519046b34
 ```
 
 ## Notes
 
-- The OpenAlex run is the main result.
-- The arXiv run is a narrower sanity check.
-- Some OpenAlex `multi-agent` recall queries hit rate limits during backfill, so the reported `multi-agent` counts are likely conservative.
+- The arXiv run is a separate, narrower sanity check.
+- Missing queries in the historical OpenAlex run can affect both numerator and
+  denominator; they do not establish a conservative bound on the proportion.

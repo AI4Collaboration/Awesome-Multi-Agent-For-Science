@@ -1,0 +1,363 @@
+{
+  "accounted_cost_upper_bound_usd": 0.017,
+  "attempt_count": 17,
+  "attempts": [
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 1,
+      "finished_at": "2026-10-12T19:28:33.755300+00:00",
+      "page_number": 1,
+      "query_id": "B1",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1490",
+        "x-ratelimit-reset": "16285"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:28:32.853714+00:00",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 2,
+      "finished_at": "2026-10-12T19:28:33.664966+00:00",
+      "page_number": 1,
+      "query_id": "B2",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1470",
+        "x-ratelimit-reset": "16285"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:28:32.855656+00:00",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 3,
+      "finished_at": "2026-10-12T19:28:33.885454+00:00",
+      "page_number": 1,
+      "query_id": "B5",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1480",
+        "x-ratelimit-reset": "16285"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:28:32.857147+00:00",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 4,
+      "finished_at": "2026-10-12T19:28:34.556262+00:00",
+      "page_number": 1,
+      "query_id": "B7",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1460",
+        "x-ratelimit-reset": "16284"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:28:33.693130+00:00",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 5,
+      "finished_at": "2026-10-12T19:28:34.995411+00:00",
+      "page_number": 1,
+      "query_id": "B9",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1450",
+        "x-ratelimit-reset": "16284"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:28:33.828125+00:00",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 6,
+      "finished_at": "2026-10-12T19:28:34.801642+00:00",
+      "page_number": 1,
+      "query_id": "B10",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1440",
+        "x-ratelimit-reset": "16284"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:28:33.964761+00:00",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 7,
+      "finished_at": "2026-10-12T19:28:37.217550+00:00",
+      "page_number": 1,
+      "query_id": "B11",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1430",
+        "x-ratelimit-reset": "16283"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:28:34.646009+00:00",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 8,
+      "finished_at": "2026-10-12T19:28:35.856791+00:00",
+      "page_number": 1,
+      "query_id": "B12",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1420",
+        "x-ratelimit-reset": "16283"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:28:34.899371+00:00",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 9,
+      "finished_at": "2026-10-12T19:28:36.282509+00:00",
+      "page_number": 1,
+      "query_id": "B13",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1410",
+        "x-ratelimit-reset": "16283"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:28:35.077699+00:00",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 10,
+      "finished_at": "2026-10-12T19:28:36.911872+00:00",
+      "page_number": 1,
+      "query_id": "B14",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1400",
+        "x-ratelimit-reset": "16282"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:28:35.960682+00:00",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 11,
+      "finished_at": "2026-10-12T19:28:38.425729+00:00",
+      "page_number": 1,
+      "query_id": "A1",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1390",
+        "x-ratelimit-reset": "16281"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:28:36.630048+00:00",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 12,
+      "finished_at": "2026-10-12T19:28:38.944173+00:00",
+      "page_number": 1,
+      "query_id": "A2",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1380",
+        "x-ratelimit-reset": "16281"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:28:37.016965+00:00",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 13,
+      "finished_at": "2026-10-12T19:28:38.304321+00:00",
+      "page_number": 1,
+      "query_id": "A3",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1370",
+        "x-ratelimit-reset": "16281"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:28:37.347531+00:00",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 14,
+      "finished_at": "2026-10-12T19:28:39.214892+00:00",
+      "page_number": 1,
+      "query_id": "M1",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1360",
+        "x-ratelimit-reset": "16279"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:28:38.401374+00:00",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 15,
+      "finished_at": "2026-10-12T19:28:39.673702+00:00",
+      "page_number": 1,
+      "query_id": "M3",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1350",
+        "x-ratelimit-reset": "16279"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:28:38.505742+00:00",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 16,
+      "finished_at": "2026-10-12T19:28:40.691092+00:00",
+      "page_number": 1,
+      "query_id": "M4",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1340",
+        "x-ratelimit-reset": "16279"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:28:39.031671+00:00",
+      "status": 200
+    },
+    {
+      "accounted_microdollars": 1000,
+      "attempt_id": 17,
+      "finished_at": "2026-10-12T19:28:40.509453+00:00",
+      "page_number": 1,
+      "query_id": "M5",
+      "rate_headers": {
+        "x-ratelimit-credits-used": "10",
+        "x-ratelimit-limit": "10000",
+        "x-ratelimit-remaining": "1330",
+        "x-ratelimit-reset": "16278"
+      },
+      "reported_cost_usd": 0.001,
+      "requested_at": "2026-10-12T19:28:39.309987+00:00",
+      "status": 200
+    }
+  ],
+  "free_allowance_safety_margin_usd": 0.05,
+  "rate_checks": [
+    {
+      "requested_at": "2026-10-12T19:28:32.300410+00:00",
+      "status": 200
+    },
+    {
+      "requested_at": "2026-10-12T19:28:36.370494+00:00",
+      "status": 200
+    },
+    {
+      "requested_at": "2026-10-12T19:28:40.801149+00:00",
+      "status": 200
+    }
+  ],
+  "run_cap_usd": 0.025,
+  "snapshots": [
+    {
+      "credits_limit": 10000,
+      "credits_remaining": 1500,
+      "credits_used": 8500,
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.15,
+      "daily_used_usd": 0.85,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:28:32.850608+00:00"
+    },
+    {
+      "credits_limit": 10000,
+      "credits_remaining": 1400,
+      "credits_used": 8600,
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.14,
+      "daily_used_usd": 0.86,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:28:36.625646+00:00"
+    },
+    {
+      "credits_limit": 10000,
+      "credits_remaining": 1330,
+      "credits_used": 8670,
+      "daily_budget_usd": 1,
+      "daily_remaining_usd": 0.133,
+      "daily_used_usd": 0.867,
+      "endpoint_costs_usd": {
+        "content": 0.01,
+        "list": 0.0001,
+        "rerank_extra": 0.001,
+        "search": 0.001,
+        "search_rerank": 0.002,
+        "semantic": 0.001,
+        "singleton": 0,
+        "text": 0.01
+      },
+      "prepaid_balance_usd": 0,
+      "prepaid_remaining_usd": 0,
+      "resets_at": "2026-10-13T00:00:00.000Z",
+      "retrieved_at": "2026-10-12T19:28:41.066920+00:00"
+    }
+  ],
+  "stop_reason": null
+}

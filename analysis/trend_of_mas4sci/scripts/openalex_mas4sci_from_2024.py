@@ -1,27 +1,18 @@
-"""Build an OpenAlex-backed science corpus and summarize LLM4Science/AI4Science ratios.
+"""Collect the fixed 17-query OpenAlex corpus with resumable, budgeted pages.
 
-This script is cost-conscious:
-- one shared candidate corpus for 2024-01-01 through the target end date
-- one local labeling pass for both LLM4Science and AI4Science
-- period summaries derived locally instead of re-querying per period
+The original lexical classifier, merge, and denominator functions below remain
+available for exact legacy replay. Collection and audited exports are implemented
+in openalex_resumable.py. Run with --help for collection and offline replay.
 """
 
 from __future__ import annotations
 
-import argparse
-import asyncio
-import csv
-import json
-import os
-import random
 import sys
 from collections import Counter
 from dataclasses import asdict, dataclass, field
 from datetime import date, datetime
 from pathlib import Path
 from typing import Any
-
-import httpx
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 if str(SCRIPT_DIR) not in sys.path:
@@ -109,25 +100,6 @@ PERIODS = [
 ]
 
 
-def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--start-date", default="2024-01-01")
-    parser.add_argument("--end-date", default="2026-04-02")
-    parser.add_argument("--api-key", default=os.environ.get("OPENALEX_API_KEY"))
-    parser.add_argument(
-        "--query-id",
-        action="append",
-        dest="query_ids",
-        help="Optional query_id filter. Can be supplied multiple times.",
-    )
-    parser.add_argument("--per-page", type=int, default=100)
-    parser.add_argument("--request-delay-seconds", type=float, default=0.4)
-    parser.add_argument("--timeout-seconds", type=float, default=60.0)
-    parser.add_argument("--max-retries", type=int, default=5)
-    parser.add_argument("--out-dir", default=None)
-    return parser.parse_args()
-
-
 def normalize_whitespace(text: str) -> str:
     return " ".join(text.split())
 
@@ -185,7 +157,7 @@ def classify_architecture_kind(title: str, abstract: str) -> tuple[str, str, str
 
 
 def classify_record(item: dict[str, Any], query_id: str, bucket: str, search_text: str) -> CorpusRecord:
-    title = normalize_whitespace(item.get("display_name", ""))
+    title = normalize_whitespace(item.get("display_name") or "")
     abstract = reconstruct_abstract(item.get("abstract_inverted_index"))
     architecture_kind, confidence, evidence_span = classify_architecture_kind(title, abstract)
     is_llm = base.is_scope_candidate(title, abstract, "llm4science")
@@ -200,9 +172,9 @@ def classify_record(item: dict[str, Any], query_id: str, bucket: str, search_tex
 
     return CorpusRecord(
         source="openalex",
-        openalex_id=item.get("id", ""),
+        openalex_id=item.get("id") or "",
         title=title,
-        publication_date=item.get("publication_date", ""),
+        publication_date=item.get("publication_date") or "",
         publication_year=int(item.get("publication_year") or 0),
         doi=item.get("doi") or "",
         work_type=item.get("type") or "",
@@ -221,92 +193,8 @@ def classify_record(item: dict[str, Any], query_id: str, bucket: str, search_tex
     )
 
 
-async def fetch_with_retries(
-    client: httpx.AsyncClient,
-    params: dict[str, Any],
-    timeout_seconds: float,
-    max_retries: int,
-    request_delay_seconds: float,
-) -> dict[str, Any]:
-    backoff = 1.0
-    for attempt in range(max_retries + 1):
-        try:
-            response = await client.get(OPENALEX_API_URL, params=params, timeout=timeout_seconds)
-            response.raise_for_status()
-            payload = response.json()
-            if request_delay_seconds > 0:
-                await asyncio.sleep(request_delay_seconds)
-            return payload
-        except (httpx.TimeoutException, httpx.NetworkError, httpx.HTTPStatusError) as exc:
-            if attempt >= max_retries:
-                raise exc
-            await asyncio.sleep(backoff + random.uniform(0.0, 0.5))
-            backoff *= 2.0
-    raise RuntimeError("unreachable retry loop")
-
-
-async def collect_query(
-    client: httpx.AsyncClient,
-    spec: QuerySpec,
-    api_key: str,
-    start_date: str,
-    end_date: str,
-    per_page: int,
-    timeout_seconds: float,
-    max_retries: int,
-    request_delay_seconds: float,
-) -> tuple[list[CorpusRecord], QueryResult]:
-    result = QueryResult(query_id=spec.query_id, bucket=spec.bucket)
-    collected: list[CorpusRecord] = []
-    cursor = "*"
-
-    while True:
-        params = {
-            "search": spec.search_text,
-            "filter": (
-                f"from_publication_date:{start_date},"
-                f"to_publication_date:{end_date},"
-                "has_abstract:true,"
-                "type:!paratext"
-            ),
-            "select": "id,display_name,publication_date,publication_year,type,abstract_inverted_index,doi",
-            "per_page": per_page,
-            "cursor": cursor,
-            "api_key": api_key,
-        }
-        try:
-            payload = await fetch_with_retries(
-                client=client,
-                params=params,
-                timeout_seconds=timeout_seconds,
-                max_retries=max_retries,
-                request_delay_seconds=request_delay_seconds,
-            )
-        except Exception as exc:  # noqa: BLE001
-            result.errors.append(f"cursor={cursor}: {type(exc).__name__}: {exc}")
-            break
-
-        result.pages_fetched += 1
-        meta = payload.get("meta", {})
-        if result.total_reported == 0:
-            result.total_reported = int(meta.get("count") or 0)
-        items = payload.get("results", [])
-        if not items:
-            break
-
-        result.raw_hits += len(items)
-        for item in items:
-            collected.append(classify_record(item, spec.query_id, spec.bucket, spec.search_text))
-
-        next_cursor = meta.get("next_cursor")
-        if not next_cursor:
-            break
-        cursor = next_cursor
-
-    return collected, result
-
-
 def merge_records(records: list[CorpusRecord]) -> list[CorpusRecord]:
+    """Historical merge, intentionally retaining stale exclude_reason for replay."""
     deduped: dict[str, CorpusRecord] = {}
     for record in records:
         key = record.openalex_id or record.doi or record.normalized_title
@@ -361,6 +249,7 @@ def query_results_to_rows(results: list[QueryResult]) -> list[dict[str, Any]]:
 
 
 def scope_period_summary(records: list[CorpusRecord], scope: str, start: date, end: date) -> dict[str, Any]:
+    """Historical denominator, including unclear records with lexical scope flags."""
     scope_flag = "is_llm4science" if scope == "llm4science" else "is_ai4science"
     period_records = [
         record
@@ -398,103 +287,10 @@ def scope_period_summary(records: list[CorpusRecord], scope: str, start: date, e
     }
 
 
-async def run_collection(args: argparse.Namespace) -> tuple[list[CorpusRecord], list[QueryResult]]:
-    if not args.api_key:
-        raise ValueError("missing OpenAlex API key; pass --api-key or set OPENALEX_API_KEY")
-
-    selected_queries = QUERY_SPECS
-    if args.query_ids:
-        requested = set(args.query_ids)
-        selected_queries = [spec for spec in QUERY_SPECS if spec.query_id in requested]
-        missing = requested - {spec.query_id for spec in selected_queries}
-        if missing:
-            raise ValueError(f"unknown query ids: {sorted(missing)}")
-
-    timeout = httpx.Timeout(args.timeout_seconds, connect=min(10.0, args.timeout_seconds))
-    async with httpx.AsyncClient(
-        headers={"User-Agent": "Mozilla/5.0"},
-        timeout=timeout,
-        follow_redirects=True,
-    ) as client:
-        records: list[CorpusRecord] = []
-        query_results: list[QueryResult] = []
-        for index, spec in enumerate(selected_queries, start=1):
-            batch_records, query_result = await collect_query(
-                client=client,
-                spec=spec,
-                api_key=args.api_key,
-                start_date=args.start_date,
-                end_date=args.end_date,
-                per_page=args.per_page,
-                timeout_seconds=args.timeout_seconds,
-                max_retries=args.max_retries,
-                request_delay_seconds=args.request_delay_seconds,
-            )
-            records.extend(batch_records)
-            query_results.append(query_result)
-            print(
-                f"[progress] {index}/{len(selected_queries)} "
-                f"({index / len(selected_queries) * 100:5.1f}%) latest={spec.query_id} raw={len(records)}",
-                flush=True,
-            )
-    return records, query_results
-
-
-def write_csv(path: Path, rows: list[dict[str, Any]]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    if not rows:
-        path.write_text("", encoding="utf-8")
-        return
-    with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(rows[0].keys()))
-        writer.writeheader()
-        writer.writerows(rows)
-
-
 def main() -> int:
-    args = parse_args()
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    out_dir = (
-        Path(args.out_dir)
-        if args.out_dir
-        else Path("sample_data") / "openalex_science" / f"from_2024_{timestamp}"
-    )
+    import openalex_resumable
 
-    try:
-        raw_records, query_results = asyncio.run(run_collection(args))
-    except KeyboardInterrupt:
-        return 130
-    except Exception as exc:  # noqa: BLE001
-        print(f"ERROR: {type(exc).__name__}: {exc}", file=sys.stderr)
-        return 1
-
-    deduped_records = merge_records(raw_records)
-    period_summaries: dict[str, Any] = {}
-    for period_name, period_start, period_end in PERIODS:
-        period_summaries[period_name] = {
-            "llm4science": scope_period_summary(deduped_records, "llm4science", period_start, period_end),
-            "ai4science": scope_period_summary(deduped_records, "ai4science", period_start, period_end),
-        }
-
-    summary = {
-        "source": "openalex",
-        "time_window": {"start_date": args.start_date, "end_date": args.end_date},
-        "query_count": len(query_results),
-        "raw_retrieved": len(raw_records),
-        "after_dedup": len(deduped_records),
-        "queries_with_errors": [result.query_id for result in query_results if result.errors],
-        "period_summaries": period_summaries,
-    }
-
-    out_dir.mkdir(parents=True, exist_ok=True)
-    write_csv(out_dir / "raw_results.csv", records_to_rows(raw_records))
-    write_csv(out_dir / "deduped_results.csv", records_to_rows(deduped_records))
-    write_csv(out_dir / "query_summary.csv", query_results_to_rows(query_results))
-    (out_dir / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
-
-    print(json.dumps(summary, indent=2))
-    print(f"OUTPUT_DIR={out_dir}")
-    return 0
+    return openalex_resumable.main(sys.modules[__name__])
 
 
 if __name__ == "__main__":

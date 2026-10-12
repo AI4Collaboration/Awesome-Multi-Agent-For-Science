@@ -1,0 +1,36 @@
+test_budget_api_failure_stops_without_search (test_openalex_resumable.AsyncCase.test_budget_api_failure_stops_without_search) ... ok
+test_budget_cost_increase_is_recorded_and_stops (test_openalex_resumable.AsyncCase.test_budget_cost_increase_is_recorded_and_stops) ... ok
+test_errors_never_store_exception_urls (test_openalex_resumable.AsyncCase.test_errors_never_store_exception_urls) ... ok
+test_external_usage_reduces_allowance (test_openalex_resumable.AsyncCase.test_external_usage_reduces_allowance) ... ok
+test_inflight_reservations_cannot_exceed_cap (test_openalex_resumable.AsyncCase.test_inflight_reservations_cannot_exceed_cap) ... ok
+test_interrupted_reservation_is_not_refunded_on_restart (test_openalex_resumable.AsyncCase.test_interrupted_reservation_is_not_refunded_on_restart) ... ok
+test_prepaid_never_expands_free_allowance (test_openalex_resumable.AsyncCase.test_prepaid_never_expands_free_allowance) ... ok
+test_rate_header_reduces_available_budget (test_openalex_resumable.AsyncCase.test_rate_header_reduces_available_budget) ... ok
+test_resumed_estimate_refreshes_allowance_without_refetch (test_openalex_resumable.AsyncCase.test_resumed_estimate_refreshes_allowance_without_refetch) ... ok
+test_retry_header_auth_and_resume_do_not_refetch_pages (test_openalex_resumable.AsyncCase.test_retry_header_auth_and_resume_do_not_refetch_pages) ... ok
+test_unknown_failed_request_keeps_full_reservation (test_openalex_resumable.AsyncCase.test_unknown_failed_request_keeps_full_reservation) ... ok
+test_archived_hash_survives_checkout_line_endings (test_openalex_resumable.LocalCase.test_archived_hash_survives_checkout_line_endings) ... ok
+test_atomic_orphan_recovery_and_cursor (test_openalex_resumable.LocalCase.test_atomic_orphan_recovery_and_cursor) ... ok
+test_changed_base_source_refused_even_with_snapshot (test_openalex_resumable.LocalCase.test_changed_base_source_refused_even_with_snapshot) ... ok
+test_changed_config_refused (test_openalex_resumable.LocalCase.test_changed_config_refused) ... ok
+test_complete_replay_is_deterministic (test_openalex_resumable.LocalCase.test_complete_replay_is_deterministic) ... ok
+test_corrupt_archived_base_source_refused (test_openalex_resumable.LocalCase.test_corrupt_archived_base_source_refused) ... ok
+test_corrupt_or_missing_pages_fail_closed (test_openalex_resumable.LocalCase.test_corrupt_or_missing_pages_fail_closed) ... ok
+test_credential_scan_uses_only_supplied_in_memory_values (test_openalex_resumable.LocalCase.test_credential_scan_uses_only_supplied_in_memory_values) ... ok
+test_cursor_cycle_refused_on_resume (test_openalex_resumable.LocalCase.test_cursor_cycle_refused_on_resume) ... ok
+test_duplicate_gap_and_total_drift_not_complete (test_openalex_resumable.LocalCase.test_duplicate_gap_and_total_drift_not_complete) ... ok
+test_empty_terminal_page_count_and_count_drift (test_openalex_resumable.LocalCase.test_empty_terminal_page_count_and_count_drift) ... ok
+test_fallback_keys (test_openalex_resumable.LocalCase.test_fallback_keys) ... ok
+test_historical_output_refused (test_openalex_resumable.LocalCase.test_historical_output_refused) ... ok
+test_historical_redaction_preserves_counts_and_errors (test_openalex_resumable.LocalCase.test_historical_redaction_preserves_counts_and_errors) ... ok
+test_inclusive_document_types_and_no_swarm_rubric_change (test_openalex_resumable.LocalCase.test_inclusive_document_types_and_no_swarm_rubric_change) ... ok
+test_independent_validation_and_tamper_detection (test_openalex_resumable.LocalCase.test_independent_validation_and_tamper_detection) ... ok
+test_missing_fields_and_date_are_explicit (test_openalex_resumable.LocalCase.test_missing_fields_and_date_are_explicit) ... ok
+test_out_of_window_and_paratext_fail_completeness (test_openalex_resumable.LocalCase.test_out_of_window_and_paratext_fail_completeness) ... ok
+test_protocol_is_exact (test_openalex_resumable.LocalCase.test_protocol_is_exact) ... ok
+test_unclear_and_stale_exclusion_separately_audited (test_openalex_resumable.LocalCase.test_unclear_and_stale_exclusion_separately_audited) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.845s
+
+OK

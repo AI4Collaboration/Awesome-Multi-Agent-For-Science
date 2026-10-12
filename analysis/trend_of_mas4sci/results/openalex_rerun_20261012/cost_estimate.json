@@ -1,0 +1,119 @@
+{
+  "additional_cost_estimate_usd": 0.85,
+  "all_first_pages_available": true,
+  "budget_snapshot_retrieved_at": "2026-10-12T19:01:34.163170+00:00",
+  "estimated_at": "2026-10-12T19:02:07.508536+00:00",
+  "first_pages_are_reused": true,
+  "fits_current_safe_budget": true,
+  "pages_already_saved": 17,
+  "pages_including_terminal_allowance": 867,
+  "queries": [
+    {
+      "data_pages_estimate": 74,
+      "pages_including_terminal_allowance": 75,
+      "query_id": "B1",
+      "total_reported": 7365
+    },
+    {
+      "data_pages_estimate": 5,
+      "pages_including_terminal_allowance": 6,
+      "query_id": "B2",
+      "total_reported": 481
+    },
+    {
+      "data_pages_estimate": 97,
+      "pages_including_terminal_allowance": 98,
+      "query_id": "B5",
+      "total_reported": 9638
+    },
+    {
+      "data_pages_estimate": 61,
+      "pages_including_terminal_allowance": 62,
+      "query_id": "B7",
+      "total_reported": 6025
+    },
+    {
+      "data_pages_estimate": 28,
+      "pages_including_terminal_allowance": 29,
+      "query_id": "B9",
+      "total_reported": 2799
+    },
+    {
+      "data_pages_estimate": 13,
+      "pages_including_terminal_allowance": 14,
+      "query_id": "B10",
+      "total_reported": 1246
+    },
+    {
+      "data_pages_estimate": 9,
+      "pages_including_terminal_allowance": 10,
+      "query_id": "B11",
+      "total_reported": 841
+    },
+    {
+      "data_pages_estimate": 20,
+      "pages_including_terminal_allowance": 21,
+      "query_id": "B12",
+      "total_reported": 1953
+    },
+    {
+      "data_pages_estimate": 50,
+      "pages_including_terminal_allowance": 51,
+      "query_id": "B13",
+      "total_reported": 4915
+    },
+    {
+      "data_pages_estimate": 138,
+      "pages_including_terminal_allowance": 139,
+      "query_id": "B14",
+      "total_reported": 13716
+    },
+    {
+      "data_pages_estimate": 18,
+      "pages_including_terminal_allowance": 19,
+      "query_id": "A1",
+      "total_reported": 1758
+    },
+    {
+      "data_pages_estimate": 3,
+      "pages_including_terminal_allowance": 4,
+      "query_id": "A2",
+      "total_reported": 251
+    },
+    {
+      "data_pages_estimate": 9,
+      "pages_including_terminal_allowance": 10,
+      "query_id": "A3",
+      "total_reported": 806
+    },
+    {
+      "data_pages_estimate": 250,
+      "pages_including_terminal_allowance": 251,
+      "query_id": "M1",
+      "total_reported": 24934
+    },
+    {
+      "data_pages_estimate": 6,
+      "pages_including_terminal_allowance": 7,
+      "query_id": "M3",
+      "total_reported": 563
+    },
+    {
+      "data_pages_estimate": 2,
+      "pages_including_terminal_allowance": 3,
+      "query_id": "M4",
+      "total_reported": 118
+    },
+    {
+      "data_pages_estimate": 67,
+      "pages_including_terminal_allowance": 68,
+      "query_id": "M5",
+      "total_reported": 6697
+    }
+  ],
+  "reporting_correction": "Resume estimate fit flag was calculated before allowance synchronization; reconstructed from the saved rate-limit snapshot and attempt ledger. Per-request live reservations were unaffected.",
+  "run_cost_estimate_usd": 0.867,
+  "safe_additional_allowance_at_estimate_usd": 0.933,
+  "search_page_cost_usd": 0.001,
+  "total_hits_estimate": 84106
+}

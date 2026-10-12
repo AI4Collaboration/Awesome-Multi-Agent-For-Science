@@ -1,0 +1,13 @@
+estimate,period,scope,numerator,denominator,percent
+legacy_exact,2024,ai4science,367,5911,6.208763322618846
+legacy_exact,2024,llm4science,146,2031,7.188577055637617
+legacy_exact,2025,ai4science,1044,10302,10.13395457192778
+legacy_exact,2025,llm4science,571,3925,14.547770700636942
+legacy_exact,2026_ytd,ai4science,767,5036,15.230341540905481
+legacy_exact,2026_ytd,llm4science,499,2376,21.0016835016835
+bookkeeping_corrected,2024,ai4science,367,5911,6.208763322618846
+bookkeeping_corrected,2024,llm4science,146,2031,7.188577055637617
+bookkeeping_corrected,2025,ai4science,1044,10301,10.134938355499466
+bookkeeping_corrected,2025,llm4science,571,3924,14.551478083588176
+bookkeeping_corrected,2026_ytd,ai4science,767,5036,15.230341540905481
+bookkeeping_corrected,2026_ytd,llm4science,499,2376,21.0016835016835

@@ -1,0 +1,11 @@
+{
+  "legacy_function_bodies_identical_ignoring_docstrings": {
+    "normalize_whitespace": true,
+    "parse_date": true,
+    "reconstruct_abstract": true,
+    "classify_architecture_kind": true,
+    "merge_records": true,
+    "scope_period_summary": true
+  },
+  "classify_record_extension": "Treat null display_name, id, and publication_date as empty strings; substantive classification rules unchanged."
+}

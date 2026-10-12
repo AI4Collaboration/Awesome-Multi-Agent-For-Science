@@ -1,0 +1,9 @@
+# Preserve raw pages and deduplicated evidence; omit local audit and replay files.
+results/openalex_rerun_*/.collector.lock
+results/openalex_rerun_*/**/*.tmp
+tests/.openalex-test-*/
+results/openalex_rerun_*/security_audit.local.json
+results/openalex_rerun_*/preservation_audit.json
+results/openalex_rerun_20261012/classified_occurrences.jsonl.gz
+results/openalex_extension_*/.collector.lock
+results/openalex_extension_*/**/*.tmp

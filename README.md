@@ -22,13 +22,13 @@ A curated list of papers, systems, and resources on multi-agent AI for scientifi
 
 ## Trend Snapshot
 
-OpenAlex-backed trend estimates from `2024` to `2026-04-02`.
+Keyword frequencies in an OpenAlex candidate corpus for `2024-01-01` to `2026-04-02`, retrieved on `2026-10-12`. All 17 queries completed: 850 response pages and 59,449 distinct records before screening. These are query-defined proportions, not field-wide adoption rates.
 
 | Period | LLM4Science `multi-agent / all` | AI4Science `multi-agent / all` |
 | --- | --- | --- |
-| `2024` | `140 / 1864 = 7.51%` | `273 / 4804 = 5.68%` |
-| `2025` | `415 / 2726 = 15.22%` | `630 / 6442 = 9.78%` |
-| `2026 YTD` (`2026-01-01` to `2026-04-02`) | `245 / 1145 = 21.40%` | `322 / 2158 = 14.92%` |
+| `2024` | `146 / 2031 = 7.19%` | `367 / 5911 = 6.21%` |
+| `2025` | `571 / 3924 = 14.55%` | `1044 / 10301 = 10.13%` |
+| `2026 YTD` (`2026-01-01` to `2026-04-02`) | `499 / 2376 = 21.00%` | `767 / 5036 = 15.23%` |
 
 Methods, keyword families, scripts, and result files are in [analysis/trend_of_mas4sci](./analysis/trend_of_mas4sci).
 

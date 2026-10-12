@@ -1,0 +1,18 @@
+query_id,bucket,search_text,total_reported_first,total_reported_last,reported_counts_seen,pages_fetched,raw_hits,no_more_cursor,fetched_matches_total,complete,error,unique_identities,duplicate_occurrences_within_query
+B1,broad,"""AI for Science""",7365,7365,7365,74,7365,True,True,True,,7365,0
+B2,broad,AI4Science,481,481,481,5,481,True,True,True,,481,0
+B5,broad,"""machine learning"" ""scientific discovery""",9638,9638,9638,97,9638,True,True,True,,9638,0
+B7,broad,"""deep learning"" ""scientific discovery""",6025,6025,6025,61,6025,True,True,True,,6025,0
+B9,broad,"""reinforcement learning"" ""scientific discovery""",2799,2799,2799,28,2799,True,True,True,,2799,0
+B10,broad,"""graph neural network"" ""scientific discovery""",1246,1246,1246,13,1246,True,True,True,,1246,0
+B11,broad,"""diffusion model"" ""scientific discovery""",841,841,841,9,841,True,True,True,,841,0
+B12,broad,"""generative model"" ""scientific discovery""",1953,1953,1953,20,1953,True,True,True,,1953,0
+B13,broad,"""large language model"" ""scientific discovery""",4915,4915,4915,50,4915,True,True,True,,4915,0
+B14,broad,"""large language model"" ""scientific research""",13716,13716,13716,138,13716,True,True,True,,13716,0
+A1,agentic,"""AI scientist""",1758,1758,1758,18,1758,True,True,True,,1758,0
+A2,agentic,"""scientific agent"" scientific",251,251,251,3,251,True,True,True,,251,0
+A3,agentic,"""research agent"" scientific",806,806,806,9,806,True,True,True,,806,0
+M1,multi-agent,"""multi-agent"" scientific",24934,24934,24934,250,24934,True,True,True,,24934,0
+M3,multi-agent,"""agent team"" scientific",563,563,563,6,563,True,True,True,,563,0
+M4,multi-agent,"""planner executor"" scientific",118,118,118,2,118,True,True,True,,118,0
+M5,multi-agent,critic reviewer scientific,6697,6697,6697,67,6697,True,True,True,,6697,0

@@ -1,0 +1,3 @@
+# Evidence hashes cover exact bytes, including archived source and table newlines.
+results/openalex_rerun_*/** -text
+results/openalex_extension_*/** -text

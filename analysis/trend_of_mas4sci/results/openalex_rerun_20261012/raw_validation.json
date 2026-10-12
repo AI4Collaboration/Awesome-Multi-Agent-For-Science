@@ -1,0 +1,15 @@
+{
+  "raw_integrity_validated": true,
+  "queries": 17,
+  "pages": 850,
+  "query_hits": 84106,
+  "unique_openalex_ids": 59449,
+  "within_query_duplicate_ids": 0,
+  "missing_source_fields": {},
+  "null_or_empty_source_fields": {
+    "doi": 5858,
+    "display_name": 5
+  },
+  "all_terminal_cursors_null": true,
+  "all_fetched_counts_equal_reported_totals": true
+}

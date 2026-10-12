@@ -1,0 +1,346 @@
+{
+  "artifacts": {},
+  "configuration": {
+    "classifier_sha256": "9f2e3cd2319ee40cefd6615578db2c97c905209341af1dd840b444c3fbcbf0b2",
+    "end_date": "2026-09-30",
+    "filter": "from_publication_date:2026-04-03,to_publication_date:2026-09-30,has_abstract:true,type:!paratext",
+    "per_page": 100,
+    "queries": [
+      {
+        "bucket": "broad",
+        "query_id": "B1",
+        "search_text": "\"AI for Science\""
+      },
+      {
+        "bucket": "broad",
+        "query_id": "B2",
+        "search_text": "AI4Science"
+      },
+      {
+        "bucket": "broad",
+        "query_id": "B5",
+        "search_text": "\"machine learning\" \"scientific discovery\""
+      },
+      {
+        "bucket": "broad",
+        "query_id": "B7",
+        "search_text": "\"deep learning\" \"scientific discovery\""
+      },
+      {
+        "bucket": "broad",
+        "query_id": "B9",
+        "search_text": "\"reinforcement learning\" \"scientific discovery\""
+      },
+      {
+        "bucket": "broad",
+        "query_id": "B10",
+        "search_text": "\"graph neural network\" \"scientific discovery\""
+      },
+      {
+        "bucket": "broad",
+        "query_id": "B11",
+        "search_text": "\"diffusion model\" \"scientific discovery\""
+      },
+      {
+        "bucket": "broad",
+        "query_id": "B12",
+        "search_text": "\"generative model\" \"scientific discovery\""
+      },
+      {
+        "bucket": "broad",
+        "query_id": "B13",
+        "search_text": "\"large language model\" \"scientific discovery\""
+      },
+      {
+        "bucket": "broad",
+        "query_id": "B14",
+        "search_text": "\"large language model\" \"scientific research\""
+      },
+      {
+        "bucket": "agentic",
+        "query_id": "A1",
+        "search_text": "\"AI scientist\""
+      },
+      {
+        "bucket": "agentic",
+        "query_id": "A2",
+        "search_text": "\"scientific agent\" scientific"
+      },
+      {
+        "bucket": "agentic",
+        "query_id": "A3",
+        "search_text": "\"research agent\" scientific"
+      },
+      {
+        "bucket": "multi-agent",
+        "query_id": "M1",
+        "search_text": "\"multi-agent\" scientific"
+      },
+      {
+        "bucket": "multi-agent",
+        "query_id": "M3",
+        "search_text": "\"agent team\" scientific"
+      },
+      {
+        "bucket": "multi-agent",
+        "query_id": "M4",
+        "search_text": "\"planner executor\" scientific"
+      },
+      {
+        "bucket": "multi-agent",
+        "query_id": "M5",
+        "search_text": "critic reviewer scientific"
+      }
+    ],
+    "schema_version": 1,
+    "select": [
+      "id",
+      "display_name",
+      "publication_date",
+      "publication_year",
+      "type",
+      "abstract_inverted_index",
+      "doi"
+    ],
+    "start_date": "2026-04-03"
+  },
+  "created_at": "2026-10-12T19:28:32.051509+00:00",
+  "pages": [
+    {
+      "attempt_id": 2,
+      "cursor": "*",
+      "next_cursor": "Ils1Ljk3MDY1MDcsIDE3ODUxOTY4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE3MTU2Mjc2MiddIg==",
+      "page_number": 1,
+      "path": "pages/B2/00001.json.gz",
+      "query_id": "B2",
+      "raw_hits": 100,
+      "retrieved_at": "2026-10-12T19:28:33.668173+00:00",
+      "sha256": "2bf59aec819c45d7db4100567694e53091b5b20bb75eddcb18f9b451419ea3fe",
+      "total_reported": 301
+    },
+    {
+      "attempt_id": 1,
+      "cursor": "*",
+      "next_cursor": "Ils5LjQwMDEzNywgMTc4MjY5MTIwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTY2ODQwMjAxJ10i",
+      "page_number": 1,
+      "path": "pages/B1/00001.json.gz",
+      "query_id": "B1",
+      "raw_hits": 100,
+      "retrieved_at": "2026-10-12T19:28:33.758323+00:00",
+      "sha256": "3e8bc507f4d56735ac4a4998beb0260db764b05f1d315b12038323547de4d391",
+      "total_reported": 2753
+    },
+    {
+      "attempt_id": 3,
+      "cursor": "*",
+      "next_cursor": "IlsyMy4zOTcxOSwgMTc4ODMwNzIwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MjA2MjE0NjQxJ10i",
+      "page_number": 1,
+      "path": "pages/B5/00001.json.gz",
+      "query_id": "B5",
+      "raw_hits": 100,
+      "retrieved_at": "2026-10-12T19:28:33.887325+00:00",
+      "sha256": "c199ea049f3949f3dd27a602ce2f47cae0da8ce4fd9dcc9acb842f8bac770f45",
+      "total_reported": 3547
+    },
+    {
+      "attempt_id": 4,
+      "cursor": "*",
+      "next_cursor": "IlsxOS43NDg2MDgsIDE3NzgwMjU2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MDQwNzk1MiddIg==",
+      "page_number": 1,
+      "path": "pages/B7/00001.json.gz",
+      "query_id": "B7",
+      "raw_hits": 100,
+      "retrieved_at": "2026-10-12T19:28:34.559640+00:00",
+      "sha256": "86c7612446fe4bbbf19412830a808522a1e205f6504fd2d257eddab5d0bb834d",
+      "total_reported": 1961
+    },
+    {
+      "attempt_id": 6,
+      "cursor": "*",
+      "next_cursor": "Ils1LjE5ODgwMSwgMTc3NjcyOTYwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTU1MTc2NzQxJ10i",
+      "page_number": 1,
+      "path": "pages/B10/00001.json.gz",
+      "query_id": "B10",
+      "raw_hits": 100,
+      "retrieved_at": "2026-10-12T19:28:34.806007+00:00",
+      "sha256": "4f62e61a66db1e52d2ba03c90d833c6b0d451ab159078b056be8482c563ab1c2",
+      "total_reported": 541
+    },
+    {
+      "attempt_id": 5,
+      "cursor": "*",
+      "next_cursor": "IlsyMC45MTI2NiwgMTc3ODI4NDgwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTYwODk2NDQyJ10i",
+      "page_number": 1,
+      "path": "pages/B9/00001.json.gz",
+      "query_id": "B9",
+      "raw_hits": 100,
+      "retrieved_at": "2026-10-12T19:28:34.998135+00:00",
+      "sha256": "e2dabb4772312b8b8da44e09059cce7294340e408811dc817627f901fbcc3dc1",
+      "total_reported": 1497
+    },
+    {
+      "attempt_id": 8,
+      "cursor": "*",
+      "next_cursor": "Ils1LjMyNjU1MDUsIDE3ODUyODMyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE3MTcxMzQ4OCddIg==",
+      "page_number": 1,
+      "path": "pages/B12/00001.json.gz",
+      "query_id": "B12",
+      "raw_hits": 100,
+      "retrieved_at": "2026-10-12T19:28:35.861163+00:00",
+      "sha256": "d261cf3e60791ecfbfe803b19f62aa98c23e0469d106f3ceb088d977eee5a180",
+      "total_reported": 839
+    },
+    {
+      "attempt_id": 9,
+      "cursor": "*",
+      "next_cursor": "IlszMy4zMTMxMTgsIDE3ODY2NjU2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwMzQ4OTM0MyddIg==",
+      "page_number": 1,
+      "path": "pages/B13/00001.json.gz",
+      "query_id": "B13",
+      "raw_hits": 100,
+      "retrieved_at": "2026-10-12T19:28:36.286289+00:00",
+      "sha256": "4d6d11f19d88e389b10efbfbcd3f063f8b15e11cf5c8759a47f1fd7055a86baf",
+      "total_reported": 2709
+    },
+    {
+      "attempt_id": 10,
+      "cursor": "*",
+      "next_cursor": "IlszMC44ODA1MzksIDE3OTA2NDAwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIxNTExNTM1NiddIg==",
+      "page_number": 1,
+      "path": "pages/B14/00001.json.gz",
+      "query_id": "B14",
+      "raw_hits": 100,
+      "retrieved_at": "2026-10-12T19:28:36.915012+00:00",
+      "sha256": "b49f7452994169761088f758ccc84de903d7e0a91e251cca86e4289e57f663bc",
+      "total_reported": 4638
+    },
+    {
+      "attempt_id": 7,
+      "cursor": "*",
+      "next_cursor": "IlswLjY2ODI5NzgsIDE3ODEyMjI0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2NDU3OTcxMSddIg==",
+      "page_number": 1,
+      "path": "pages/B11/00001.json.gz",
+      "query_id": "B11",
+      "raw_hits": 100,
+      "retrieved_at": "2026-10-12T19:28:37.221339+00:00",
+      "sha256": "2a58dee9b5976e471598cd456f2cebafff64dc114ab6a7e710ddc04d393811c7",
+      "total_reported": 362
+    },
+    {
+      "attempt_id": 13,
+      "cursor": "*",
+      "next_cursor": "Ils4LjMxNzk2NSwgMTc5MDcyNjQwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MjE1ODkyMzg5J10i",
+      "page_number": 1,
+      "path": "pages/A3/00001.json.gz",
+      "query_id": "A3",
+      "raw_hits": 100,
+      "retrieved_at": "2026-10-12T19:28:38.310149+00:00",
+      "sha256": "7be187ec429be751ca19572a2fb7c1c39cfa57e7ad2cd4dfdb7a7e6fd7f20a97",
+      "total_reported": 896
+    },
+    {
+      "attempt_id": 11,
+      "cursor": "*",
+      "next_cursor": "IlsxNi4zNjU0MSwgMTc4ODEzNDQwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MjA2MjA2NjU5J10i",
+      "page_number": 1,
+      "path": "pages/A1/00001.json.gz",
+      "query_id": "A1",
+      "raw_hits": 100,
+      "retrieved_at": "2026-10-12T19:28:38.427210+00:00",
+      "sha256": "fbe92aa6781e5be98108d6dfda9c5c363f416d32822f8994b4dd77abe7bf2097",
+      "total_reported": 1190
+    },
+    {
+      "attempt_id": 12,
+      "cursor": "*",
+      "next_cursor": "Ils2LjQzMTE3LCAxNzgwODc2ODAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjQwMDk4NzInXSI=",
+      "page_number": 1,
+      "path": "pages/A2/00001.json.gz",
+      "query_id": "A2",
+      "raw_hits": 100,
+      "retrieved_at": "2026-10-12T19:28:38.948893+00:00",
+      "sha256": "0005d3673e7f1ca661ffe8550bdb2462fbebcb415b5bd33471152f904c4fc76d",
+      "total_reported": 432
+    },
+    {
+      "attempt_id": 14,
+      "cursor": "*",
+      "next_cursor": "IlsxMy4xODQwMDQsIDE3NzU2OTI4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE1MzA0MjczMiddIg==",
+      "page_number": 1,
+      "path": "pages/M1/00001.json.gz",
+      "query_id": "M1",
+      "raw_hits": 100,
+      "retrieved_at": "2026-10-12T19:28:39.219020+00:00",
+      "sha256": "8acb3768a24aca6bd33274b5a531b7b49d5c3b479c23ad8b58f39360a0a3db80",
+      "total_reported": 10191
+    },
+    {
+      "attempt_id": 15,
+      "cursor": "*",
+      "next_cursor": "IlswLjQwNjE0MzA3LCAxNzg4MzkzNjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcyMDc3NTAwODUnXSI=",
+      "page_number": 1,
+      "path": "pages/M3/00001.json.gz",
+      "query_id": "M3",
+      "raw_hits": 100,
+      "retrieved_at": "2026-10-12T19:28:39.678781+00:00",
+      "sha256": "16d5a4a58a651c0eb6e30eeff4fa31520aaea30cc8d0317cfe2c68a79bae9718",
+      "total_reported": 310
+    },
+    {
+      "attempt_id": 17,
+      "cursor": "*",
+      "next_cursor": "IlszLjU5MDI2MzYsIDE3ODcwMTEyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwMzc2ODg2OCddIg==",
+      "page_number": 1,
+      "path": "pages/M5/00001.json.gz",
+      "query_id": "M5",
+      "raw_hits": 100,
+      "retrieved_at": "2026-10-12T19:28:40.513881+00:00",
+      "sha256": "714a1467bb11796a67356d89811b4ea04a4917bba2fa2f57953abe33904982d4",
+      "total_reported": 1680
+    },
+    {
+      "attempt_id": 16,
+      "cursor": "*",
+      "next_cursor": "IlswLjQwMzg4NTEzLCAxNzgwMjcyMDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjc0OTY3ODgnXSI=",
+      "page_number": 1,
+      "path": "pages/M4/00001.json.gz",
+      "query_id": "M4",
+      "raw_hits": 100,
+      "retrieved_at": "2026-10-12T19:28:40.695270+00:00",
+      "sha256": "752bc1b021b186cd22855de33fdc403f6a7853f4584e7dc70af15ed7bad2a020",
+      "total_reported": 112
+    }
+  ],
+  "schema_version": 1,
+  "software_runs": [
+    {
+      "httpx": "0.28.1",
+      "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+      "sources": [
+        {
+          "name": "openalex_resumable.py",
+          "path": "provenance/openalex_resumable.aa2654b91ba4ab85.py",
+          "sha256": "aa2654b91ba4ab853665a2a0420b2eb8d00bbbf943e087fecdad3ecc5aa29fbd"
+        },
+        {
+          "name": "openalex_mas4sci_from_2024.py",
+          "path": "provenance/openalex_mas4sci_from_2024.b5ef13e9ac88fa08.py",
+          "sha256": "b5ef13e9ac88fa0821e9d65ab127ac27c3f5b508aeefc8cf256ccb33f750058c"
+        },
+        {
+          "name": "arxiv_llm4science_trend.py",
+          "path": "provenance/arxiv_llm4science_trend.6f5c21015f78e340.py",
+          "sha256": "6f5c21015f78e340265335dfb0b5cf8120159a870dd34c5cb8b77ae6c5df053a"
+        },
+        {
+          "name": "openalex_extension_estimate.py",
+          "path": "provenance/openalex_extension_estimate.a20102c4457f9276.py",
+          "sha256": "a20102c4457f927685a0069248f8b551901b8371fcab5cb24a5236ad1247a2d5"
+        }
+      ],
+      "timestamp": "2026-10-12T19:28:32.058189+00:00"
+    }
+  ],
+  "status": "partial",
+  "updated_at": "2026-10-12T19:28:40.793887+00:00"
+}

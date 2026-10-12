@@ -1,0 +1,120 @@
+{
+  "additional_cost_estimate_usd": 0.348,
+  "all_first_pages_available": true,
+  "daily_remaining_usd": 0.133,
+  "estimated_at": "2026-10-12T19:28:41.071234+00:00",
+  "first_pages_are_reused": true,
+  "fits_current_safe_budget": false,
+  "pages_already_saved": 17,
+  "pages_including_terminal_allowance": 365,
+  "publication_end": "2026-09-30",
+  "publication_start": "2026-04-03",
+  "purpose": "Incremental retrieval cost estimate; not publication statistics.",
+  "queries": [
+    {
+      "data_pages_estimate": 28,
+      "pages_including_terminal_allowance": 29,
+      "query_id": "B1",
+      "total_reported": 2753
+    },
+    {
+      "data_pages_estimate": 4,
+      "pages_including_terminal_allowance": 5,
+      "query_id": "B2",
+      "total_reported": 301
+    },
+    {
+      "data_pages_estimate": 36,
+      "pages_including_terminal_allowance": 37,
+      "query_id": "B5",
+      "total_reported": 3547
+    },
+    {
+      "data_pages_estimate": 20,
+      "pages_including_terminal_allowance": 21,
+      "query_id": "B7",
+      "total_reported": 1961
+    },
+    {
+      "data_pages_estimate": 15,
+      "pages_including_terminal_allowance": 16,
+      "query_id": "B9",
+      "total_reported": 1497
+    },
+    {
+      "data_pages_estimate": 6,
+      "pages_including_terminal_allowance": 7,
+      "query_id": "B10",
+      "total_reported": 541
+    },
+    {
+      "data_pages_estimate": 4,
+      "pages_including_terminal_allowance": 5,
+      "query_id": "B11",
+      "total_reported": 362
+    },
+    {
+      "data_pages_estimate": 9,
+      "pages_including_terminal_allowance": 10,
+      "query_id": "B12",
+      "total_reported": 839
+    },
+    {
+      "data_pages_estimate": 28,
+      "pages_including_terminal_allowance": 29,
+      "query_id": "B13",
+      "total_reported": 2709
+    },
+    {
+      "data_pages_estimate": 47,
+      "pages_including_terminal_allowance": 48,
+      "query_id": "B14",
+      "total_reported": 4638
+    },
+    {
+      "data_pages_estimate": 12,
+      "pages_including_terminal_allowance": 13,
+      "query_id": "A1",
+      "total_reported": 1190
+    },
+    {
+      "data_pages_estimate": 5,
+      "pages_including_terminal_allowance": 6,
+      "query_id": "A2",
+      "total_reported": 432
+    },
+    {
+      "data_pages_estimate": 9,
+      "pages_including_terminal_allowance": 10,
+      "query_id": "A3",
+      "total_reported": 896
+    },
+    {
+      "data_pages_estimate": 102,
+      "pages_including_terminal_allowance": 103,
+      "query_id": "M1",
+      "total_reported": 10191
+    },
+    {
+      "data_pages_estimate": 4,
+      "pages_including_terminal_allowance": 5,
+      "query_id": "M3",
+      "total_reported": 310
+    },
+    {
+      "data_pages_estimate": 2,
+      "pages_including_terminal_allowance": 3,
+      "query_id": "M4",
+      "total_reported": 112
+    },
+    {
+      "data_pages_estimate": 17,
+      "pages_including_terminal_allowance": 18,
+      "query_id": "M5",
+      "total_reported": 1680
+    }
+  ],
+  "run_cost_estimate_usd": 0.365,
+  "search_page_cost_usd": 0.001,
+  "total_hits_estimate": 33959
+}

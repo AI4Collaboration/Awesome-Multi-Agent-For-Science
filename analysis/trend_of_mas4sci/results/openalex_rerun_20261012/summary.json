@@ -1,0 +1,192 @@
+{
+  "after_dedup": 59449,
+  "classifier_sha256": "9f2e3cd2319ee40cefd6615578db2c97c905209341af1dd840b444c3fbcbf0b2",
+  "completed_queries": 17,
+  "cost": {
+    "accounted_upper_bound_usd": 0.85,
+    "attempt_count": 850,
+    "final_daily_remaining_usd": 0.15,
+    "final_daily_used_usd": 0.85,
+    "initial_daily_used_usd": 0,
+    "reported_request_cost_usd": 0.85,
+    "stop_reason": null
+  },
+  "estimate_definitions": {
+    "bookkeeping_corrected": "Same lexical rubric; recompute exclusion after merge; exclude unclear records; normalize DOI fallback; never merge unidentified records. Includes methods, surveys/perspectives, benchmarks/datasets.",
+    "legacy_exact": "Original lexical classifier, priority merge (including stale exclusion), and denominator (including unclear lexical matches)."
+  },
+  "estimates": {
+    "bookkeeping_corrected": {
+      "2024": {
+        "ai4science": {
+          "after_dedup_in_scope": 5911,
+          "benchmark_dataset": 956,
+          "denominator": 5911,
+          "ma_share_all": 0.06208763322618846,
+          "method_system": 3149,
+          "multi_agent": 367,
+          "non_agentic": 4906,
+          "other_agentic": 638,
+          "survey_perspective": 1806
+        },
+        "llm4science": {
+          "after_dedup_in_scope": 2031,
+          "benchmark_dataset": 411,
+          "denominator": 2031,
+          "ma_share_all": 0.07188577055637617,
+          "method_system": 1067,
+          "multi_agent": 146,
+          "non_agentic": 1598,
+          "other_agentic": 287,
+          "survey_perspective": 553
+        }
+      },
+      "2025": {
+        "ai4science": {
+          "after_dedup_in_scope": 10301,
+          "benchmark_dataset": 1868,
+          "denominator": 10301,
+          "ma_share_all": 0.10134938355499466,
+          "method_system": 5113,
+          "multi_agent": 1044,
+          "non_agentic": 7757,
+          "other_agentic": 1500,
+          "survey_perspective": 3320
+        },
+        "llm4science": {
+          "after_dedup_in_scope": 3924,
+          "benchmark_dataset": 896,
+          "denominator": 3924,
+          "ma_share_all": 0.14551478083588176,
+          "method_system": 1942,
+          "multi_agent": 571,
+          "non_agentic": 2630,
+          "other_agentic": 723,
+          "survey_perspective": 1086
+        }
+      },
+      "2026_ytd": {
+        "ai4science": {
+          "after_dedup_in_scope": 5036,
+          "benchmark_dataset": 1105,
+          "denominator": 5036,
+          "ma_share_all": 0.15230341540905482,
+          "method_system": 2421,
+          "multi_agent": 767,
+          "non_agentic": 3247,
+          "other_agentic": 1022,
+          "survey_perspective": 1510
+        },
+        "llm4science": {
+          "after_dedup_in_scope": 2376,
+          "benchmark_dataset": 661,
+          "denominator": 2376,
+          "ma_share_all": 0.21001683501683502,
+          "method_system": 1125,
+          "multi_agent": 499,
+          "non_agentic": 1289,
+          "other_agentic": 588,
+          "survey_perspective": 590
+        }
+      }
+    },
+    "legacy_exact": {
+      "2024": {
+        "ai4science": {
+          "after_dedup_in_scope": 5911,
+          "benchmark_dataset": 956,
+          "denominator": 5911,
+          "ma_share_all": 0.06208763322618846,
+          "method_system": 3149,
+          "multi_agent": 367,
+          "non_agentic": 4906,
+          "other_agentic": 638,
+          "survey_perspective": 1806
+        },
+        "llm4science": {
+          "after_dedup_in_scope": 2031,
+          "benchmark_dataset": 411,
+          "denominator": 2031,
+          "ma_share_all": 0.07188577055637617,
+          "method_system": 1067,
+          "multi_agent": 146,
+          "non_agentic": 1598,
+          "other_agentic": 287,
+          "survey_perspective": 553
+        }
+      },
+      "2025": {
+        "ai4science": {
+          "after_dedup_in_scope": 10302,
+          "benchmark_dataset": 1868,
+          "denominator": 10302,
+          "ma_share_all": 0.10133954571927781,
+          "method_system": 5114,
+          "multi_agent": 1044,
+          "non_agentic": 7758,
+          "other_agentic": 1500,
+          "survey_perspective": 3320
+        },
+        "llm4science": {
+          "after_dedup_in_scope": 3925,
+          "benchmark_dataset": 896,
+          "denominator": 3925,
+          "ma_share_all": 0.14547770700636942,
+          "method_system": 1943,
+          "multi_agent": 571,
+          "non_agentic": 2631,
+          "other_agentic": 723,
+          "survey_perspective": 1086
+        }
+      },
+      "2026_ytd": {
+        "ai4science": {
+          "after_dedup_in_scope": 5036,
+          "benchmark_dataset": 1105,
+          "denominator": 5036,
+          "ma_share_all": 0.15230341540905482,
+          "method_system": 2421,
+          "multi_agent": 767,
+          "non_agentic": 3247,
+          "other_agentic": 1022,
+          "survey_perspective": 1510
+        },
+        "llm4science": {
+          "after_dedup_in_scope": 2376,
+          "benchmark_dataset": 661,
+          "denominator": 2376,
+          "ma_share_all": 0.21001683501683502,
+          "method_system": 1125,
+          "multi_agent": 499,
+          "non_agentic": 1289,
+          "other_agentic": 588,
+          "survey_perspective": 590
+        }
+      }
+    }
+  },
+  "interpretation": "Keyword-defined proportions in the fixed query-retrieved corpus, not field-wide prevalence or verified swarm architectures.",
+  "pages_saved": 850,
+  "period_definitions": {
+    "2024": {
+      "end": "2024-12-31",
+      "start": "2024-01-01"
+    },
+    "2025": {
+      "end": "2025-12-31",
+      "start": "2025-01-01"
+    },
+    "2026_ytd": {
+      "end": "2026-04-02",
+      "start": "2026-01-01"
+    }
+  },
+  "query_count": 17,
+  "raw_retrieved": 84106,
+  "source": "openalex",
+  "status": "complete",
+  "time_window": {
+    "end_date": "2026-04-02",
+    "start_date": "2024-01-01"
+  }
+}
